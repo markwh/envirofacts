@@ -1,0 +1,29 @@
+#' Retrieve pcs sludge data from pcs-icis database
+#' 
+#' @param NPDES e.g. 'AK0021377'. See Details.
+#' @param ANNUAL_DRY_SLUDGE_PROD e.g. '115'. See Details.
+#' @param SLUDGE_FACILITY_IND e.g. 'B'. See Details.
+#' @param SLUDGE_COMMERCIAL_HANDLER e.g. 'NA'. See Details.
+#' @param HANDLER_STREET_1 e.g. 'NA'. See Details.
+#' @param HANDLER_STREET_2 e.g. 'NA'. See Details.
+#' @param HANDLER_CITY e.g. 'NA'. See Details.
+#' @param HANDLER_STATE e.g. 'NA'. See Details.
+#' @param HANDLER_ZIP_CODE e.g. 'NA'. See Details.
+#' @param SLUDGE_RELATED_PERMIT_NUM e.g. 'AK0021377'. See Details.
+#' @param SLUDGE_CLASS_FACILITY_IND e.g. '2'. See Details.
+#' @export
+
+pcs.icis_pcs_sludge <- function(NPDES = NULL, ANNUAL_DRY_SLUDGE_PROD = NULL, SLUDGE_FACILITY_IND = NULL, 
+    SLUDGE_COMMERCIAL_HANDLER = NULL, HANDLER_STREET_1 = NULL, HANDLER_STREET_2 = NULL, 
+    HANDLER_CITY = NULL, HANDLER_STATE = NULL, HANDLER_ZIP_CODE = NULL, SLUDGE_RELATED_PERMIT_NUM = NULL, 
+    SLUDGE_CLASS_FACILITY_IND = NULL) {
+    
+    args <- list(NPDES = NPDES, ANNUAL_DRY_SLUDGE_PROD = ANNUAL_DRY_SLUDGE_PROD, 
+        SLUDGE_FACILITY_IND = SLUDGE_FACILITY_IND, SLUDGE_COMMERCIAL_HANDLER = SLUDGE_COMMERCIAL_HANDLER, 
+        HANDLER_STREET_1 = HANDLER_STREET_1, HANDLER_STREET_2 = HANDLER_STREET_2, 
+        HANDLER_CITY = HANDLER_CITY, HANDLER_STATE = HANDLER_STATE, HANDLER_ZIP_CODE = HANDLER_ZIP_CODE, 
+        SLUDGE_RELATED_PERMIT_NUM = SLUDGE_RELATED_PERMIT_NUM, SLUDGE_CLASS_FACILITY_IND = SLUDGE_CLASS_FACILITY_IND)
+    ret <- envir_get(pcs_sludge, args)
+    
+    ret
+} 

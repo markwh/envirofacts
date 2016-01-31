@@ -1,0 +1,52 @@
+#' Retrieve rcr bgm basic data from br database
+#' 
+#' @param HANDLER_ID e.g. 'AK0000016709'. See Details.
+#' @param ACTIVITY_LOCATION e.g. 'AK'. See Details.
+#' @param SOURCE_TYPE e.g. 'R'. See Details.
+#' @param SEQ_NUMBER e.g. '1'. See Details.
+#' @param HZ_PG e.g. '1'. See Details.
+#' @param REPORT_CYCLE e.g. '1997'. See Details.
+#' @param INCLUDE_IN_NATIONAL_REPORT e.g. 'U'. See Details.
+#' @param WST_DENSITY e.g. 'NA'. See Details.
+#' @param GEN_QTY e.g. '9267'. See Details.
+#' @param GENERATION_TONS_CALC e.g. '4.6335'. See Details.
+#' @param MANAGEMENT_METHOD_OWNER e.g. 'NA'. See Details.
+#' @param MANAGEMENT_METHOD e.g. 'NA'. See Details.
+#' @param UOM_OWNER e.g. 'HQ'. See Details.
+#' @param UNIT_OF_MEASURE e.g. '1'. See Details.
+#' @param DENSITY_UOM_OWNER e.g. 'NA'. See Details.
+#' @param DENSITY_UNIT_OF_MEASURE e.g. 'NA'. See Details.
+#' @param RADIOACTIVE_OWNER e.g. 'HQ'. See Details.
+#' @param RADIOACTIVE_MIX e.g. 'N'. See Details.
+#' @param FORM_CODE_OWNER e.g. 'US'. See Details.
+#' @param FORM_CODE e.g. 'W110'. See Details.
+#' @param SOURCE_CODE_OWNER e.g. 'HQ'. See Details.
+#' @param SOURCE_CODE e.g. 'G14'. See Details.
+#' @param DESCRIPTION e.g. 'WASTEWATER SLUDGE CONTAINING SODIUM METAL SILICATE %26 LEAD'. See Details.
+#' @param NOTES e.g. 'NA'. See Details.
+#' @param USERID e.g. 'IYWCVT'. See Details.
+#' @param LAST_CHANGE e.g. '10-NOV-02'. See Details.
+#' @export
+
+br_rcr_bgm_basic <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL, SOURCE_TYPE = NULL, 
+    SEQ_NUMBER = NULL, HZ_PG = NULL, REPORT_CYCLE = NULL, INCLUDE_IN_NATIONAL_REPORT = NULL, 
+    WST_DENSITY = NULL, GEN_QTY = NULL, GENERATION_TONS_CALC = NULL, MANAGEMENT_METHOD_OWNER = NULL, 
+    MANAGEMENT_METHOD = NULL, UOM_OWNER = NULL, UNIT_OF_MEASURE = NULL, DENSITY_UOM_OWNER = NULL, 
+    DENSITY_UNIT_OF_MEASURE = NULL, RADIOACTIVE_OWNER = NULL, RADIOACTIVE_MIX = NULL, 
+    FORM_CODE_OWNER = NULL, FORM_CODE = NULL, SOURCE_CODE_OWNER = NULL, SOURCE_CODE = NULL, 
+    DESCRIPTION = NULL, NOTES = NULL, USERID = NULL, LAST_CHANGE = NULL) {
+    
+    args <- list(HANDLER_ID = HANDLER_ID, ACTIVITY_LOCATION = ACTIVITY_LOCATION, 
+        SOURCE_TYPE = SOURCE_TYPE, SEQ_NUMBER = SEQ_NUMBER, HZ_PG = HZ_PG, REPORT_CYCLE = REPORT_CYCLE, 
+        INCLUDE_IN_NATIONAL_REPORT = INCLUDE_IN_NATIONAL_REPORT, WST_DENSITY = WST_DENSITY, 
+        GEN_QTY = GEN_QTY, GENERATION_TONS_CALC = GENERATION_TONS_CALC, MANAGEMENT_METHOD_OWNER = MANAGEMENT_METHOD_OWNER, 
+        MANAGEMENT_METHOD = MANAGEMENT_METHOD, UOM_OWNER = UOM_OWNER, UNIT_OF_MEASURE = UNIT_OF_MEASURE, 
+        DENSITY_UOM_OWNER = DENSITY_UOM_OWNER, DENSITY_UNIT_OF_MEASURE = DENSITY_UNIT_OF_MEASURE, 
+        RADIOACTIVE_OWNER = RADIOACTIVE_OWNER, RADIOACTIVE_MIX = RADIOACTIVE_MIX, 
+        FORM_CODE_OWNER = FORM_CODE_OWNER, FORM_CODE = FORM_CODE, SOURCE_CODE_OWNER = SOURCE_CODE_OWNER, 
+        SOURCE_CODE = SOURCE_CODE, DESCRIPTION = DESCRIPTION, NOTES = NOTES, USERID = USERID, 
+        LAST_CHANGE = LAST_CHANGE)
+    ret <- envir_get(rcr_bgm_basic, args)
+    
+    ret
+} 

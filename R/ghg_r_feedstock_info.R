@@ -1,0 +1,25 @@
+#' Retrieve r feedstock info data from ghg database
+#' 
+#' @param FACILITY_ID e.g. '1000601'. See Details.
+#' @param REPORTING_YEAR e.g. '2012'. See Details.
+#' @param FACILITY_NAME e.g. 'EXIDE CORP READING SMELTER DIV'. See Details.
+#' @param FURNACE_ASSOC_WITH_FEEDSTOCK e.g. '122'. See Details.
+#' @param SUBSTITUTE_DATA_PROCEDURE e.g. 'Other (specify)'. See Details.
+#' @param OTHER_SUBS_DATA_PROCEDURE e.g. 'Use of months with good data to correlate with months with missing data.  Correlated with production'. See Details.
+#' @param NUM_MONTHS_MASS_MATERIAL e.g. '0'. See Details.
+#' @param METHOD_USED_CARBON_CONTENT e.g. 'ASTM E1941-04'. See Details.
+#' @param NUM_MONTHS_CARBON_MATERIAL e.g. '0'. See Details.
+#' @export
+
+ghg_r_feedstock_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FACILITY_NAME = NULL, 
+    FURNACE_ASSOC_WITH_FEEDSTOCK = NULL, SUBSTITUTE_DATA_PROCEDURE = NULL, OTHER_SUBS_DATA_PROCEDURE = NULL, 
+    NUM_MONTHS_MASS_MATERIAL = NULL, METHOD_USED_CARBON_CONTENT = NULL, NUM_MONTHS_CARBON_MATERIAL = NULL) {
+    
+    args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
+        FURNACE_ASSOC_WITH_FEEDSTOCK = FURNACE_ASSOC_WITH_FEEDSTOCK, SUBSTITUTE_DATA_PROCEDURE = SUBSTITUTE_DATA_PROCEDURE, 
+        OTHER_SUBS_DATA_PROCEDURE = OTHER_SUBS_DATA_PROCEDURE, NUM_MONTHS_MASS_MATERIAL = NUM_MONTHS_MASS_MATERIAL, 
+        METHOD_USED_CARBON_CONTENT = METHOD_USED_CARBON_CONTENT, NUM_MONTHS_CARBON_MATERIAL = NUM_MONTHS_CARBON_MATERIAL)
+    ret <- envir_get(r_feedstock_info, args)
+    
+    ret
+} 

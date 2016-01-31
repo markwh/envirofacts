@@ -1,0 +1,48 @@
+#' Retrieve rad facility data from radinfo database
+#' 
+#' @param RAD_SYS_ID e.g. 'RAD200000001'. See Details.
+#' @param FACILITY_REGISTRY_ID e.g. '110000609066'. See Details.
+#' @param EF_PGM_SOURCE e.g. 'NA'. See Details.
+#' @param PRIMARY_NAME e.g. 'U S A F WILLIAMS AIR FORCE BASE'. See Details.
+#' @param LOCATION_ADDRESS e.g. '6001 S POWER BLDG 1'. See Details.
+#' @param SUPPLEMENTAL_LOCATION e.g. 'NA'. See Details.
+#' @param CITY_NAME e.g. 'MESA'. See Details.
+#' @param COUNTY_NAME e.g. 'MARICOPA'. See Details.
+#' @param STATE_CODE e.g. 'AZ'. See Details.
+#' @param POSTAL_CODE e.g. '852060901'. See Details.
+#' @param STATE_NAME e.g. 'ARIZONA'. See Details.
+#' @param COUNTRY_NAME e.g. 'USA'. See Details.
+#' @param EPA_REGION_CODE e.g. '09'. See Details.
+#' @param CONGRESSIONAL_DIST_NUM e.g. '06'. See Details.
+#' @param HUC_CODE e.g. '15050100'. See Details.
+#' @param FED_FACILITY_CODE e.g. 'Y'. See Details.
+#' @param TRIBAL_LAND_CODE e.g. 'NA'. See Details.
+#' @param TRIBAL_LAND_NAME e.g. 'NA'. See Details.
+#' @param SOURCE_DATA e.g. 'NA'. See Details.
+#' @param URL e.g. 'NA'. See Details.
+#' @param URL_LINK_DESCRIPTION e.g. 'NA'. See Details.
+#' @param FRS_UPDATE_DATE e.g. 'NA'. See Details.
+#' @param RAD_CHANGE_DATE e.g. 'NA'. See Details.
+#' @export
+
+radinfo_rad_facility <- function(RAD_SYS_ID = NULL, FACILITY_REGISTRY_ID = NULL, 
+    EF_PGM_SOURCE = NULL, PRIMARY_NAME = NULL, LOCATION_ADDRESS = NULL, SUPPLEMENTAL_LOCATION = NULL, 
+    CITY_NAME = NULL, COUNTY_NAME = NULL, STATE_CODE = NULL, POSTAL_CODE = NULL, 
+    STATE_NAME = NULL, COUNTRY_NAME = NULL, EPA_REGION_CODE = NULL, CONGRESSIONAL_DIST_NUM = NULL, 
+    HUC_CODE = NULL, FED_FACILITY_CODE = NULL, TRIBAL_LAND_CODE = NULL, TRIBAL_LAND_NAME = NULL, 
+    SOURCE_DATA = NULL, URL = NULL, URL_LINK_DESCRIPTION = NULL, FRS_UPDATE_DATE = NULL, 
+    RAD_CHANGE_DATE = NULL) {
+    
+    args <- list(RAD_SYS_ID = RAD_SYS_ID, FACILITY_REGISTRY_ID = FACILITY_REGISTRY_ID, 
+        EF_PGM_SOURCE = EF_PGM_SOURCE, PRIMARY_NAME = PRIMARY_NAME, LOCATION_ADDRESS = LOCATION_ADDRESS, 
+        SUPPLEMENTAL_LOCATION = SUPPLEMENTAL_LOCATION, CITY_NAME = CITY_NAME, COUNTY_NAME = COUNTY_NAME, 
+        STATE_CODE = STATE_CODE, POSTAL_CODE = POSTAL_CODE, STATE_NAME = STATE_NAME, 
+        COUNTRY_NAME = COUNTRY_NAME, EPA_REGION_CODE = EPA_REGION_CODE, CONGRESSIONAL_DIST_NUM = CONGRESSIONAL_DIST_NUM, 
+        HUC_CODE = HUC_CODE, FED_FACILITY_CODE = FED_FACILITY_CODE, TRIBAL_LAND_CODE = TRIBAL_LAND_CODE, 
+        TRIBAL_LAND_NAME = TRIBAL_LAND_NAME, SOURCE_DATA = SOURCE_DATA, URL = URL, 
+        URL_LINK_DESCRIPTION = URL_LINK_DESCRIPTION, FRS_UPDATE_DATE = FRS_UPDATE_DATE, 
+        RAD_CHANGE_DATE = RAD_CHANGE_DATE)
+    ret <- envir_get(rad_facility, args)
+    
+    ret
+} 

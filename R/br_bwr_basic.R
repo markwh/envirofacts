@@ -1,0 +1,51 @@
+#' Retrieve bwr basic data from br database
+#' 
+#' @param HANDLER_ID e.g. 'AK6210022426'. See Details.
+#' @param ACTIVITY_LOCATION e.g. 'AK'. See Details.
+#' @param SOURCE_TYPE e.g. 'R'. See Details.
+#' @param SEQ_NUMBER e.g. '5'. See Details.
+#' @param HZ_PG e.g. '390'. See Details.
+#' @param SUB_PG_NUM e.g. '2'. See Details.
+#' @param REPORT_CYCLE e.g. '1999'. See Details.
+#' @param INCLUDE_IN_NATIONAL_REPORT e.g. 'U'. See Details.
+#' @param IO_TDR_ID e.g. 'AK1570028646'. See Details.
+#' @param IO_TDR_QTY e.g. '87'. See Details.
+#' @param UOM_OWNER e.g. 'HQ'. See Details.
+#' @param UNIT_OF_MEASURE e.g. '1'. See Details.
+#' @param WST_DENSITY e.g. '0'. See Details.
+#' @param DENSITY_UOM_OWNER e.g. 'NA'. See Details.
+#' @param DENSITY_UNIT_OF_MEASURE e.g. 'NA'. See Details.
+#' @param RECEIVED_TONS_CALC e.g. '0.0435'. See Details.
+#' @param FORM_CODE_OWNER e.g. 'US'. See Details.
+#' @param FORM_CODE e.g. 'W310'. See Details.
+#' @param RADIOACTIVE_OWNER e.g. 'HQ'. See Details.
+#' @param RADIOACTIVE_MIX e.g. 'N'. See Details.
+#' @param MANAGEMENT_METHOD_OWNER e.g. 'HQ'. See Details.
+#' @param MANAGEMENT_METHOD e.g. 'H141'. See Details.
+#' @param USERID e.g. 'IYWCVT'. See Details.
+#' @param LAST_CHANGE e.g. '10-NOV-02'. See Details.
+#' @param DESCRIPTION e.g. 'IGNITABLE, TOXIC FUEL FILTERS FROM FILTER REPLACEMENT CONTAINS BENZENE'. See Details.
+#' @param NOTES e.g. 'NA'. See Details.
+#' @export
+
+br_bwr_basic <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL, SOURCE_TYPE = NULL, 
+    SEQ_NUMBER = NULL, HZ_PG = NULL, SUB_PG_NUM = NULL, REPORT_CYCLE = NULL, INCLUDE_IN_NATIONAL_REPORT = NULL, 
+    IO_TDR_ID = NULL, IO_TDR_QTY = NULL, UOM_OWNER = NULL, UNIT_OF_MEASURE = NULL, 
+    WST_DENSITY = NULL, DENSITY_UOM_OWNER = NULL, DENSITY_UNIT_OF_MEASURE = NULL, 
+    RECEIVED_TONS_CALC = NULL, FORM_CODE_OWNER = NULL, FORM_CODE = NULL, RADIOACTIVE_OWNER = NULL, 
+    RADIOACTIVE_MIX = NULL, MANAGEMENT_METHOD_OWNER = NULL, MANAGEMENT_METHOD = NULL, 
+    USERID = NULL, LAST_CHANGE = NULL, DESCRIPTION = NULL, NOTES = NULL) {
+    
+    args <- list(HANDLER_ID = HANDLER_ID, ACTIVITY_LOCATION = ACTIVITY_LOCATION, 
+        SOURCE_TYPE = SOURCE_TYPE, SEQ_NUMBER = SEQ_NUMBER, HZ_PG = HZ_PG, SUB_PG_NUM = SUB_PG_NUM, 
+        REPORT_CYCLE = REPORT_CYCLE, INCLUDE_IN_NATIONAL_REPORT = INCLUDE_IN_NATIONAL_REPORT, 
+        IO_TDR_ID = IO_TDR_ID, IO_TDR_QTY = IO_TDR_QTY, UOM_OWNER = UOM_OWNER, UNIT_OF_MEASURE = UNIT_OF_MEASURE, 
+        WST_DENSITY = WST_DENSITY, DENSITY_UOM_OWNER = DENSITY_UOM_OWNER, DENSITY_UNIT_OF_MEASURE = DENSITY_UNIT_OF_MEASURE, 
+        RECEIVED_TONS_CALC = RECEIVED_TONS_CALC, FORM_CODE_OWNER = FORM_CODE_OWNER, 
+        FORM_CODE = FORM_CODE, RADIOACTIVE_OWNER = RADIOACTIVE_OWNER, RADIOACTIVE_MIX = RADIOACTIVE_MIX, 
+        MANAGEMENT_METHOD_OWNER = MANAGEMENT_METHOD_OWNER, MANAGEMENT_METHOD = MANAGEMENT_METHOD, 
+        USERID = USERID, LAST_CHANGE = LAST_CHANGE, DESCRIPTION = DESCRIPTION, NOTES = NOTES)
+    ret <- envir_get(bwr_basic, args)
+    
+    ret
+} 

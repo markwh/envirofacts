@@ -1,0 +1,27 @@
+#' Retrieve tri onsite wastestream data from tri database
+#' 
+#' @param DOC_CTRL_NUM e.g. '1300140000011'. See Details.
+#' @param WASTESTREAM_SEQ_NUM e.g. '1'. See Details.
+#' @param WASTESTREAM_CODE e.g. 'A'. See Details.
+#' @param INFLUENT_CONC_RANGE e.g. '2'. See Details.
+#' @param SEQUENTIAL_TREAT_87_90 e.g. 'NA'. See Details.
+#' @param TREATMENT_EFFICIENCY_EST e.g. '98'. See Details.
+#' @param TREATMENT_EFFICIENCY_EST_NA e.g. '0'. See Details.
+#' @param OPERATING_DATA_IND e.g. '0'. See Details.
+#' @param EFFICIENCY_RANGE_CODE e.g. 'NA'. See Details.
+#' @export
+
+tri_tri_onsite_wastestream <- function(DOC_CTRL_NUM = NULL, WASTESTREAM_SEQ_NUM = NULL, 
+    WASTESTREAM_CODE = NULL, INFLUENT_CONC_RANGE = NULL, SEQUENTIAL_TREAT_87_90 = NULL, 
+    TREATMENT_EFFICIENCY_EST = NULL, TREATMENT_EFFICIENCY_EST_NA = NULL, OPERATING_DATA_IND = NULL, 
+    EFFICIENCY_RANGE_CODE = NULL) {
+    
+    args <- list(DOC_CTRL_NUM = DOC_CTRL_NUM, WASTESTREAM_SEQ_NUM = WASTESTREAM_SEQ_NUM, 
+        WASTESTREAM_CODE = WASTESTREAM_CODE, INFLUENT_CONC_RANGE = INFLUENT_CONC_RANGE, 
+        SEQUENTIAL_TREAT_87_90 = SEQUENTIAL_TREAT_87_90, TREATMENT_EFFICIENCY_EST = TREATMENT_EFFICIENCY_EST, 
+        TREATMENT_EFFICIENCY_EST_NA = TREATMENT_EFFICIENCY_EST_NA, OPERATING_DATA_IND = OPERATING_DATA_IND, 
+        EFFICIENCY_RANGE_CODE = EFFICIENCY_RANGE_CODE)
+    ret <- envir_get(tri_onsite_wastestream, args)
+    
+    ret
+} 

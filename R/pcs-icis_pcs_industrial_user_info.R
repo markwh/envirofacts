@@ -1,0 +1,27 @@
+#' Retrieve pcs industrial user info data from pcs-icis database
+#' 
+#' @param NPDES e.g. 'AK0022551'. See Details.
+#' @param INSP_DATE e.g. '24-MAY-88'. See Details.
+#' @param INSP_TYPE e.g. 'F'. See Details.
+#' @param SIGNIFICANT_INDUSTRIAL_USERS e.g. '11'. See Details.
+#' @param CATEGORICAL_INDUSTRIAL_USERS e.g. 'NA'. See Details.
+#' @param SIUS_WITHOUT_CTL_MECHANISM e.g. '0'. See Details.
+#' @param SIUS_IN_SNC_WITH_PRETR_STDS e.g. '0'. See Details.
+#' @param SIUS_NOT_INSP_SAMPLED e.g. '0'. See Details.
+#' @param SIUS_SNC_SELF_MONITOR e.g. '0'. See Details.
+#' @param SIUS_SNC_SELF_NOT_INSP e.g. '0'. See Details.
+#' @export
+
+pcs.icis_pcs_industrial_user_info <- function(NPDES = NULL, INSP_DATE = NULL, INSP_TYPE = NULL, 
+    SIGNIFICANT_INDUSTRIAL_USERS = NULL, CATEGORICAL_INDUSTRIAL_USERS = NULL, SIUS_WITHOUT_CTL_MECHANISM = NULL, 
+    SIUS_IN_SNC_WITH_PRETR_STDS = NULL, SIUS_NOT_INSP_SAMPLED = NULL, SIUS_SNC_SELF_MONITOR = NULL, 
+    SIUS_SNC_SELF_NOT_INSP = NULL) {
+    
+    args <- list(NPDES = NPDES, INSP_DATE = INSP_DATE, INSP_TYPE = INSP_TYPE, SIGNIFICANT_INDUSTRIAL_USERS = SIGNIFICANT_INDUSTRIAL_USERS, 
+        CATEGORICAL_INDUSTRIAL_USERS = CATEGORICAL_INDUSTRIAL_USERS, SIUS_WITHOUT_CTL_MECHANISM = SIUS_WITHOUT_CTL_MECHANISM, 
+        SIUS_IN_SNC_WITH_PRETR_STDS = SIUS_IN_SNC_WITH_PRETR_STDS, SIUS_NOT_INSP_SAMPLED = SIUS_NOT_INSP_SAMPLED, 
+        SIUS_SNC_SELF_MONITOR = SIUS_SNC_SELF_MONITOR, SIUS_SNC_SELF_NOT_INSP = SIUS_SNC_SELF_NOT_INSP)
+    ret <- envir_get(pcs_industrial_user_info, args)
+    
+    ret
+} 
