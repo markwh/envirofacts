@@ -1,12 +1,13 @@
 Package: envirofacts
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Access EPA Data via the Envirofacts Web Services
 Version: 0.1
 Date: 2016-01-31
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: Mark Hagemann
+Maintainer: Mark Hagemann <mark.hagemann@gmail.com>
+Description: Contains functions for data access from 13 different services provided through EnviroFacts.
+  Based partly on Swagger definition by Kin Lane.
+License: MIT
 LazyData: TRUE
 Imports:
     dplyr,
