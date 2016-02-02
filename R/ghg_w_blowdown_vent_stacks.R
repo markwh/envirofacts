@@ -31,7 +31,7 @@ ghg_w_blowdown_vent_stacks <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL
         BLDN_VENT_ST_TOT_GHG_EMM_CO2E = BLDN_VENT_ST_TOT_GHG_EMM_CO2E, BLDN_VENT_ST_TOT_N2O_EMM_CO2E = BLDN_VENT_ST_TOT_N2O_EMM_CO2E, 
         BLDN_VENT_ST_TOT_CH4_EMM_CO2E = BLDN_VENT_ST_TOT_CH4_EMM_CO2E, FACILITY_NAME = FACILITY_NAME, 
         INDUSTRY_SEGMENT = INDUSTRY_SEGMENT, BLWDWN_VENT_ST_TOTAL_CO2_EMM = BLWDWN_VENT_ST_TOTAL_CO2_EMM)
-    ret <- envir_get(w_blowdown_vent_stacks, args)
+    ret <- envir_get("w_blowdown_vent_stacks", args)
     
     ret
 } 

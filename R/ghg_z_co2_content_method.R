@@ -19,7 +19,7 @@ ghg_z_co2_content_method <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, 
         MASS_CONSUMED_SUB = MASS_CONSUMED_SUB, GRABSAMPLEMETHOD = GRABSAMPLEMETHOD, 
         GRABSAMPLECO2_SUB = GRABSAMPLECO2_SUB, UNIT_TYPE = UNIT_TYPE, UNIT_NAME = UNIT_NAME, 
         FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(z_co2_content_method, args)
+    ret <- envir_get("z_co2_content_method", args)
     
     ret
 } 

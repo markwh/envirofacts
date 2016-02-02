@@ -35,7 +35,7 @@ ghg_hh_hist_waste_qty_method <- function(FACILITY_ID = NULL, REPORTING_YEAR = NU
         LANDFILL_CAPACITY_IN_MTHD_3 = LANDFILL_CAPACITY_IN_MTHD_3, WKG_CAP_HIST_WSTE_QTY_START_YR = WKG_CAP_HIST_WSTE_QTY_START_YR, 
         WKG_CAP_HIST_WSTE_QTY_END_YR = WKG_CAP_HIST_WSTE_QTY_END_YR, IS_WORKING_CAPACITY_USED_IND = IS_WORKING_CAPACITY_USED_IND, 
         YEAR_FOR_METHOD_2 = YEAR_FOR_METHOD_2, EST_POP_SERVD_BY_LANDFL_MTHD_2 = EST_POP_SERVD_BY_LANDFL_MTHD_2)
-    ret <- envir_get(hh_hist_waste_qty_method, args)
+    ret <- envir_get("hh_hist_waste_qty_method", args)
     
     ret
 } 

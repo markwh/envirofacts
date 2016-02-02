@@ -20,7 +20,7 @@ ghg_i_fhtf_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FHTF_EMIS
         ANNUAL_FHTF_EMISSIONS = ANNUAL_FHTF_EMISSIONS, OTHER_FHTF_CAS_NUMBER = OTHER_FHTF_CAS_NUMBER, 
         OTHER_FHTF_NAME = OTHER_FHTF_NAME, FACILITY_NAME = FACILITY_NAME, FHTF_NAME = FHTF_NAME, 
         FHTF_CAS_NUMBER = FHTF_CAS_NUMBER, OTHER_FHTF_FORMULA = OTHER_FHTF_FORMULA)
-    ret <- envir_get(i_fhtf_info, args)
+    ret <- envir_get("i_fhtf_info", args)
     
     ret
 } 

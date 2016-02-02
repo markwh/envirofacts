@@ -14,7 +14,7 @@ ghg_dd_facility_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FACI
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         GAS_NAME_SF6_OR_PFC = GAS_NAME_SF6_OR_PFC, BEGINNING_NAME_PLATE_CAPACITY = BEGINNING_NAME_PLATE_CAPACITY, 
         IS_GAS_REPORTED = IS_GAS_REPORTED)
-    ret <- envir_get(dd_facility_info, args)
+    ret <- envir_get("dd_facility_info", args)
     
     ret
 } 

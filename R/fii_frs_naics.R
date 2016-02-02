@@ -25,7 +25,7 @@ fii_frs_naics <- function(NAICS_UIN = NULL, PGM_SYS_ACRNM = NULL, PGM_SYS_ID = N
         LAST_REPORTED_DATE = LAST_REPORTED_DATE, CREATE_DATE = CREATE_DATE, UPDATE_DATE = UPDATE_DATE, 
         USER_ID = USER_ID, SENSITIVE_IND = SENSITIVE_IND, PUBLIC_IND = PUBLIC_IND, 
         SUP_INTEREST_ID = SUP_INTEREST_ID)
-    ret <- envir_get(frs_naics, args)
+    ret <- envir_get("frs_naics", args)
     
     ret
 } 

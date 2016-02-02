@@ -11,7 +11,7 @@ tri_tri_facility_npdes_history <- function(TRI_FACILITY_ID = NULL, REPORTING_YEA
     
     args <- list(TRI_FACILITY_ID = TRI_FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, 
         ASGN_NPDES_IND = ASGN_NPDES_IND, NPDES_NUM = NPDES_NUM)
-    ret <- envir_get(tri_facility_npdes_history, args)
+    ret <- envir_get("tri_facility_npdes_history", args)
     
     ret
 } 

@@ -88,7 +88,7 @@ lrt_frs_facility_site <- function(REGISTRY_ID = NULL, PRIMARY_NAME = NULL, LOCAT
         REVIEW_REASON = REVIEW_REASON, SMALL_BUS_IND = SMALL_BUS_IND, ENV_JUSTICE_CODE = ENV_JUSTICE_CODE, 
         PUBLIC_IND = PUBLIC_IND, ICIS_IDENTIFIER = ICIS_IDENTIFIER, REFRESH_DATE = REFRESH_DATE, 
         STAND_ALONE_FLAG = STAND_ALONE_FLAG)
-    ret <- envir_get(frs_facility_site, args)
+    ret <- envir_get("frs_facility_site", args)
     
     ret
 } 

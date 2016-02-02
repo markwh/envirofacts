@@ -23,7 +23,7 @@ radinfo_rad_regulation <- function(CIT_REF_CODE = NULL, STATUTE = NULL, STAT_ACR
         TITLE_ID = TITLE_ID, REG_TITLE = REG_TITLE, PART_ID = PART_ID, CFR_PART = CFR_PART, 
         SECTION_ID = SECTION_ID, CRF_SECTION = CRF_SECTION, SUBPART_ID = SUBPART_ID, 
         CFR_SUBPART = CFR_SUBPART, URL = URL, RAD_CHANGE_DATE = RAD_CHANGE_DATE)
-    ret <- envir_get(rad_regulation, args)
+    ret <- envir_get("rad_regulation", args)
     
     ret
 } 

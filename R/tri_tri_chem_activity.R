@@ -29,7 +29,7 @@ tri_tri_chem_activity <- function(DOC_CTRL_NUM = NULL, PRODUCE = NULL, IMPORTED 
         ARTICLE_COMPONENT = ARTICLE_COMPONENT, REPACKAGING = REPACKAGING, PROCESS_IMPURITY = PROCESS_IMPURITY, 
         CHEM_PROCESSING_AID = CHEM_PROCESSING_AID, MANUFACTURE_AID = MANUFACTURE_AID, 
         ANCILLARY = ANCILLARY)
-    ret <- envir_get(tri_chem_activity, args)
+    ret <- envir_get("tri_chem_activity", args)
     
     ret
 } 

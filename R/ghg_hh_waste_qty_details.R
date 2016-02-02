@@ -29,7 +29,7 @@ ghg_hh_waste_qty_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, 
         METHANE_FRACT_DETERM_MTHD = METHANE_FRACT_DETERM_MTHD, IS_MCF_VALUE_DEFAULT_IND = IS_MCF_VALUE_DEFAULT_IND, 
         ANNUAL_MCF_VALUE = ANNUAL_MCF_VALUE, PERCENT_BY_WEIGHT = PERCENT_BY_WEIGHT, 
         DEGRADABLE_ORGANIC_CARBON_VAL = DEGRADABLE_ORGANIC_CARBON_VAL)
-    ret <- envir_get(hh_waste_qty_details, args)
+    ret <- envir_get("hh_waste_qty_details", args)
     
     ret
 } 

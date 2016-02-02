@@ -16,7 +16,7 @@ ghg_hh_hist_yr_waste_qty <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, 
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         HIST_WASTE_DISPOSAL_YEAR = HIST_WASTE_DISPOSAL_YEAR, HISTYR_ANN_WSTE_DISPOSAL_QTY = HISTYR_ANN_WSTE_DISPOSAL_QTY, 
         HISTYR_ANN_WSTE_QTY_BY_MTHD = HISTYR_ANN_WSTE_QTY_BY_MTHD, HISTYR_ANN_WSTE_QTY_MTHD_USED = HISTYR_ANN_WSTE_QTY_MTHD_USED)
-    ret <- envir_get(hh_hist_yr_waste_qty, args)
+    ret <- envir_get("hh_hist_yr_waste_qty", args)
     
     ret
 } 

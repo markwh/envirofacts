@@ -16,7 +16,7 @@ ghg_ss_ghg_information <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FA
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         GAS_NAME = GAS_NAME, GHG_EMISSIONS_UNROUNDED = GHG_EMISSIONS_UNROUNDED, TOTAL_EMISSIONS_UNROUNDED = TOTAL_EMISSIONS_UNROUNDED, 
         MFG_EMISSIONS_UNROUNDED = MFG_EMISSIONS_UNROUNDED)
-    ret <- envir_get(ss_ghg_information, args)
+    ret <- envir_get("ss_ghg_information", args)
     
     ret
 } 

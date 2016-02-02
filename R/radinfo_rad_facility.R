@@ -42,7 +42,7 @@ radinfo_rad_facility <- function(RAD_SYS_ID = NULL, FACILITY_REGISTRY_ID = NULL,
         TRIBAL_LAND_NAME = TRIBAL_LAND_NAME, SOURCE_DATA = SOURCE_DATA, URL = URL, 
         URL_LINK_DESCRIPTION = URL_LINK_DESCRIPTION, FRS_UPDATE_DATE = FRS_UPDATE_DATE, 
         RAD_CHANGE_DATE = RAD_CHANGE_DATE)
-    ret <- envir_get(rad_facility, args)
+    ret <- envir_get("rad_facility", args)
     
     ret
 } 

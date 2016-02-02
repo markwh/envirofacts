@@ -12,7 +12,7 @@ radnet_erm_count <- function(ANA_NUM = NULL, RUN_NUM = NULL, DET_NUM = NULL, RUN
     
     args <- list(ANA_NUM = ANA_NUM, RUN_NUM = RUN_NUM, DET_NUM = DET_NUM, RUN_START = RUN_START, 
         DURATION = DURATION)
-    ret <- envir_get(erm_count, args)
+    ret <- envir_get("erm_count", args)
     
     ret
 } 

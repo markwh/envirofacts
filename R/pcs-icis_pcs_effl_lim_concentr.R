@@ -34,7 +34,7 @@ pcs.icis_pcs_effl_lim_concentr <- function(NPDES = NULL, DISCHARGE_NUM = NULL,
         CONC_UNIT_CODE = CONC_UNIT_CODE, STAT_LIM_AVG_OVERRIDE = STAT_LIM_AVG_OVERRIDE, 
         STAT_LIM_MIN_OVERRIDE = STAT_LIM_MIN_OVERRIDE, CONC_MIN_LIM_STAT_BASE = CONC_MIN_LIM_STAT_BASE, 
         CONC_AVG_LIM_STAT_BASE = CONC_AVG_LIM_STAT_BASE, CONC_MAX_LIM_STAT_BASE = CONC_MAX_LIM_STAT_BASE)
-    ret <- envir_get(pcs_effl_lim_concentr, args)
+    ret <- envir_get("pcs_effl_lim_concentr", args)
     
     ret
 } 

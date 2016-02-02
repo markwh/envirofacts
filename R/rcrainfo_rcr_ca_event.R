@@ -26,7 +26,7 @@ rcrainfo_rcr_ca_event <- function(HANDLER_ID = NULL, EVENT_SEQ = NULL, RESPONSIB
         CA_EVENT_CODE = CA_EVENT_CODE, SCHEDULE_DATE_ORIG = SCHEDULE_DATE_ORIG, SCHEDULE_DATE_NEW = SCHEDULE_DATE_NEW, 
         BEST_DATE = BEST_DATE, PERSON_OWNER = PERSON_OWNER, PERSON_ID = PERSON_ID, 
         SUB_ORGANIZATION_OWNER = SUB_ORGANIZATION_OWNER, SUB_ORGANIZATION = SUB_ORGANIZATION)
-    ret <- envir_get(rcr_ca_event, args)
+    ret <- envir_get("rcr_ca_event", args)
     
     ret
 } 

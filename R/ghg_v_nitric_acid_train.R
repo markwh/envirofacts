@@ -44,7 +44,7 @@ ghg_v_nitric_acid_train <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, F
         DOES_NITRIC_ACID_TRAIN_EXHAUST = DOES_NITRIC_ACID_TRAIN_EXHAUST, IS_NSCR_USED = IS_NSCR_USED, 
         OTH_ABATEMENT_TECH_USED = OTH_ABATEMENT_TECH_USED, OTH_ABATEMENT_TECH_DESC = OTH_ABATEMENT_TECH_DESC, 
         ANNUAL_UNROUNDED_N2O_EMISS = ANNUAL_UNROUNDED_N2O_EMISS)
-    ret <- envir_get(v_nitric_acid_train, args)
+    ret <- envir_get("v_nitric_acid_train", args)
     
     ret
 } 

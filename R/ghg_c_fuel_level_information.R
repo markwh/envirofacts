@@ -99,7 +99,7 @@ ghg_c_fuel_level_information <- function(FACILITY_ID = NULL, REPORTING_YEAR = NU
         TIER3_N2O_COMBUSTION_EMISSIONS = TIER3_N2O_COMBUSTION_EMISSIONS, TIER3_CH4_EMISSIONS_CO2E = TIER3_CH4_EMISSIONS_CO2E, 
         TIER3_N2O_EMISSIONS_CO2E = TIER3_N2O_EMISSIONS_CO2E, T3MOLARVOLUMECONSTANTVALUE = T3MOLARVOLUMECONSTANTVALUE, 
         OTHER_OR_BLEND_FUEL_TYPE = OTHER_OR_BLEND_FUEL_TYPE)
-    ret <- envir_get(c_fuel_level_information, args)
+    ret <- envir_get("c_fuel_level_information", args)
     
     ret
 } 

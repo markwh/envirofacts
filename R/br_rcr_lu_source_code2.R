@@ -13,7 +13,7 @@ br_rcr_lu_source_code2 <- function(OWNER = NULL, SOURCE_CODE = NULL, SOURCE_CODE
     
     args <- list(OWNER = OWNER, SOURCE_CODE = SOURCE_CODE, SOURCE_CODE_NAME = SOURCE_CODE_NAME, 
         USAGE = USAGE, ACTIVE_STATUS = ACTIVE_STATUS, SOURCE_CODE_DESC = SOURCE_CODE_DESC)
-    ret <- envir_get(rcr_lu_source_code2, args)
+    ret <- envir_get("rcr_lu_source_code2", args)
     
     ret
 } 

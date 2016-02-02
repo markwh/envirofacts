@@ -11,7 +11,7 @@ rcrainfo_rcr_lu_state_activity <- function(OWNER = NULL, ACTIVITY_TYPE = NULL, A
     
     args <- list(OWNER = OWNER, ACTIVITY_TYPE = ACTIVITY_TYPE, ACTIVE_STATUS = ACTIVE_STATUS, 
         ACTIVITY_DESC = ACTIVITY_DESC)
-    ret <- envir_get(rcr_lu_state_activity, args)
+    ret <- envir_get("rcr_lu_state_activity", args)
     
     ret
 } 

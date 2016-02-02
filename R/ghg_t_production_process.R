@@ -12,7 +12,7 @@ ghg_t_production_process <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, 
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         PRODUCT_PROCESS_TYPE_OTHER = PRODUCT_PROCESS_TYPE_OTHER, PRODUCT_PROCESS_TYPE = PRODUCT_PROCESS_TYPE)
-    ret <- envir_get(t_production_process, args)
+    ret <- envir_get("t_production_process", args)
     
     ret
 } 

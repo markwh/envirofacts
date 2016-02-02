@@ -7,7 +7,7 @@
 fii_frs_agency_ref <- function(FEDERAL_AGENCY_CODE = NULL, FEDERAL_AGENCY_NAME = NULL) {
     
     args <- list(FEDERAL_AGENCY_CODE = FEDERAL_AGENCY_CODE, FEDERAL_AGENCY_NAME = FEDERAL_AGENCY_NAME)
-    ret <- envir_get(frs_agency_ref, args)
+    ret <- envir_get("frs_agency_ref", args)
     
     ret
 } 

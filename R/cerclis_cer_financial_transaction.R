@@ -17,7 +17,7 @@ cerclis_cer_financial_transaction <- function(RAT_CODE = NULL, ACT_CODE_ID = NUL
     args <- list(RAT_CODE = RAT_CODE, ACT_CODE_ID = ACT_CODE_ID, SITE_ID = SITE_ID, 
         RFTT_CODE = RFTT_CODE, FT_ID = FT_ID, FT_DATE = FT_DATE, FT_AMT = FT_AMT, 
         FT_BUDGET_FY = FT_BUDGET_FY)
-    ret <- envir_get(cer_financial_transaction, args)
+    ret <- envir_get("cer_financial_transaction", args)
     
     ret
 } 

@@ -9,7 +9,7 @@ tri_tri_facility_uic <- function(TRI_FACILITY_ID = NULL, ASGN_UIC_IND = NULL, UI
     
     args <- list(TRI_FACILITY_ID = TRI_FACILITY_ID, ASGN_UIC_IND = ASGN_UIC_IND, 
         UIC_NUM = UIC_NUM)
-    ret <- envir_get(tri_facility_uic, args)
+    ret <- envir_get("tri_facility_uic", args)
     
     ret
 } 

@@ -11,7 +11,7 @@ fii_frs_tribal_entity_ref <- function(TRIBAL_LAND_R_CODE = NULL, TRIBAL_ENTITY_N
     
     args <- list(TRIBAL_LAND_R_CODE = TRIBAL_LAND_R_CODE, TRIBAL_ENTITY_NAME = TRIBAL_ENTITY_NAME, 
         FEDERAL_REGISTER = FEDERAL_REGISTER, ORGANIZATION_CODE = ORGANIZATION_CODE)
-    ret <- envir_get(frs_tribal_entity_ref, args)
+    ret <- envir_get("frs_tribal_entity_ref", args)
     
     ret
 } 

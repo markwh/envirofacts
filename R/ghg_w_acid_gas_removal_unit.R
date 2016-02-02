@@ -26,7 +26,7 @@ ghg_w_acid_gas_removal_unit <- function(FACILITY_ID = NULL, REPORTING_YEAR = NUL
         ACID_GAS_REMOVAL_GHG_EMM_CO2E = ACID_GAS_REMOVAL_GHG_EMM_CO2E, DOES_FAC_HAVE_AGR_UNIT = DOES_FAC_HAVE_AGR_UNIT, 
         BAMM_INDICATOR_ACID_GAS = BAMM_INDICATOR_ACID_GAS, SUB_INDICATOR_ACID_GAS = SUB_INDICATOR_ACID_GAS, 
         BAMM_DESCRIPTION_ACID_GAS = BAMM_DESCRIPTION_ACID_GAS)
-    ret <- envir_get(w_acid_gas_removal_unit, args)
+    ret <- envir_get("w_acid_gas_removal_unit", args)
     
     ret
 } 

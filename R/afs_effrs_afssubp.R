@@ -25,7 +25,7 @@ afs_effrs_afssubp <- function(EPA_PLANT_ID = NULL, PLANT_ID = NULL, REGION_CODE 
         DUN_BRADSTREET_NUMBER = DUN_BRADSTREET_NUMBER, STATE_COUNTY_COMPLIANCE_SOURCE = STATE_COUNTY_COMPLIANCE_SOURCE, 
         STATE_CODE = STATE_CODE, COUNTY_CODE = COUNTY_CODE, CDS_PLANT_ID = CDS_PLANT_ID, 
         AIR_PROGRAM_CODE = AIR_PROGRAM_CODE, SUBPART_HORIZONTAL = SUBPART_HORIZONTAL)
-    ret <- envir_get(effrs_afssubp, args)
+    ret <- envir_get("effrs_afssubp", args)
     
     ret
 } 

@@ -23,7 +23,7 @@ ghg_w_sub_basin <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, INDUSTRY_
         AVERAGE_PRESSURE = AVERAGE_PRESSURE, GAS_TO_OIL_RATIO = GAS_TO_OIL_RATIO, 
         API_GRAVITY = API_GRAVITY, SUB_BASIN_FORMATION_TYPE = SUB_BASIN_FORMATION_TYPE, 
         SUB_BASIN_COUNTY = SUB_BASIN_COUNTY, SELECTED_BASIN = SELECTED_BASIN)
-    ret <- envir_get(w_sub_basin, args)
+    ret <- envir_get("w_sub_basin", args)
     
     ret
 } 

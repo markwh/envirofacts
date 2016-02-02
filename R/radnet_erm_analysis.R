@@ -16,7 +16,7 @@ radnet_erm_analysis <- function(ANA_NUM = NULL, SAMP_NUM = NULL, ANA_PROC_NUM = 
     args <- list(ANA_NUM = ANA_NUM, SAMP_NUM = SAMP_NUM, ANA_PROC_NUM = ANA_PROC_NUM, 
         ANA_SIZE = ANA_SIZE, ANA_UNIT = ANA_UNIT, ANA_SIZE_2 = ANA_SIZE_2, ANA_UNIT_2 = ANA_UNIT_2, 
         ANA_COMMENT = ANA_COMMENT)
-    ret <- envir_get(erm_analysis, args)
+    ret <- envir_get("erm_analysis", args)
     
     ret
 } 

@@ -16,7 +16,7 @@ ghg_hh_ann_waste_disposal_qty <- function(FACILITY_ID = NULL, REPORTING_YEAR = N
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, WASTE_DISPOSAL_QTY_RY_BY_MTHD = WASTE_DISPOSAL_QTY_RY_BY_MTHD, 
         FACILITY_NAME = FACILITY_NAME, WASTE_DISP_REPORTING_YEAR = WASTE_DISP_REPORTING_YEAR, 
         TOTAL_WASTE_DISPOSAL_QTY_RY = TOTAL_WASTE_DISPOSAL_QTY_RY, METHOD_USED_TO_FIND_QTY = METHOD_USED_TO_FIND_QTY)
-    ret <- envir_get(hh_ann_waste_disposal_qty, args)
+    ret <- envir_get("hh_ann_waste_disposal_qty", args)
     
     ret
 } 

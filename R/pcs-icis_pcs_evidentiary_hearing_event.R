@@ -9,7 +9,7 @@ pcs.icis_pcs_evidentiary_hearing_event <- function(NPDES = NULL, EVENT_CODE = NU
     EVENT_DATE = NULL) {
     
     args <- list(NPDES = NPDES, EVENT_CODE = EVENT_CODE, EVENT_DATE = EVENT_DATE)
-    ret <- envir_get(pcs_evidentiary_hearing_event, args)
+    ret <- envir_get("pcs_evidentiary_hearing_event", args)
     
     ret
 } 

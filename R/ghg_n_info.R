@@ -8,7 +8,7 @@
 ghg_n_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, TOTAL_NUMBER_OF_FURNACES = NULL) {
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, TOTAL_NUMBER_OF_FURNACES = TOTAL_NUMBER_OF_FURNACES)
-    ret <- envir_get(n_info, args)
+    ret <- envir_get("n_info", args)
     
     ret
 } 

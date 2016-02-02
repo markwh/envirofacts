@@ -26,7 +26,7 @@ ghg_w_flare_stacks_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL
         DOES_FAC_HAVE_FLARE_STACKS = DOES_FAC_HAVE_FLARE_STACKS, BAMM_IND_FLARE_STK_DETAILS = BAMM_IND_FLARE_STK_DETAILS, 
         BAMM_DESCRIPTION_FLARE_STACKS = BAMM_DESCRIPTION_FLARE_STACKS, FLARE_STACKS_CO2_EMISSIONS = FLARE_STACKS_CO2_EMISSIONS, 
         FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(w_flare_stacks_details, args)
+    ret <- envir_get("w_flare_stacks_details", args)
     
     ret
 } 

@@ -13,7 +13,7 @@ br_rcr_lu_waste_code <- function(OWNER = NULL, WASTE_CODE = NULL, CODE_TYPE = NU
     
     args <- list(OWNER = OWNER, WASTE_CODE = WASTE_CODE, CODE_TYPE = CODE_TYPE, WASTE_CODE_DESC = WASTE_CODE_DESC, 
         ACTIVE_STATUS = ACTIVE_STATUS, BR_LOAD_ACTIVE_STATUS = BR_LOAD_ACTIVE_STATUS)
-    ret <- envir_get(rcr_lu_waste_code, args)
+    ret <- envir_get("rcr_lu_waste_code", args)
     
     ret
 } 

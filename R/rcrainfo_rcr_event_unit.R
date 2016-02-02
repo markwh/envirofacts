@@ -20,7 +20,7 @@ rcrainfo_rcr_event_unit <- function(HANDLER_ID = NULL, SERIES_SEQ = NULL, OWNER 
         PERMIT_EVENT_CODE = PERMIT_EVENT_CODE, EVENT_SEQ = EVENT_SEQ, RESPONSIBLE_AGENCY = RESPONSIBLE_AGENCY, 
         ACTIVITY_LOCATION = ACTIVITY_LOCATION, UD_HANDLER_ID = UD_HANDLER_ID, UD_UNIT_SEQ = UD_UNIT_SEQ, 
         UNIT_DETAIL_SEQ = UNIT_DETAIL_SEQ)
-    ret <- envir_get(rcr_event_unit, args)
+    ret <- envir_get("rcr_event_unit", args)
     
     ret
 } 

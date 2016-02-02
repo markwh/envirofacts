@@ -41,7 +41,7 @@ cerclis_cer_site <- function(SITE_ID = NULL, SITE_EPA_ID = NULL, SITE_SHORT_NAME
         RSTATE_CODE = RSTATE_CODE, RNPL_STATUS_CODE = RNPL_STATUS_CODE, RFED_FCLTY_CODE = RFED_FCLTY_CODE, 
         RSITINC_CODE = RSITINC_CODE, RNON_NPL_STATUS_CODE = RNON_NPL_STATUS_CODE, 
         SITE_FUDS_FLAG = SITE_FUDS_FLAG)
-    ret <- envir_get(cer_site, args)
+    ret <- envir_get("cer_site", args)
     
     ret
 } 

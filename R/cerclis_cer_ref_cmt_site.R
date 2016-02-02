@@ -7,7 +7,7 @@
 cerclis_cer_ref_cmt_site <- function(RCST_CODE = NULL, RCS_DESC = NULL) {
     
     args <- list(RCST_CODE = RCST_CODE, RCS_DESC = RCS_DESC)
-    ret <- envir_get(cer_ref_cmt_site, args)
+    ret <- envir_get("cer_ref_cmt_site", args)
     
     ret
 } 

@@ -10,7 +10,7 @@ cerclis_cer_operable_unit <- function(SITE_ID = NULL, OU_ID = NULL, OU_NAME = NU
     OU_DESC_TEXT = NULL) {
     
     args <- list(SITE_ID = SITE_ID, OU_ID = OU_ID, OU_NAME = OU_NAME, OU_DESC_TEXT = OU_DESC_TEXT)
-    ret <- envir_get(cer_operable_unit, args)
+    ret <- envir_get("cer_operable_unit", args)
     
     ret
 } 

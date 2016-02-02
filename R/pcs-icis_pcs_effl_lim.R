@@ -27,7 +27,7 @@ pcs.icis_pcs_effl_lim <- function(NPDES = NULL, DISCHARGE_NUM = NULL, REPORT_DES
         MODIF_PERIOD_START_DATE = MODIF_PERIOD_START_DATE, MODIF_PERIOD_END_DATE = MODIF_PERIOD_END_DATE, 
         CHANGE_OF_LIMIT_STAT = CHANGE_OF_LIMIT_STAT, CONTESTED_PARAM_IND = CONTESTED_PARAM_IND, 
         DOCKET_NUMBER = DOCKET_NUMBER)
-    ret <- envir_get(pcs_effl_lim, args)
+    ret <- envir_get("pcs_effl_lim", args)
     
     ret
 } 

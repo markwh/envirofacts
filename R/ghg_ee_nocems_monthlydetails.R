@@ -15,7 +15,7 @@ ghg_ee_nocems_monthlydetails <- function(FACILITY_ID = NULL, REPORTING_YEAR = NU
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, BASIS_FOR_CARB_CONTENT_MONTHLY = BASIS_FOR_CARB_CONTENT_MONTHLY, 
         MONTH_NAME = MONTH_NAME, UNIT_TYPE = UNIT_TYPE, UNIT_NAME = UNIT_NAME, FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(ee_nocems_monthlydetails, args)
+    ret <- envir_get("ee_nocems_monthlydetails", args)
     
     ret
 } 

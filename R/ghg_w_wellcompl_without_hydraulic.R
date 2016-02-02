@@ -27,7 +27,7 @@ ghg_w_wellcompl_without_hydraulic <- function(FACILITY_ID = NULL, REPORTING_YEAR
         COMPL_WO_HYD_VENT_CH4_EMM_CO2E = COMPL_WO_HYD_VENT_CH4_EMM_CO2E, COMPLT_WO_HYD_FLARING_CO2_EMM = COMPLT_WO_HYD_FLARING_CO2_EMM, 
         SUB_BASIN_IDENTIFIER = SUB_BASIN_IDENTIFIER, NUMBER_OF_COMPLETIONS = NUMBER_OF_COMPLETIONS, 
         NUMBER_OF_WRKOVRS_FLR_OR_VNT = NUMBER_OF_WRKOVRS_FLR_OR_VNT)
-    ret <- envir_get(w_wellcompl_without_hydraulic, args)
+    ret <- envir_get("w_wellcompl_without_hydraulic", args)
     
     ret
 } 

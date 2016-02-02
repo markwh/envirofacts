@@ -22,7 +22,7 @@ radnet_erm_sample <- function(SAMP_NUM = NULL, PROJ_NUM = NULL, SAMP_ID = NULL, 
         LOC_NUM = LOC_NUM, COLLECT_START = COLLECT_START, COLLECT_END = COLLECT_END, 
         SAMP_SIZE = SAMP_SIZE, SAMP_UNIT = SAMP_UNIT, MAT_ID = MAT_ID, SAMP_DESC = SAMP_DESC, 
         SAMP_COMMENT = SAMP_COMMENT)
-    ret <- envir_get(erm_sample, args)
+    ret <- envir_get("erm_sample", args)
     
     ret
 } 

@@ -14,7 +14,7 @@ tri_tri_water_stream <- function(DOC_CTRL_NUM = NULL, WATER_SEQUENCE_NUM = NULL,
     args <- list(DOC_CTRL_NUM = DOC_CTRL_NUM, WATER_SEQUENCE_NUM = WATER_SEQUENCE_NUM, 
         STREAM_NAME = STREAM_NAME, STORM_WATER_NA = STORM_WATER_NA, STORM_WATER_PERCENT = STORM_WATER_PERCENT, 
         REACH_CODE = REACH_CODE)
-    ret <- envir_get(tri_water_stream, args)
+    ret <- envir_get("tri_water_stream", args)
     
     ret
 } 

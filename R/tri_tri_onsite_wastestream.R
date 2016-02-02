@@ -21,7 +21,7 @@ tri_tri_onsite_wastestream <- function(DOC_CTRL_NUM = NULL, WASTESTREAM_SEQ_NUM 
         SEQUENTIAL_TREAT_87_90 = SEQUENTIAL_TREAT_87_90, TREATMENT_EFFICIENCY_EST = TREATMENT_EFFICIENCY_EST, 
         TREATMENT_EFFICIENCY_EST_NA = TREATMENT_EFFICIENCY_EST_NA, OPERATING_DATA_IND = OPERATING_DATA_IND, 
         EFFICIENCY_RANGE_CODE = EFFICIENCY_RANGE_CODE)
-    ret <- envir_get(tri_onsite_wastestream, args)
+    ret <- envir_get("tri_onsite_wastestream", args)
     
     ret
 } 

@@ -11,7 +11,7 @@ tri_tri_facility_uic_history <- function(TRI_FACILITY_ID = NULL, REPORTING_YEAR 
     
     args <- list(TRI_FACILITY_ID = TRI_FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, 
         ASGN_UIC_IND = ASGN_UIC_IND, UIC_NUM = UIC_NUM)
-    ret <- envir_get(tri_facility_uic_history, args)
+    ret <- envir_get("tri_facility_uic_history", args)
     
     ret
 } 

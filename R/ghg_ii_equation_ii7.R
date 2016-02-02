@@ -12,7 +12,7 @@ ghg_ii_equation_ii7 <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FACIL
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         ANAEROBIC_PROCESS_ID = ANAEROBIC_PROCESS_ID, ANNUAL_MASS_METHANE_EMITTED = ANNUAL_MASS_METHANE_EMITTED)
-    ret <- envir_get(ii_equation_ii7, args)
+    ret <- envir_get("ii_equation_ii7", args)
     
     ret
 } 

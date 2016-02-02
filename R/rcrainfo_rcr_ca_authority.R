@@ -26,7 +26,7 @@ rcrainfo_rcr_ca_authority <- function(HANDLER_ID = NULL, EFFECTIVE_DATE = NULL, 
         ACTIVITY_LOCATION = ACTIVITY_LOCATION, OWNER = OWNER, AUTHORITY_TYPE = AUTHORITY_TYPE, 
         PERSON_OWNER = PERSON_OWNER, PERSON_ID = PERSON_ID, LEAD_PROGRAM = LEAD_PROGRAM, 
         SUB_ORGANIZATION_OWNER = SUB_ORGANIZATION_OWNER, SUB_ORGANIZATION = SUB_ORGANIZATION)
-    ret <- envir_get(rcr_ca_authority, args)
+    ret <- envir_get("rcr_ca_authority", args)
     
     ret
 } 

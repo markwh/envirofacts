@@ -34,7 +34,7 @@ fii_frs_organization <- function(ORG_UIN = NULL, ORG_NAME = NULL, STD_ORG_NAME =
         SOURCE_OF_DATA = SOURCE_OF_DATA, LAST_REPORTED_DATE = LAST_REPORTED_DATE, 
         CREATE_DATE = CREATE_DATE, UPDATE_DATE = UPDATE_DATE, SENSITIVE_IND = SENSITIVE_IND, 
         USER_ID = USER_ID, PUBLIC_IND = PUBLIC_IND)
-    ret <- envir_get(frs_organization, args)
+    ret <- envir_get("frs_organization", args)
     
     ret
 } 

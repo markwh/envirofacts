@@ -25,7 +25,7 @@ br_bgm_offsite_shipment <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
         IO_TDR_ID = IO_TDR_ID, MANAGEMENT_METHOD = MANAGEMENT_METHOD, MANAGEMENT_METHOD_OWNER = MANAGEMENT_METHOD_OWNER, 
         IO_TDR_QTY = IO_TDR_QTY, SHIPPED_TONS_CALC = SHIPPED_TONS_CALC, USERID = USERID, 
         LAST_CHANGE = LAST_CHANGE)
-    ret <- envir_get(bgm_offsite_shipment, args)
+    ret <- envir_get("bgm_offsite_shipment", args)
     
     ret
 } 

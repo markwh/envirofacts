@@ -12,7 +12,7 @@ cerclis_cer_ref_finan_transaction_type <- function(RFTT_CODE = NULL, RFTT_LONG_N
     
     args <- list(RFTT_CODE = RFTT_CODE, RFTT_LONG_NAME = RFTT_LONG_NAME, RFTT_SHORT_NAME = RFTT_SHORT_NAME, 
         RFTT_PLAN_ACT = RFTT_PLAN_ACT, RFTT_ORDER = RFTT_ORDER)
-    ret <- envir_get(cer_ref_finan_transaction_type, args)
+    ret <- envir_get("cer_ref_finan_transaction_type", args)
     
     ret
 } 

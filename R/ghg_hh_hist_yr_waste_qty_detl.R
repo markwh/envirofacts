@@ -30,7 +30,7 @@ ghg_hh_hist_yr_waste_qty_detl <- function(FACILITY_ID = NULL, REPORTING_YEAR = N
         HISTYR_METHANE_FRACT_DET_MTHD = HISTYR_METHANE_FRACT_DET_MTHD, HISTYR_ANN_WST_QTY_SUB_DATA_US = HISTYR_ANN_WST_QTY_SUB_DATA_US, 
         HISTYR_ANNUAL_MCF_VALUE = HISTYR_ANNUAL_MCF_VALUE, HISTYR_METHANE_FRACTION = HISTYR_METHANE_FRACTION, 
         HISTYR_ANN_WST_QTY_NUM_DAY_SUB = HISTYR_ANN_WST_QTY_NUM_DAY_SUB)
-    ret <- envir_get(hh_hist_yr_waste_qty_detl, args)
+    ret <- envir_get("hh_hist_yr_waste_qty_detl", args)
     
     ret
 } 

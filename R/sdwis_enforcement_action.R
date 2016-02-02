@@ -14,7 +14,7 @@ sdwis_enforcement_action <- function(PWSID = NULL, ENFORCEMENT_ID = NULL, ORIGIN
     args <- list(PWSID = PWSID, ENFORCEMENT_ID = ENFORCEMENT_ID, ORIGINATOR_CODE = ORIGINATOR_CODE, 
         ENFORCEMENT_DATE = ENFORCEMENT_DATE, ENFORCEMENT_ACTION_TYPE_CODE = ENFORCEMENT_ACTION_TYPE_CODE, 
         ENFORCEMENT_COMMENT_TEXT = ENFORCEMENT_COMMENT_TEXT)
-    ret <- envir_get(enforcement_action, args)
+    ret <- envir_get("enforcement_action", args)
     
     ret
 } 

@@ -16,7 +16,7 @@ ghg_ff_degasification <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, DEG
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, DEGAS_SYS_ANNUAL_OPERATING_HRS = DEGAS_SYS_ANNUAL_OPERATING_HRS, 
         GAS_SYSTEM_UNIT_ID = GAS_SYSTEM_UNIT_ID, DEGAS_SYSTM_SURFACE_AREA = DEGAS_SYSTM_SURFACE_AREA, 
         FACILITY_NAME = FACILITY_NAME, DEGAS_NUM_WELLS = DEGAS_NUM_WELLS)
-    ret <- envir_get(ff_degasification, args)
+    ret <- envir_get("ff_degasification", args)
     
     ret
 } 

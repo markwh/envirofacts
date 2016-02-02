@@ -11,7 +11,7 @@ ghg_p_unit_info_cems <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, CEMS
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, CEMS_UNIT_NAME = CEMS_UNIT_NAME, 
         CEMS_UNIT_TYPE = CEMS_UNIT_TYPE)
-    ret <- envir_get(p_unit_info_cems, args)
+    ret <- envir_get("p_unit_info_cems", args)
     
     ret
 } 

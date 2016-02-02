@@ -29,7 +29,7 @@ rcrainfo_rcr_pevent <- function(HANDLER_ID = NULL, SERIES_SEQ = NULL, EVENT_SEQ 
         SCHEDULE_DATE_ORIG = SCHEDULE_DATE_ORIG, SCHEDULE_DATE_NEW = SCHEDULE_DATE_NEW, 
         BEST_DATE = BEST_DATE, SUB_ORGANIZATION_OWNER = SUB_ORGANIZATION_OWNER, SUB_ORGANIZATION = SUB_ORGANIZATION, 
         PERSON_OWNER = PERSON_OWNER, PERSON_ID = PERSON_ID)
-    ret <- envir_get(rcr_pevent, args)
+    ret <- envir_get("rcr_pevent", args)
     
     ret
 } 

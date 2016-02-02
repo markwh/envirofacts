@@ -8,7 +8,7 @@
 br_breport_cycle <- function(YEAR = NULL, USERID = NULL, LAST_CHANGE = NULL) {
     
     args <- list(YEAR = YEAR, USERID = USERID, LAST_CHANGE = LAST_CHANGE)
-    ret <- envir_get(breport_cycle, args)
+    ret <- envir_get("breport_cycle", args)
     
     ret
 } 

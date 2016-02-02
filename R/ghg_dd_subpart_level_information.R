@@ -12,7 +12,7 @@ ghg_dd_subpart_level_information <- function(FACILITY_ID = NULL, REPORTING_YEAR 
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         GHG_NAME = GHG_NAME, GHG_QUANTITY = GHG_QUANTITY)
-    ret <- envir_get(dd_subpart_level_information, args)
+    ret <- envir_get("dd_subpart_level_information", args)
     
     ret
 } 

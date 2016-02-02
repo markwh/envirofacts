@@ -12,7 +12,7 @@ ghg_r_smelting_furnace_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NUL
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         FURNACE_ID = FURNACE_ID, ANNUAL_UNROUNDED_CO2_EMIS = ANNUAL_UNROUNDED_CO2_EMIS)
-    ret <- envir_get(r_smelting_furnace_info, args)
+    ret <- envir_get("r_smelting_furnace_info", args)
     
     ret
 } 

@@ -24,7 +24,7 @@ ghg_d_fuel_level_information <- function(FACILITY_ID = NULL, REPORTING_YEAR = NU
         UNIT_NAME = UNIT_NAME, UNIT_TYPE = UNIT_TYPE, FUEL_TYPE = FUEL_TYPE, FUEL_TYPE_OTHER = FUEL_TYPE_OTHER, 
         FUEL_TYPE_BLEND = FUEL_TYPE_BLEND, CH4_EMISSIONS_CO2E = CH4_EMISSIONS_CO2E, 
         OTHER_OR_BLEND_FUEL_TYPE = OTHER_OR_BLEND_FUEL_TYPE)
-    ret <- envir_get(d_fuel_level_information, args)
+    ret <- envir_get("d_fuel_level_information", args)
     
     ret
 } 

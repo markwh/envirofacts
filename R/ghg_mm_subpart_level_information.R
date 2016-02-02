@@ -11,7 +11,7 @@ ghg_mm_subpart_level_information <- function(FACILITY_ID = NULL, REPORTING_YEAR 
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         CO2_QUANTITY = CO2_QUANTITY)
-    ret <- envir_get(mm_subpart_level_information, args)
+    ret <- envir_get("mm_subpart_level_information", args)
     
     ret
 } 

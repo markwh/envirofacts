@@ -25,7 +25,7 @@ ghg_w_pneumatic_pumps <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, SUB
         PNEUM_PUMP_TOTAL_N2O_EMM_CO2E = PNEUM_PUMP_TOTAL_N2O_EMM_CO2E, PNEUM_PUMP_TOTAL_CH4_EMM_CO2E = PNEUM_PUMP_TOTAL_CH4_EMM_CO2E, 
         PNEUM_PUMP_TOTAL_CO2_EMISSIONS = PNEUM_PUMP_TOTAL_CO2_EMISSIONS, FACILITY_NAME = FACILITY_NAME, 
         INDUSTRY_SEGMENT = INDUSTRY_SEGMENT)
-    ret <- envir_get(w_pneumatic_pumps, args)
+    ret <- envir_get("w_pneumatic_pumps", args)
     
     ret
 } 

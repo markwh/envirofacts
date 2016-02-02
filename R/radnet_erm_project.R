@@ -10,7 +10,7 @@ radnet_erm_project <- function(PROJ_NUM = NULL, STUDY_NUM = NULL, PROJ_ID = NULL
     PROJ_NAME = NULL) {
     
     args <- list(PROJ_NUM = PROJ_NUM, STUDY_NUM = STUDY_NUM, PROJ_ID = PROJ_ID, PROJ_NAME = PROJ_NAME)
-    ret <- envir_get(erm_project, args)
+    ret <- envir_get("erm_project", args)
     
     ret
 } 

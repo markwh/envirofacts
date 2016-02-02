@@ -12,7 +12,7 @@ ghg_p_unit_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, UNIT_NAME
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, UNIT_NAME = UNIT_NAME, 
         UNIT_TYPE = UNIT_TYPE, CO2_EMISSIONS = CO2_EMISSIONS)
-    ret <- envir_get(p_unit_info, args)
+    ret <- envir_get("p_unit_info", args)
     
     ret
 } 

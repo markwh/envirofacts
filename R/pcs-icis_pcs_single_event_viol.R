@@ -17,7 +17,7 @@ pcs.icis_pcs_single_event_viol <- function(NPDES = NULL, SINGLE_EVENT_VIOL_CODE 
         SINGLE_EVENT_VIOL_DATE = SINGLE_EVENT_VIOL_DATE, QNCR_RNC_DET_CODE = QNCR_RNC_DET_CODE, 
         QNCR_RNC_DET_DATE = QNCR_RNC_DET_DATE, QNCR_RNC_RESOL_CODE = QNCR_RNC_RESOL_CODE, 
         QNCR_RNC_RESOL_DATE = QNCR_RNC_RESOL_DATE)
-    ret <- envir_get(pcs_single_event_viol, args)
+    ret <- envir_get("pcs_single_event_viol", args)
     
     ret
 } 

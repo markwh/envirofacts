@@ -35,7 +35,7 @@ ghg_pp_meter_and_equipment_details <- function(FACILITY_ID = NULL, REPORTING_YEA
         UPSTREAM_CAPTURE_EQUIPMENT = UPSTREAM_CAPTURE_EQUIPMENT, DOWNSTREAM_CAPTURE_EQUIPMENT = DOWNSTREAM_CAPTURE_EQUIPMENT, 
         DESC_OTHR_PROCESS_EQUIP = DESC_OTHR_PROCESS_EQUIP, MASSORVOLUME = MASSORVOLUME, 
         METERSEGREGATIONLOCATION = METERSEGREGATIONLOCATION, METERIMPORTEXPORT = METERIMPORTEXPORT)
-    ret <- envir_get(pp_meter_and_equipment_details, args)
+    ret <- envir_get("pp_meter_and_equipment_details", args)
     
     ret
 } 

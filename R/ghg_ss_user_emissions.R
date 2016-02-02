@@ -17,7 +17,7 @@ ghg_ss_user_emissions <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FAC
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         GAS_NAME = GAS_NAME, LBS_ACQUISITION = LBS_ACQUISITION, LBS_DECREASE_INVENTORY = LBS_DECREASE_INVENTORY, 
         LBS_DISBURSEMENTS = LBS_DISBURSEMENTS, LBS_USER_EMISSION = LBS_USER_EMISSION)
-    ret <- envir_get(ss_user_emissions, args)
+    ret <- envir_get("ss_user_emissions", args)
     
     ret
 } 

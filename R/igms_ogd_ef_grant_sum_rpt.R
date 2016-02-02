@@ -16,7 +16,7 @@ igms_ogd_ef_grant_sum_rpt <- function(GRANT_FAMILY_SEQ = NULL, GRANT_FAMILY = NU
     args <- list(GRANT_FAMILY_SEQ = GRANT_FAMILY_SEQ, GRANT_FAMILY = GRANT_FAMILY, 
         AWARD_DATE = AWARD_DATE, PROJ_BEG_DATE = PROJ_BEG_DATE, PROJ_END_DATE = PROJ_END_DATE, 
         CUMULATIVE_AWARD = CUMULATIVE_AWARD, NUMBER_OF_AMENDMENTS = NUMBER_OF_AMENDMENTS)
-    ret <- envir_get(ogd_ef_grant_sum_rpt, args)
+    ret <- envir_get("ogd_ef_grant_sum_rpt", args)
     
     ret
 } 

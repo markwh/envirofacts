@@ -55,7 +55,7 @@ afs_effrs_afsplt2 <- function(STATE_COUNTY_COMPLIANCE_SOURCE = NULL, ES_CLASS_CO
         MAILING_CITY = MAILING_CITY, MAILING_PLANT_NAME = MAILING_PLANT_NAME, MAILING_STATE_ABBREV = MAILING_STATE_ABBREV, 
         MAILING_STATE_NAME = MAILING_STATE_NAME, MAILING_STREET_ADDRESS = MAILING_STREET_ADDRESS, 
         MAILING_ZIP = MAILING_ZIP)
-    ret <- envir_get(effrs_afsplt2, args)
+    ret <- envir_get("effrs_afsplt2", args)
     
     ret
 } 

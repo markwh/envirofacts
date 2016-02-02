@@ -10,7 +10,7 @@ tri_tri_facility_npdes <- function(TRI_FACILITY_ID = NULL, ASGN_NPDES_IND = NULL
     
     args <- list(TRI_FACILITY_ID = TRI_FACILITY_ID, ASGN_NPDES_IND = ASGN_NPDES_IND, 
         NPDES_NUM = NPDES_NUM)
-    ret <- envir_get(tri_facility_npdes, args)
+    ret <- envir_get("tri_facility_npdes", args)
     
     ret
 } 

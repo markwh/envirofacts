@@ -12,7 +12,7 @@ rcrainfo_rcr_pseries <- function(HANDLER_ID = NULL, SERIES_SEQ = NULL, SERIES_NA
     
     args <- list(HANDLER_ID = HANDLER_ID, SERIES_SEQ = SERIES_SEQ, SERIES_NAME = SERIES_NAME, 
         RESPONSIBLE_OWNER = RESPONSIBLE_OWNER, RESPONSIBLE_PERSON = RESPONSIBLE_PERSON)
-    ret <- envir_get(rcr_pseries, args)
+    ret <- envir_get("rcr_pseries", args)
     
     ret
 } 

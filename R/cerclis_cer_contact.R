@@ -12,7 +12,7 @@ cerclis_cer_contact <- function(SITE_ID = NULL, PERSON_LAST_NAME = NULL, PERSON_
     
     args <- list(SITE_ID = SITE_ID, PERSON_LAST_NAME = PERSON_LAST_NAME, PERSON_FIRST_NAME = PERSON_FIRST_NAME, 
         PERSON_PHONE_NMBR1 = PERSON_PHONE_NMBR1, RROLE_DESC = RROLE_DESC)
-    ret <- envir_get(cer_contact, args)
+    ret <- envir_get("cer_contact", args)
     
     ret
 } 

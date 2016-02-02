@@ -16,7 +16,7 @@ ghg_ff_destroffsite_qtrly <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         DESTR_OFFSITE_UNIT_ID = DESTR_OFFSITE_UNIT_ID, QUARTER = QUARTER, QTRLY_CH4_DESTR_ONSITE = QTRLY_CH4_DESTR_ONSITE, 
         QTRLY_CH4_TRANS_OFFSITE = QTRLY_CH4_TRANS_OFFSITE)
-    ret <- envir_get(ff_destroffsite_qtrly, args)
+    ret <- envir_get("ff_destroffsite_qtrly", args)
     
     ret
 } 

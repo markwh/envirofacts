@@ -34,7 +34,7 @@ tri_tri_chem_info <- function(TRI_CHEM_ID = NULL, CHEM_NAME = NULL, ACTIVE_DATE 
         UNIT_OF_MEASURE = UNIT_OF_MEASURE, CAS_REGISTRY_NUMBER = CAS_REGISTRY_NUMBER, 
         SRS_ID = SRS_ID, DEFAULT_PERCENTAGE_TO_81C = DEFAULT_PERCENTAGE_TO_81C, DEFAULT_PERCENTAGE_TO_81D = DEFAULT_PERCENTAGE_TO_81D, 
         DEFAULT_PERCENTAGE_TO_87 = DEFAULT_PERCENTAGE_TO_87)
-    ret <- envir_get(tri_chem_info, args)
+    ret <- envir_get("tri_chem_info", args)
     
     ret
 } 

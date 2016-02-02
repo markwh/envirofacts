@@ -8,7 +8,7 @@
 rcrainfo_rcr_punit <- function(HANDLER_ID = NULL, UNIT_SEQ = NULL, UNIT_NAME = NULL) {
     
     args <- list(HANDLER_ID = HANDLER_ID, UNIT_SEQ = UNIT_SEQ, UNIT_NAME = UNIT_NAME)
-    ret <- envir_get(rcr_punit, args)
+    ret <- envir_get("rcr_punit", args)
     
     ret
 } 

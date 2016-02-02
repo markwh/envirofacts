@@ -49,7 +49,7 @@ afs_effrs_afscms <- function(STATE_COUNTY_COMPLIANCE_SOURCE = NULL, EPA_PLANT_ID
         FY2013_CMS_IND = FY2013_CMS_IND, FY2013_CMS_IND_DESC = FY2013_CMS_IND_DESC, 
         FY2014_CMS_IND = FY2014_CMS_IND, FY2014_CMS_IND_DESC = FY2014_CMS_IND_DESC, 
         FY2015_CMS_IND = FY2015_CMS_IND, FY2015_CMS_IND_DESC = FY2015_CMS_IND_DESC)
-    ret <- envir_get(effrs_afscms, args)
+    ret <- envir_get("effrs_afscms", args)
     
     ret
 } 

@@ -15,7 +15,7 @@ ghg_ee_nocemstio2details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, 
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, MTHS_MISDATA_PROCS_USED_CCWAST = MTHS_MISDATA_PROCS_USED_CCWAST, 
         ANN_CO2_EMM_PER_PROCESS_LINE = ANN_CO2_EMM_PER_PROCESS_LINE, UNIT_TYPE = UNIT_TYPE, 
         UNIT_NAME = UNIT_NAME, FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(ee_nocemstio2details, args)
+    ret <- envir_get("ee_nocemstio2details", args)
     
     ret
 } 

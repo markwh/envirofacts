@@ -15,7 +15,7 @@ cerclis_cer_site_rot_ref <- function(SITE_ID = NULL, ROT_CODE = NULL, CREATED_BY
     args <- list(SITE_ID = SITE_ID, ROT_CODE = ROT_CODE, CREATED_BY = CREATED_BY, 
         CREATED_DATE = CREATED_DATE, LAST_UPDATED_BY = LAST_UPDATED_BY, LAST_UPDATED_DATE = LAST_UPDATED_DATE, 
         M_ROW_x0024__x0024_ = M_ROW_x0024__x0024_)
-    ret <- envir_get(cer_site_rot_ref, args)
+    ret <- envir_get("cer_site_rot_ref", args)
     
     ret
 } 

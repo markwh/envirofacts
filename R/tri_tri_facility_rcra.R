@@ -9,7 +9,7 @@ tri_tri_facility_rcra <- function(TRI_FACILITY_ID = NULL, ASGN_RCRA_IND = NULL, 
     
     args <- list(TRI_FACILITY_ID = TRI_FACILITY_ID, ASGN_RCRA_IND = ASGN_RCRA_IND, 
         RCRA_NUM = RCRA_NUM)
-    ret <- envir_get(tri_facility_rcra, args)
+    ret <- envir_get("tri_facility_rcra", args)
     
     ret
 } 

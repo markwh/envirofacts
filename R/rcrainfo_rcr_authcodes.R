@@ -11,7 +11,7 @@ rcrainfo_rcr_authcodes <- function(OWNER = NULL, AUTHORITY_TYPE = NULL, ACTIVE_S
     
     args <- list(OWNER = OWNER, AUTHORITY_TYPE = AUTHORITY_TYPE, ACTIVE_STATUS = ACTIVE_STATUS, 
         AUTHORITY_DESC = AUTHORITY_DESC)
-    ret <- envir_get(rcr_authcodes, args)
+    ret <- envir_get("rcr_authcodes", args)
     
     ret
 } 

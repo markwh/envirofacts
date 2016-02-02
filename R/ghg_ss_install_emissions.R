@@ -37,7 +37,7 @@ ghg_ss_install_emissions <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, 
         CHARGE_EQ_MISSING_DATA_REASON = CHARGE_EQ_MISSING_DATA_REASON, OFFSITE_FILL_MISSING_DATA = OFFSITE_FILL_MISSING_DATA, 
         OFFSITE_FILL_MISSING_DATA_REAS = OFFSITE_FILL_MISSING_DATA_REAS, NC_MISSING_DATA = NC_MISSING_DATA, 
         NC_MISSING_DATA_REASON = NC_MISSING_DATA_REASON)
-    ret <- envir_get(ss_install_emissions, args)
+    ret <- envir_get("ss_install_emissions", args)
     
     ret
 } 

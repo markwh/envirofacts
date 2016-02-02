@@ -7,7 +7,7 @@
 lrt_geo_collect_mth_lk <- function(COLLECT_MTH_CODE = NULL, COLLECT_DESC = NULL) {
     
     args <- list(COLLECT_MTH_CODE = COLLECT_MTH_CODE, COLLECT_DESC = COLLECT_DESC)
-    ret <- envir_get(geo_collect_mth_lk, args)
+    ret <- envir_get("geo_collect_mth_lk", args)
     
     ret
 } 

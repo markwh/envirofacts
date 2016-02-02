@@ -26,7 +26,7 @@ pcs.icis_pcs_admin_penalty_order <- function(NPDES = NULL, ENFOR_ACTION_CODE = N
         FINAL_ORDER_DATE = FINAL_ORDER_DATE, PENALTY_AMOUNT_ASSESSED = PENALTY_AMOUNT_ASSESSED, 
         CLASS_II_APPEAL_FILED = CLASS_II_APPEAL_FILED, JUDICIAL_APPEAL_FILED_DATE = JUDICIAL_APPEAL_FILED_DATE, 
         PENALTY_COLLECTED_DATE = PENALTY_COLLECTED_DATE)
-    ret <- envir_get(pcs_admin_penalty_order, args)
+    ret <- envir_get("pcs_admin_penalty_order", args)
     
     ret
 } 

@@ -43,7 +43,7 @@ cerclis_cer_location <- function(SITE_EPA_ID = NULL, LATITUDE = NULL, LONGITUDE 
         CITY_NAME = CITY_NAME, COUNTY_NAME = COUNTY_NAME, LOCATION_ADDRESS = LOCATION_ADDRESS, 
         POSTAL_CODE = POSTAL_CODE, PRIMARY_NAME = PRIMARY_NAME, STATE_CODE = STATE_CODE, 
         COMMENT_TEXT = COMMENT_TEXT)
-    ret <- envir_get(cer_location, args)
+    ret <- envir_get("cer_location", args)
     
     ret
 } 

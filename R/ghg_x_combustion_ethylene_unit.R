@@ -12,7 +12,7 @@ ghg_x_combustion_ethylene_unit <- function(FACILITY_ID = NULL, REPORTING_YEAR = 
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, OFF_GAS_FRACTION = OFF_GAS_FRACTION, 
         UNIT_NAME_COMBUSTION_ETHYLENE = UNIT_NAME_COMBUSTION_ETHYLENE, UNIT_TYPE_COMBUSTION_ETHYLENE = UNIT_TYPE_COMBUSTION_ETHYLENE)
-    ret <- envir_get(x_combustion_ethylene_unit, args)
+    ret <- envir_get("x_combustion_ethylene_unit", args)
     
     ret
 } 

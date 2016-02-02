@@ -20,7 +20,7 @@ radinfo_rad_regulatory_prog <- function(RAD_SYS_ID = NULL, CIT_REF_CODE = NULL, 
         SUBPART_ID = SUBPART_ID, PROG_FAC_TYPE = PROG_FAC_TYPE, PROG_FAC_STATUS = PROG_FAC_STATUS, 
         OVERSIGHT_AGENCY = OVERSIGHT_AGENCY, ENFORCEMENT_AGENCY = ENFORCEMENT_AGENCY, 
         OPERATING_ORGANIZATION = OPERATING_ORGANIZATION, RAD_CHANGE_DATE = RAD_CHANGE_DATE)
-    ret <- envir_get(rad_regulatory_prog, args)
+    ret <- envir_get("rad_regulatory_prog", args)
     
     ret
 } 

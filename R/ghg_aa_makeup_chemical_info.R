@@ -12,7 +12,7 @@ ghg_aa_makeup_chemical_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NUL
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, CACO3_SUBSTITUTE_INDICATOR = CACO3_SUBSTITUTE_INDICATOR, 
         MASS_MAKEUP_CHEMICAL_CO2 = MASS_MAKEUP_CHEMICAL_CO2, NA2CO3_SUBSTITUTE_INDICATOR = NA2CO3_SUBSTITUTE_INDICATOR)
-    ret <- envir_get(aa_makeup_chemical_info, args)
+    ret <- envir_get("aa_makeup_chemical_info", args)
     
     ret
 } 

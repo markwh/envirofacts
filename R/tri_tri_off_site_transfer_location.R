@@ -24,7 +24,7 @@ tri_tri_off_site_transfer_location <- function(DOC_CTRL_NUM = NULL, TRANSFER_LOC
         CITY_NAME = CITY_NAME, COUNTY_NAME = COUNTY_NAME, STATE_ABBR = STATE_ABBR, 
         PROVINCE = PROVINCE, ZIP_CODE = ZIP_CODE, COUNTRY_CODE = COUNTRY_CODE, RCRA_NUM = RCRA_NUM, 
         CONTROLLED_LOC = CONTROLLED_LOC)
-    ret <- envir_get(tri_off_site_transfer_location, args)
+    ret <- envir_get("tri_off_site_transfer_location", args)
     
     ret
 } 

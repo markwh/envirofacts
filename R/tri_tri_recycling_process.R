@@ -7,7 +7,7 @@
 tri_tri_recycling_process <- function(DOC_CTRL_NUM = NULL, ONSITE_RECYCLING_PROC_CODE = NULL) {
     
     args <- list(DOC_CTRL_NUM = DOC_CTRL_NUM, ONSITE_RECYCLING_PROC_CODE = ONSITE_RECYCLING_PROC_CODE)
-    ret <- envir_get(tri_recycling_process, args)
+    ret <- envir_get("tri_recycling_process", args)
     
     ret
 } 

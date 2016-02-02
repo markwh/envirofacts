@@ -11,7 +11,7 @@ rcrainfo_rcr_lu_universal_waste <- function(OWNER = NULL, UNIVERSAL_WASTE_TYPE =
     
     args <- list(OWNER = OWNER, UNIVERSAL_WASTE_TYPE = UNIVERSAL_WASTE_TYPE, ACTIVE_STATUS = ACTIVE_STATUS, 
         UNIVERSAL_WASTE_DESC = UNIVERSAL_WASTE_DESC)
-    ret <- envir_get(rcr_lu_universal_waste, args)
+    ret <- envir_get("rcr_lu_universal_waste", args)
     
     ret
 } 

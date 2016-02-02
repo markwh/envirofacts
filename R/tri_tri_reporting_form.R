@@ -100,7 +100,7 @@ tri_tri_reporting_form <- function(DOC_CTRL_NUM = NULL, ACTIVE_STATUS = NULL, TR
         DIOXIN_DISTRIBUTION_17 = DIOXIN_DISTRIBUTION_17, PUBLIC_CONTACT_EMAIL = PUBLIC_CONTACT_EMAIL, 
         REVISION_CODE_1 = REVISION_CODE_1, REVISION_CODE_2 = REVISION_CODE_2, MEDIA_TYPE = MEDIA_TYPE, 
         PUBLIC_PHONE_EXT = PUBLIC_PHONE_EXT, PROD_RATIO_OR_ACTIVITY = PROD_RATIO_OR_ACTIVITY)
-    ret <- envir_get(tri_reporting_form, args)
+    ret <- envir_get("tri_reporting_form", args)
     
     ret
 } 

@@ -25,7 +25,7 @@ rcrainfo_rcr_ca_area <- function(HANDLER_ID = NULL, AREA_SEQ = NULL, AREA_FACILI
         GROUNDWATER_RELEASE_IND = GROUNDWATER_RELEASE_IND, SOIL_RELEASE_IND = SOIL_RELEASE_IND, 
         SURFACE_WATER_RELEASE_IND = SURFACE_WATER_RELEASE_IND, EPA_OWNER = EPA_OWNER, 
         EPA_PERSON_ID = EPA_PERSON_ID, STATE_OWNER = STATE_OWNER, STATE_PERSON_ID = STATE_PERSON_ID)
-    ret <- envir_get(rcr_ca_area, args)
+    ret <- envir_get("rcr_ca_area", args)
     
     ret
 } 

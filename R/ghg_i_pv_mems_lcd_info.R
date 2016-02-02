@@ -20,7 +20,7 @@ ghg_i_pv_mems_lcd_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, OT
         OTHER_FGHG_FORMULA = OTHER_FGHG_FORMULA, PROCESS_TYPE = PROCESS_TYPE, ANNUAL_FGHG_EMISSIONS = ANNUAL_FGHG_EMISSIONS, 
         FACILITY_NAME = FACILITY_NAME, FGHG_NAME = FGHG_NAME, FGHG_CAS_NUMBER = FGHG_CAS_NUMBER, 
         OTHER_FGHG_NAME = OTHER_FGHG_NAME)
-    ret <- envir_get(i_pv_mems_lcd_info, args)
+    ret <- envir_get("i_pv_mems_lcd_info", args)
     
     ret
 } 

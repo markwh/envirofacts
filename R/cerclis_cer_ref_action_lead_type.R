@@ -7,7 +7,7 @@
 cerclis_cer_ref_action_lead_type <- function(RALT_CODE = NULL, RALT_DESC = NULL) {
     
     args <- list(RALT_CODE = RALT_CODE, RALT_DESC = RALT_DESC)
-    ret <- envir_get(cer_ref_action_lead_type, args)
+    ret <- envir_get("cer_ref_action_lead_type", args)
     
     ret
 } 

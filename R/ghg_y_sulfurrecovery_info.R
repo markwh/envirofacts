@@ -78,7 +78,7 @@ ghg_y_sulfurrecovery_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
         CH4_MOLE_FRAC_IS_SUBSTITUTED = CH4_MOLE_FRAC_IS_SUBSTITUTED, CH4_MOLE_FRACTION = CH4_MOLE_FRACTION, 
         CH4_MOLE_FRAC_NUM_SUBSTITUTED = CH4_MOLE_FRAC_NUM_SUBSTITUTED, CH4_MOLE_FRACTION_METHOD = CH4_MOLE_FRACTION_METHOD, 
         TAIL_GAS_CORR_FCTR = TAIL_GAS_CORR_FCTR)
-    ret <- envir_get(y_sulfurrecovery_info, args)
+    ret <- envir_get("y_sulfurrecovery_info", args)
     
     ret
 } 

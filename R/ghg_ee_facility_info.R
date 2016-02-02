@@ -11,7 +11,7 @@ ghg_ee_facility_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, NUMB
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, NUMBER_CHLORIDE_PROCESS_LINES = NUMBER_CHLORIDE_PROCESS_LINES, 
         FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(ee_facility_info, args)
+    ret <- envir_get("ee_facility_info", args)
     
     ret
 } 

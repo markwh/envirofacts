@@ -18,7 +18,7 @@ ghg_c_cems_quarterly_co2 <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, 
         UNIT_NAME = UNIT_NAME, CEMS_CO2_EMISSIONS_QUARTER_1 = CEMS_CO2_EMISSIONS_QUARTER_1, 
         CEMS_CO2_EMISSIONS_QUARTER_2 = CEMS_CO2_EMISSIONS_QUARTER_2, CEMS_CO2_EMISSIONS_QUARTER_3 = CEMS_CO2_EMISSIONS_QUARTER_3, 
         CEMS_CO2_EMISSIONS_QUARTER_4 = CEMS_CO2_EMISSIONS_QUARTER_4)
-    ret <- envir_get(c_cems_quarterly_co2, args)
+    ret <- envir_get("c_cems_quarterly_co2", args)
     
     ret
 } 

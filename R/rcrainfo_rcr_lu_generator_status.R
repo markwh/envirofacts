@@ -11,7 +11,7 @@ rcrainfo_rcr_lu_generator_status <- function(OWNER = NULL, WASTE_GENERATOR_STATU
     
     args <- list(OWNER = OWNER, WASTE_GENERATOR_STATUS_CODE = WASTE_GENERATOR_STATUS_CODE, 
         ACTIVE_STATUS = ACTIVE_STATUS, WASTE_GENERATOR_STATUS_DESC = WASTE_GENERATOR_STATUS_DESC)
-    ret <- envir_get(rcr_lu_generator_status, args)
+    ret <- envir_get("rcr_lu_generator_status", args)
     
     ret
 } 

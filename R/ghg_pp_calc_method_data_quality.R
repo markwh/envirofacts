@@ -18,7 +18,7 @@ ghg_pp_calc_method_data_quality <- function(FACILITY_ID = NULL, REPORTING_YEAR =
         CALCULATION_METHODOLOGY = CALCULATION_METHODOLOGY, SUBSTITUTE_MASSVOLUME_DATA_USE = SUBSTITUTE_MASSVOLUME_DATA_USE, 
         SUB_CONCENTRATION_DATA_USE = SUB_CONCENTRATION_DATA_USE, SUBSTITUTE_DENSITY_DATA_USE = SUBSTITUTE_DENSITY_DATA_USE, 
         IMPORTER_EXPORTER_TYPE = IMPORTER_EXPORTER_TYPE)
-    ret <- envir_get(pp_calc_method_data_quality, args)
+    ret <- envir_get("pp_calc_method_data_quality", args)
     
     ret
 } 

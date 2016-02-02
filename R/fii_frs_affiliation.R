@@ -33,7 +33,7 @@ fii_frs_affiliation <- function(AFFILIATION_UIN = NULL, PGM_SYS_ACRNM = NULL, PG
         CREATE_DATE = CREATE_DATE, UPDATE_DATE = UPDATE_DATE, USER_ID = USER_ID, 
         SENSITIVE_IND = SENSITIVE_IND, PUBLIC_IND = PUBLIC_IND, SUP_INTEREST_ID = SUP_INTEREST_ID, 
         REGISTRY_ID = REGISTRY_ID)
-    ret <- envir_get(frs_affiliation, args)
+    ret <- envir_get("frs_affiliation", args)
     
     ret
 } 

@@ -15,7 +15,7 @@ ghg_pp_mass_flow_measure_details <- function(FACILITY_ID = NULL, REPORTING_YEAR 
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         STREAM_OR_METER_NAME = STREAM_OR_METER_NAME, QUARTER_IDENTIFICATION = QUARTER_IDENTIFICATION, 
         CONCENTRATION_MEASURE_STANDARD = CONCENTRATION_MEASURE_STANDARD)
-    ret <- envir_get(pp_mass_flow_measure_details, args)
+    ret <- envir_get("pp_mass_flow_measure_details", args)
     
     ret
 } 

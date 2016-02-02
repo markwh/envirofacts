@@ -12,7 +12,7 @@ radnet_erm_location <- function(LOC_NUM = NULL, STATE_ABBR = NULL, CITY_NAME = N
     
     args <- list(LOC_NUM = LOC_NUM, STATE_ABBR = STATE_ABBR, CITY_NAME = CITY_NAME, 
         SURFACE_WATER_SOURCE = SURFACE_WATER_SOURCE, STATION = STATION)
-    ret <- envir_get(erm_location, args)
+    ret <- envir_get("erm_location", args)
     
     ret
 } 

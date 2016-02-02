@@ -60,7 +60,7 @@ ghg_w_well_completion_hydraulic <- function(FACILITY_ID = NULL, REPORTING_YEAR =
         COMPLETIONS_NMBR_BKFLW_DAYS = COMPLETIONS_NMBR_BKFLW_DAYS, TWO_YEAR_DELAY_INDICATOR = TWO_YEAR_DELAY_INDICATOR, 
         WORKOVER_GAS_RECVRD_TO_SALES = WORKOVER_GAS_RECVRD_TO_SALES, API_WELL_NUMBERS = API_WELL_NUMBERS, 
         COMPLETION_BACKFLOW_FLOW_RATE = COMPLETION_BACKFLOW_FLOW_RATE)
-    ret <- envir_get(w_well_completion_hydraulic, args)
+    ret <- envir_get("w_well_completion_hydraulic", args)
     
     ret
 } 

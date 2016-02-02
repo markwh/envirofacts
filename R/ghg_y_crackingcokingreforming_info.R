@@ -54,7 +54,7 @@ ghg_y_crackingcokingreforming_info <- function(FACILITY_ID = NULL, REPORTING_YEA
         CH4_EMISSION_FACTOR_BASIS = CH4_EMISSION_FACTOR_BASIS, PERCENT_N2_INLET_GAS_MTHD_OTHR = PERCENT_N2_INLET_GAS_MTHD_OTHR, 
         C_CONTENT_BASIS_Y8 = C_CONTENT_BASIS_Y8, C_CONTENT_BASIS_Y8_OTHER = C_CONTENT_BASIS_Y8_OTHER, 
         COKE_BURN_OFF_QUANTITY = COKE_BURN_OFF_QUANTITY, COKE_BURN_OFF_QUANTITY_UOM = COKE_BURN_OFF_QUANTITY_UOM)
-    ret <- envir_get(y_crackingcokingreforming_info, args)
+    ret <- envir_get("y_crackingcokingreforming_info", args)
     
     ret
 } 

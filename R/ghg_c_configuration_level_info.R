@@ -96,7 +96,7 @@ ghg_c_configuration_level_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = 
         TOTAL_AMT_SORBENT_USED = TOTAL_AMT_SORBENT_USED, PLANT_CODE = PLANT_CODE, 
         CP_USEIVTIND = CP_USEIVTIND, CS_USEIVTIND = CS_USEIVTIND, IND_USE_IVT_IND = IND_USE_IVT_IND, 
         AGG_USEIVTIND = AGG_USEIVTIND)
-    ret <- envir_get(c_configuration_level_info, args)
+    ret <- envir_get("c_configuration_level_info", args)
     
     ret
 } 

@@ -18,7 +18,7 @@ ghg_dd_sf6pfc_acquisitions <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL
         GAS_NAME_SF6_OR_PFC = GAS_NAME_SF6_OR_PFC, GAS_PURCHASED_FROM_EQUIP_MANUF = GAS_PURCHASED_FROM_EQUIP_MANUF, 
         GAS_PURCHASED_IN_BULK = GAS_PURCHASED_IN_BULK, GAS_RETURN_AFTER_OFFSITE_RECYC = GAS_RETURN_AFTER_OFFSITE_RECYC, 
         ACQUISITIONS_OF_GAS_REPORTED = ACQUISITIONS_OF_GAS_REPORTED)
-    ret <- envir_get(dd_sf6pfc_acquisitions, args)
+    ret <- envir_get("dd_sf6pfc_acquisitions", args)
     
     ret
 } 

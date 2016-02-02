@@ -25,7 +25,7 @@ fii_frs_alt_name <- function(PGM_SYS_ACRNM = NULL, PGM_SYS_ID = NULL, REGISTRY_I
         SOURCE_OF_DATA = SOURCE_OF_DATA, LAST_REPORTED_DATE = LAST_REPORTED_DATE, 
         STD_ALT_NAME = STD_ALT_NAME, CREATE_DATE = CREATE_DATE, USER_ID = USER_ID, 
         SENSITIVE_IND = SENSITIVE_IND, UPDATE_DATE = UPDATE_DATE, PUBLIC_IND = PUBLIC_IND)
-    ret <- envir_get(frs_alt_name, args)
+    ret <- envir_get("frs_alt_name", args)
     
     ret
 } 

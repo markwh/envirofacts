@@ -17,7 +17,7 @@ fii_frs_interest_ref <- function(INTEREST_TYPE = NULL, INTEREST_DESC = NULL, PRO
     args <- list(INTEREST_TYPE = INTEREST_TYPE, INTEREST_DESC = INTEREST_DESC, PROGRAM_CATEGORY = PROGRAM_CATEGORY, 
         PROGRAM_CATEGORY_DESC = PROGRAM_CATEGORY_DESC, QUERY_FLAG = QUERY_FLAG, PUBLIC_IND = PUBLIC_IND, 
         CREATE_DATE = CREATE_DATE, UPDATE_DATE = UPDATE_DATE)
-    ret <- envir_get(frs_interest_ref, args)
+    ret <- envir_get("frs_interest_ref", args)
     
     ret
 } 

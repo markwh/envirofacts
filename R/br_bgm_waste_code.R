@@ -18,7 +18,7 @@ br_bgm_waste_code <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL, SOURC
     args <- list(HANDLER_ID = HANDLER_ID, ACTIVITY_LOCATION = ACTIVITY_LOCATION, 
         SOURCE_TYPE = SOURCE_TYPE, SEQ_NUMBER = SEQ_NUMBER, HZ_PG = HZ_PG, WASTE_CODE_OWNER = WASTE_CODE_OWNER, 
         WASTE_CODE = WASTE_CODE, USERID = USERID, LAST_CHANGE = LAST_CHANGE)
-    ret <- envir_get(bgm_waste_code, args)
+    ret <- envir_get("bgm_waste_code", args)
     
     ret
 } 

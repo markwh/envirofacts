@@ -10,7 +10,7 @@ igms_ogd_stat_authority <- function(STAT_AUTH_SEQ = NULL, STAT_AUTH_CODE = NULL,
     
     args <- list(STAT_AUTH_SEQ = STAT_AUTH_SEQ, STAT_AUTH_CODE = STAT_AUTH_CODE, 
         STAT_AUTH_DESCRIPTION = STAT_AUTH_DESCRIPTION)
-    ret <- envir_get(ogd_stat_authority, args)
+    ret <- envir_get("ogd_stat_authority", args)
     
     ret
 } 

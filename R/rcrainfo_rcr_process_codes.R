@@ -14,7 +14,7 @@ rcrainfo_rcr_process_codes <- function(OWNER = NULL, PROCESS_CODE = NULL, UOM_OW
     
     args <- list(OWNER = OWNER, PROCESS_CODE = PROCESS_CODE, UOM_OWN = UOM_OWN, UOM_TYPE = UOM_TYPE, 
         ACTIVE_STATUS = ACTIVE_STATUS, PROCESS_TYPE = PROCESS_TYPE, PROCESS_DESC = PROCESS_DESC)
-    ret <- envir_get(rcr_process_codes, args)
+    ret <- envir_get("rcr_process_codes", args)
     
     ret
 } 

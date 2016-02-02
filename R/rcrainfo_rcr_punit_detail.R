@@ -28,7 +28,7 @@ rcrainfo_rcr_punit_detail <- function(HANDLER_ID = NULL, UNIT_SEQ = NULL, UNIT_D
         LE_OWN = LE_OWN, LEG_OP_STATUS_CODE = LEG_OP_STATUS_CODE, UOM_OWN = UOM_OWN, 
         UOM_TYPE = UOM_TYPE, PROCESS_OWN = PROCESS_OWN, PROCESS_CODE = PROCESS_CODE, 
         STANDARDIZED_PERMIT_IND = STANDARDIZED_PERMIT_IND)
-    ret <- envir_get(rcr_punit_detail, args)
+    ret <- envir_get("rcr_punit_detail", args)
     
     ret
 } 

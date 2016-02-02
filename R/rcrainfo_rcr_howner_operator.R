@@ -33,7 +33,7 @@ rcrainfo_rcr_howner_operator <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = 
         DATE_ENDED_CURRENT = DATE_ENDED_CURRENT, STREET_NO = STREET_NO, STREET1 = STREET1, 
         STREET2 = STREET2, CITY = CITY, STATE = STATE, COUNTRY = COUNTRY, ZIP = ZIP, 
         PHONE = PHONE)
-    ret <- envir_get(rcr_howner_operator, args)
+    ret <- envir_get("rcr_howner_operator", args)
     
     ret
 } 

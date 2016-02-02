@@ -36,7 +36,7 @@ ghg_q_unit_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, Q5_CO2
         UNIT_TYPE = UNIT_TYPE, BASIS_MOLTEN_STEEL_CC = BASIS_MOLTEN_STEEL_CC, Q1_CO2_EMISSIONS = Q1_CO2_EMISSIONS, 
         Q2_CO2_EMISSIONS = Q2_CO2_EMISSIONS, Q3_CO2_EMISSIONS = Q3_CO2_EMISSIONS, 
         Q4_CO2_EMISSIONS = Q4_CO2_EMISSIONS, HOURLY_AVG_CO2_EMISSION_RATE = HOURLY_AVG_CO2_EMISSION_RATE)
-    ret <- envir_get(q_unit_details, args)
+    ret <- envir_get("q_unit_details", args)
     
     ret
 } 

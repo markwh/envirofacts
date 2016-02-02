@@ -8,7 +8,7 @@
 ghg_x_t4cemsdetails <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, CML_TOTAL_OPERATING_HOURS = NULL) {
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, CML_TOTAL_OPERATING_HOURS = CML_TOTAL_OPERATING_HOURS)
-    ret <- envir_get(x_t4cemsdetails, args)
+    ret <- envir_get("x_t4cemsdetails", args)
     
     ret
 } 

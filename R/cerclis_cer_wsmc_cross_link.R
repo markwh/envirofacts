@@ -8,7 +8,7 @@
 cerclis_cer_wsmc_cross_link <- function(SITE_ID = NULL, WSMC_NMBR = NULL, WCL_C2501 = NULL) {
     
     args <- list(SITE_ID = SITE_ID, WSMC_NMBR = WSMC_NMBR, WCL_C2501 = WCL_C2501)
-    ret <- envir_get(cer_wsmc_cross_link, args)
+    ret <- envir_get("cer_wsmc_cross_link", args)
     
     ret
 } 

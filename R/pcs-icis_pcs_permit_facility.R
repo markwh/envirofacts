@@ -101,7 +101,7 @@ pcs.icis_pcs_permit_facility <- function(NPDES = NULL, NAME_1 = NULL, NAME_2 = N
         NMP_QUARTER = NMP_QUARTER, LATITUDE = LATITUDE, LONGITUDE = LONGITUDE, CODE_OF_ACCURACY = CODE_OF_ACCURACY, 
         METHOD = METHOD, DATUM = DATUM, SCALE = SCALE, DESCRIPT = DESCRIPT, USGS_HYDRO_BASIN_CODE = USGS_HYDRO_BASIN_CODE, 
         STREAM_SEGMENT = STREAM_SEGMENT, MILEAGE_IND = MILEAGE_IND, RECVNG_STREAM_CLASS_CODE = RECVNG_STREAM_CLASS_CODE)
-    ret <- envir_get(pcs_permit_facility, args)
+    ret <- envir_get("pcs_permit_facility", args)
     
     ret
 } 

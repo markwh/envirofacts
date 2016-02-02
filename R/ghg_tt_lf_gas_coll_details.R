@@ -16,7 +16,7 @@ ghg_tt_lf_gas_coll_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         MONTH_NAME = MONTH_NAME, AVERAGE_TEMPERATURE = AVERAGE_TEMPERATURE, AVERAGE_PRESSURE = AVERAGE_PRESSURE, 
         AVERAGE_MOISTURE_CONTENT = AVERAGE_MOISTURE_CONTENT)
-    ret <- envir_get(tt_lf_gas_coll_details, args)
+    ret <- envir_get("tt_lf_gas_coll_details", args)
     
     ret
 } 

@@ -34,7 +34,7 @@ afs_effrs_afsact1 <- function(STATE_COUNTY_COMPLIANCE_SOURCE = NULL, ACTION_NUMB
         POLLUTANT_CODE = POLLUTANT_CODE, REGIONAL_DATA_ELEMENT = REGIONAL_DATA_ELEMENT, 
         REGIONAL_DATA_ELEMENT_16 = REGIONAL_DATA_ELEMENT_16, HPV_ADDRESSING_ACTION_DESC = HPV_ADDRESSING_ACTION_DESC, 
         CREATION_DATE = CREATION_DATE)
-    ret <- envir_get(effrs_afsact1, args)
+    ret <- envir_get("effrs_afsact1", args)
     
     ret
 } 

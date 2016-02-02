@@ -22,7 +22,7 @@ pcs.icis_pcs_cmpl_schd_viol <- function(NPDES = NULL, CMPL_SCHD_NUM = NULL, CMPL
         CMPL_SCHD_VIOL_DATE = CMPL_SCHD_VIOL_DATE, CS_RNC_DETECT_CODE = CS_RNC_DETECT_CODE, 
         CS_RNC_DETECT_DATE = CS_RNC_DETECT_DATE, CS_RNC_RESOL_CODE = CS_RNC_RESOL_CODE, 
         CS_RNC_RESOL_DATE = CS_RNC_RESOL_DATE)
-    ret <- envir_get(pcs_cmpl_schd_viol, args)
+    ret <- envir_get("pcs_cmpl_schd_viol", args)
     
     ret
 } 

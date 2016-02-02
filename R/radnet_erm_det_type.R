@@ -8,7 +8,7 @@
 radnet_erm_det_type <- function(DET_NUM = NULL, DET_ID = NULL, DET_TYPE_ID = NULL) {
     
     args <- list(DET_NUM = DET_NUM, DET_ID = DET_ID, DET_TYPE_ID = DET_TYPE_ID)
-    ret <- envir_get(erm_det_type, args)
+    ret <- envir_get("erm_det_type", args)
     
     ret
 } 

@@ -12,7 +12,7 @@ ghg_f_smelter_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, DAT
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, DATE_SMELTER_SSCOEFF_MEASURED = DATE_SMELTER_SSCOEFF_MEASURED, 
         UNIT_NAME = UNIT_NAME, FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(f_smelter_details, args)
+    ret <- envir_get("f_smelter_details", args)
     
     ret
 } 

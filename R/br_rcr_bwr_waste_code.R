@@ -17,7 +17,7 @@ br_rcr_bwr_waste_code <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL, S
     args <- list(HANDLER_ID = HANDLER_ID, ACTIVITY_LOCATION = ACTIVITY_LOCATION, 
         SOURCE_TYPE = SOURCE_TYPE, SEQ_NUMBER = SEQ_NUMBER, HZ_PG = HZ_PG, SUB_PAGE_NUM = SUB_PAGE_NUM, 
         WASTE_CODE_OWNER = WASTE_CODE_OWNER, WASTE_CODE = WASTE_CODE)
-    ret <- envir_get(rcr_bwr_waste_code, args)
+    ret <- envir_get("rcr_bwr_waste_code", args)
     
     ret
 } 

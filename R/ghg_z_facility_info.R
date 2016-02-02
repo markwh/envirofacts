@@ -11,7 +11,7 @@ ghg_z_facility_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, WET_P
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, WET_PROCESS_LINES_NUMBER = WET_PROCESS_LINES_NUMBER, 
         FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(z_facility_info, args)
+    ret <- envir_get("z_facility_info", args)
     
     ret
 } 

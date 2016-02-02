@@ -22,7 +22,7 @@ cerclis_cer_action <- function(RAT_CODE = NULL, SITE_ID = NULL, ACT_CODE_ID = NU
         ACT_ACTL_STRT_DATE = ACT_ACTL_STRT_DATE, ACT_ACTL_CMPLTN_DATE = ACT_ACTL_CMPLTN_DATE, 
         RAQ_ACTION_QUAL_CODE = RAQ_ACTION_QUAL_CODE, OU_ID = OU_ID, RALT_CODE = RALT_CODE, 
         RPS_CODE = RPS_CODE, RACT_CRITICAL_FLAG_CODE = RACT_CRITICAL_FLAG_CODE, RAA_CODE = RAA_CODE)
-    ret <- envir_get(cer_action, args)
+    ret <- envir_get("cer_action", args)
     
     ret
 } 

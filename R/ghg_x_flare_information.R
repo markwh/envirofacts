@@ -73,7 +73,7 @@ ghg_x_flare_information <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, Y
         Y1A_VOL_FLARE_GAS = Y1A_VOL_FLARE_GAS, Y1A_VOL_FLARE_GAS_METHOD = Y1A_VOL_FLARE_GAS_METHOD, 
         Y1A_MOL_WT = Y1A_MOL_WT, Y1A_C_CONTENT_METHOD = Y1A_C_CONTENT_METHOD, Y1A_MOL_WT_METHOD = Y1A_MOL_WT_METHOD, 
         Y1B_CONC_NON_CO2_C_COMP_METHD = Y1B_CONC_NON_CO2_C_COMP_METHD)
-    ret <- envir_get(x_flare_information, args)
+    ret <- envir_get("x_flare_information", args)
     
     ret
 } 

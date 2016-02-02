@@ -12,7 +12,7 @@ rcrainfo_rcr_hbasic <- function(HANDLER_ID = NULL, FACILITY_IDENTIFIER = NULL, H
     
     args <- list(HANDLER_ID = HANDLER_ID, FACILITY_IDENTIFIER = FACILITY_IDENTIFIER, 
         HANDLER_NAME = HANDLER_NAME, REGION = REGION, STATE = STATE)
-    ret <- envir_get(rcr_hbasic, args)
+    ret <- envir_get("rcr_hbasic", args)
     
     ret
 } 

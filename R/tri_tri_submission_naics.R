@@ -12,7 +12,7 @@ tri_tri_submission_naics <- function(TRI_FACILITY_ID = NULL, DOC_CTRL_NUM = NULL
     
     args <- list(TRI_FACILITY_ID = TRI_FACILITY_ID, DOC_CTRL_NUM = DOC_CTRL_NUM, 
         NAICS_CODE = NAICS_CODE, NAICS_SEQUENCE_NUM = NAICS_SEQUENCE_NUM, PRIMARY_IND = PRIMARY_IND)
-    ret <- envir_get(tri_submission_naics, args)
+    ret <- envir_get("tri_submission_naics", args)
     
     ret
 } 

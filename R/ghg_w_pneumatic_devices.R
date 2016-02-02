@@ -30,7 +30,7 @@ ghg_w_pneumatic_devices <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, P
         DOES_FAC_HAVE_INTR_BLEED_DEVIC = DOES_FAC_HAVE_INTR_BLEED_DEVIC, DOES_FAC_HAVE_LOW_BLEED_DEVICE = DOES_FAC_HAVE_LOW_BLEED_DEVICE, 
         BAMM_IND_PNEUMATIC_DEVICES = BAMM_IND_PNEUMATIC_DEVICES, BAMM_DESC_PNEUMATIC_DEVICES = BAMM_DESC_PNEUMATIC_DEVICES, 
         INDUSTRY_SEGMENT = INDUSTRY_SEGMENT)
-    ret <- envir_get(w_pneumatic_devices, args)
+    ret <- envir_get("w_pneumatic_devices", args)
     
     ret
 } 

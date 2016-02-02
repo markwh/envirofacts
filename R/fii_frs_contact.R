@@ -29,7 +29,7 @@ fii_frs_contact <- function(CONTACT_UIN = NULL, FULL_NAME = NULL, TITLE = NULL, 
         LAST_REPORTED_DATE = LAST_REPORTED_DATE, CREATE_DATE = CREATE_DATE, UPDATE_DATE = UPDATE_DATE, 
         USER_ID = USER_ID, STD_FULL_NAME = STD_FULL_NAME, SENSITIVE_IND = SENSITIVE_IND, 
         PUBLIC_IND = PUBLIC_IND)
-    ret <- envir_get(frs_contact, args)
+    ret <- envir_get("frs_contact", args)
     
     ret
 } 

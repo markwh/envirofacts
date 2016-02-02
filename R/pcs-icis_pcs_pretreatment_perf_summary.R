@@ -18,7 +18,7 @@ pcs.icis_pcs_pretreatment_perf_summary <- function(NPDES = NULL, REPORT_START_DA
         SIUS_IN_SNC_COMPL_SCHED = SIUS_IN_SNC_COMPL_SCHED, CIVIL_OR_CRIM_JUDICIAL_ACTS = CIVIL_OR_CRIM_JUDICIAL_ACTS, 
         NOVS_AND_AOS_AGAINST_SIUS = NOVS_AND_AOS_AGAINST_SIUS, IUS_THAT_PAID_PENALTIES = IUS_THAT_PAID_PENALTIES, 
         SIUS_WITH_PUBLISHED_VIOLS = SIUS_WITH_PUBLISHED_VIOLS)
-    ret <- envir_get(pcs_pretreatment_perf_summary, args)
+    ret <- envir_get("pcs_pretreatment_perf_summary", args)
     
     ret
 } 

@@ -23,7 +23,7 @@ rcrainfo_rcr_event_authority <- function(EVENT_ID = NULL, EVENT_OWN = NULL, EVEN
         EVENT_SEQ = EVENT_SEQ, EVENT_AGENCY = EVENT_AGENCY, EVENT_LOCATION = EVENT_LOCATION, 
         AUTHORITY_ID = AUTHORITY_ID, AUTHORITY_OWN = AUTHORITY_OWN, AUTHORITY_TYPE = AUTHORITY_TYPE, 
         EFFECTIVE_DATE = EFFECTIVE_DATE, AUTHORITY_AGENCY = AUTHORITY_AGENCY, AUTHORITY_LOCATION = AUTHORITY_LOCATION)
-    ret <- envir_get(rcr_event_authority, args)
+    ret <- envir_get("rcr_event_authority", args)
     
     ret
 } 

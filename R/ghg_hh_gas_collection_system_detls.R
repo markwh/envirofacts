@@ -55,7 +55,7 @@ ghg_hh_gas_collection_system_detls <- function(FACILITY_ID = NULL, REPORTING_YEA
         DESTRUCTION_EFFICIENCY_PCT = DESTRUCTION_EFFICIENCY_PCT, PRIMARY_DESTR_DEVICE_ANN_OP_HR = PRIMARY_DESTR_DEVICE_ANN_OP_HR, 
         IS_PRESSURE_INCORPORATED = IS_PRESSURE_INCORPORATED, IS_TEMPERATURE_INCORPORATED = IS_TEMPERATURE_INCORPORATED, 
         ANNL_AVG_METHANE_CONC_MONS_SUB = ANNL_AVG_METHANE_CONC_MONS_SUB)
-    ret <- envir_get(hh_gas_collection_system_detls, args)
+    ret <- envir_get("hh_gas_collection_system_detls", args)
     
     ret
 } 

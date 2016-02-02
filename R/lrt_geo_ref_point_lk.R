@@ -7,7 +7,7 @@
 lrt_geo_ref_point_lk <- function(REF_POINT_CODE = NULL, REF_POINT_DESC = NULL) {
     
     args <- list(REF_POINT_CODE = REF_POINT_CODE, REF_POINT_DESC = REF_POINT_DESC)
-    ret <- envir_get(geo_ref_point_lk, args)
+    ret <- envir_get("geo_ref_point_lk", args)
     
     ret
 } 

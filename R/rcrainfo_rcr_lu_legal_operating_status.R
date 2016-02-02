@@ -43,7 +43,7 @@ rcrainfo_rcr_lu_legal_operating_status <- function(OWNER = NULL, LEG_OP_STATUS_C
         GPRA_PERMIT_2006_ACCOMPLISHED = GPRA_PERMIT_2006_ACCOMPLISHED, AS_FEDERALLY_REGULATED_TSDF = AS_FEDERALLY_REGULATED_TSDF, 
         AS_CONVERTER_TSDF = AS_CONVERTER_TSDF, AS_STATE_REGULATED_TSDF = AS_STATE_REGULATED_TSDF, 
         PERMIT_RENEWAL_WRKLD = PERMIT_RENEWAL_WRKLD)
-    ret <- envir_get(rcr_lu_legal_operating_status, args)
+    ret <- envir_get("rcr_lu_legal_operating_status", args)
     
     ret
 } 

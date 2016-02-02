@@ -12,7 +12,7 @@ ghg_gg_facility_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, NUMB
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, NUMBER_OF_WAELZ_KILNS = NUMBER_OF_WAELZ_KILNS, 
         NUM_OF_ELECTRO_THERMIC_FURNACE = NUM_OF_ELECTRO_THERMIC_FURNACE, FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(gg_facility_info, args)
+    ret <- envir_get("gg_facility_info", args)
     
     ret
 } 

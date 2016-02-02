@@ -51,7 +51,7 @@ afs_effrs_afsapp <- function(STATE_COUNTY_COMPLIANCE_SOURCE = NULL, AIR_PROGRAM_
         EPA_PLLT_COMPLIANCE_DESC = EPA_PLLT_COMPLIANCE_DESC, EPA_PLLT_CLASS_CODE = EPA_PLLT_CLASS_CODE, 
         EPA_PLLT_CLASS_DESC = EPA_PLLT_CLASS_DESC, DATE_RECORD_UPDATED = DATE_RECORD_UPDATED, 
         AIR_PROGRAMS = AIR_PROGRAMS)
-    ret <- envir_get(effrs_afsapp, args)
+    ret <- envir_get("effrs_afsapp", args)
     
     ret
 } 

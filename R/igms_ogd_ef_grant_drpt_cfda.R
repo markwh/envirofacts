@@ -7,7 +7,7 @@
 igms_ogd_ef_grant_drpt_cfda <- function(FK_CFDA_SEQ = NULL, FK_GRANT_SEQ = NULL) {
     
     args <- list(FK_CFDA_SEQ = FK_CFDA_SEQ, FK_GRANT_SEQ = FK_GRANT_SEQ)
-    ret <- envir_get(ogd_ef_grant_drpt_cfda, args)
+    ret <- envir_get("ogd_ef_grant_drpt_cfda", args)
     
     ret
 } 

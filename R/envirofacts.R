@@ -8,6 +8,7 @@
 
 # Convention Helper functions ---------------------------------------------
 
+#' @importFrom httr GET
 envir_get <- function(table, arglist = list()) {
   table <- toupper(table)
 
@@ -81,7 +82,8 @@ envir_makeDf <- function(envirList) {
   allrows = lapply(envirList, `[`, allnames)
   allrows = lapply(allrows, setNames, allnames)
   allrows = lapply(allrows, nullToNA)
-  out <- dplyr::bind_rows(allrows)
+  out <- rbind_all2(allrows)
+  out
 }
 
 #' @importFrom assertthat assert_that
@@ -197,7 +199,7 @@ envir_makeFunction <- function(table, service, description = NULL, dir = "./R", 
   argVals <- paste(names(ret), names(ret), sep = " = ", collapse = ", \n    ")
 
   assignment <- sprintf("%s_%s <- function(%s) {\n\n", service, table, defaultArgs)
-  body <- sprintf("  args <- list(%s)\n  ret <- envir_get(%s, args)\n", argVals, table)
+  body <- sprintf("  args <- list(%s)\n  ret <- envir_get('%s', args)\n", argVals, table)
   cat(assignment, body, file = fil, append = TRUE)
   cat("\n  ret\n}\n", file = fil, append = TRUE)
 

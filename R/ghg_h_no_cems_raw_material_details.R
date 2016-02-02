@@ -13,7 +13,7 @@ ghg_h_no_cems_raw_material_details <- function(FACILITY_ID = NULL, REPORTING_YEA
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         UNIT_NAME = UNIT_NAME, RAW_KILNFD_CONSUMPTION = RAW_KILNFD_CONSUMPTION, ORG_CARBON_RAWKILNFD = ORG_CARBON_RAWKILNFD)
-    ret <- envir_get(h_no_cems_raw_material_details, args)
+    ret <- envir_get("h_no_cems_raw_material_details", args)
     
     ret
 } 

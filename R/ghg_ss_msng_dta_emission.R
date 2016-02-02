@@ -73,7 +73,7 @@ ghg_ss_msng_dta_emission <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, 
         MISSING_DATA_RETURNED_EQUIP = MISSING_DATA_RETURNED_EQUIP, MISSING_DATA_RETURN_SUPPLIERS = MISSING_DATA_RETURN_SUPPLIERS, 
         FACILITY_NAME = FACILITY_NAME, GAS_NAME = GAS_NAME, MTHD_BEGIN_YR_TO_ESTIMATE_DATA = MTHD_BEGIN_YR_TO_ESTIMATE_DATA, 
         MTHD_BULK_PURCH_TO_EST_DATA = MTHD_BULK_PURCH_TO_EST_DATA)
-    ret <- envir_get(ss_msng_dta_emission, args)
+    ret <- envir_get("ss_msng_dta_emission", args)
     
     ret
 } 

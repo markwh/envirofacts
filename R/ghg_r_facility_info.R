@@ -14,7 +14,7 @@ ghg_r_facility_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FACIL
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         IS_CEMS_USED = IS_CEMS_USED, NUM_SMELTING_FURNACES_CEMS = NUM_SMELTING_FURNACES_CEMS, 
         NUM_SMELTING_FURNACES_NOCEMS = NUM_SMELTING_FURNACES_NOCEMS)
-    ret <- envir_get(r_facility_info, args)
+    ret <- envir_get("r_facility_info", args)
     
     ret
 } 

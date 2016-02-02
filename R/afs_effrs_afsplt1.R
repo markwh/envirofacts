@@ -63,7 +63,7 @@ afs_effrs_afsplt1 <- function(EPA_PLANT_ID = NULL, PLANT_ID = NULL, REGION_CODE 
         HPV_FLAG = HPV_FLAG, DATE_PLANT_INFO_LAST_UPDATED = DATE_PLANT_INFO_LAST_UPDATED, 
         NAT_INIT_AIR_TOXICS = NAT_INIT_AIR_TOXICS, NAT_INIT_AIR_TOXICS_DESC = NAT_INIT_AIR_TOXICS_DESC, 
         AFS_PLANT_ID = AFS_PLANT_ID)
-    ret <- envir_get(effrs_afsplt1, args)
+    ret <- envir_get("effrs_afsplt1", args)
     
     ret
 } 

@@ -45,7 +45,7 @@ pcs.icis_pcs_pipe_sched <- function(NPDES = NULL, DISCHARGE_NUM = NULL, REPORT_D
         UNITS_IN_EPA_SUBM_PERIOD = UNITS_IN_EPA_SUBM_PERIOD, EPA_SUBMISSION_UNITS = EPA_SUBMISSION_UNITS, 
         INIT_STATE_SUBMISSION_DATE = INIT_STATE_SUBMISSION_DATE, UNITS_IN_STATE_SUBM_PERIOD = UNITS_IN_STATE_SUBM_PERIOD, 
         STATE_SUBMISSION_UNITS = STATE_SUBMISSION_UNITS)
-    ret <- envir_get(pcs_pipe_sched, args)
+    ret <- envir_get("pcs_pipe_sched", args)
     
     ret
 } 

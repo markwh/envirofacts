@@ -67,7 +67,7 @@ tri_tri_facility_history <- function(TRI_FACILITY_ID = NULL, REPORTING_YEAR = NU
         ASGN_PUBLIC_PHONE = ASGN_PUBLIC_PHONE, ASGN_PUBLIC_CONTACT_EMAIL = ASGN_PUBLIC_CONTACT_EMAIL, 
         BIA_CODE = BIA_CODE, STANDARDIZED_PARENT_COMPANY = STANDARDIZED_PARENT_COMPANY, 
         ASGN_PUBLIC_PHONE_EXT = ASGN_PUBLIC_PHONE_EXT)
-    ret <- envir_get(tri_facility_history, args)
+    ret <- envir_get("tri_facility_history", args)
     
     ret
 } 

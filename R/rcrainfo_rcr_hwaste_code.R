@@ -14,7 +14,7 @@ rcrainfo_rcr_hwaste_code <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL
     args <- list(HANDLER_ID = HANDLER_ID, ACTIVITY_LOCATION = ACTIVITY_LOCATION, 
         SOURCE_TYPE = SOURCE_TYPE, SEQ_NUMBER = SEQ_NUMBER, WASTE_CODE_OWNER = WASTE_CODE_OWNER, 
         WASTE_CODE = WASTE_CODE)
-    ret <- envir_get(rcr_hwaste_code, args)
+    ret <- envir_get("rcr_hwaste_code", args)
     
     ret
 } 

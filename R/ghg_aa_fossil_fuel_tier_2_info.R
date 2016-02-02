@@ -13,7 +13,7 @@ ghg_aa_fossil_fuel_tier_2_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = 
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         UNIT_NAME = UNIT_NAME, TIER_2_MONTH_NAME = TIER_2_MONTH_NAME, TIER_2_HHV_SUBSTITUTE_IND = TIER_2_HHV_SUBSTITUTE_IND)
-    ret <- envir_get(aa_fossil_fuel_tier_2_info, args)
+    ret <- envir_get("aa_fossil_fuel_tier_2_info", args)
     
     ret
 } 

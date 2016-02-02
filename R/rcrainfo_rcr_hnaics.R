@@ -15,7 +15,7 @@ rcrainfo_rcr_hnaics <- function(NAICS_SEQ = NULL, SEQ_NUMBER = NULL, ACTIVITY_LO
     args <- list(NAICS_SEQ = NAICS_SEQ, SEQ_NUMBER = SEQ_NUMBER, ACTIVITY_LOCATION = ACTIVITY_LOCATION, 
         HANDLER_ID = HANDLER_ID, SOURCE_TYPE = SOURCE_TYPE, NAICS_OWNER = NAICS_OWNER, 
         NAICS_CODE = NAICS_CODE)
-    ret <- envir_get(rcr_hnaics, args)
+    ret <- envir_get("rcr_hnaics", args)
     
     ret
 } 

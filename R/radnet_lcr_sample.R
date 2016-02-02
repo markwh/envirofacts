@@ -16,7 +16,7 @@ radnet_lcr_sample <- function(PWSID = NULL, SAMPLE_ID = NULL, SAMPLING_END_DATE 
     args <- list(PWSID = PWSID, SAMPLE_ID = SAMPLE_ID, SAMPLING_END_DATE = SAMPLING_END_DATE, 
         SAMPLING_START_DATE = SAMPLING_START_DATE, RECONCILIATION_ID = RECONCILIATION_ID, 
         PRIMACY_AGENCY_CODE = PRIMACY_AGENCY_CODE, EPA_REGION = EPA_REGION)
-    ret <- envir_get(lcr_sample, args)
+    ret <- envir_get("lcr_sample", args)
     
     ret
 } 

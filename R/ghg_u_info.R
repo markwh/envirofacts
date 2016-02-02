@@ -11,7 +11,7 @@ ghg_u_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, EMISSIONS_CALC
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, EMISSIONS_CALC_METHOD = EMISSIONS_CALC_METHOD, 
         FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(u_info, args)
+    ret <- envir_get("u_info", args)
     
     ret
 } 

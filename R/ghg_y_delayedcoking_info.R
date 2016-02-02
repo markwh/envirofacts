@@ -12,7 +12,7 @@ ghg_y_delayedcoking_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, 
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         TOTAL_NUMBER_OF_UNITS = TOTAL_NUMBER_OF_UNITS, CH4_EMISSIONS = CH4_EMISSIONS)
-    ret <- envir_get(y_delayedcoking_info, args)
+    ret <- envir_get("y_delayedcoking_info", args)
     
     ret
 } 

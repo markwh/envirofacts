@@ -12,7 +12,7 @@ ghg_nn_ldc_nat_gas_deliveries <- function(FACILITY_ID = NULL, REPORTING_YEAR = N
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         END_USER_CATEGORY = END_USER_CATEGORY, VOLUME_DELIVERED = VOLUME_DELIVERED)
-    ret <- envir_get(nn_ldc_nat_gas_deliveries, args)
+    ret <- envir_get("nn_ldc_nat_gas_deliveries", args)
     
     ret
 } 

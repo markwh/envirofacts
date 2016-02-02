@@ -93,7 +93,7 @@ lrt_frs_program_facility <- function(PGM_SYS_ACRNM = NULL, PGM_SYS_ID = NULL, RE
         PUBLIC_IND = PUBLIC_IND, REFRESH_DATE = REFRESH_DATE, SMALL_BUS_IND = SMALL_BUS_IND, 
         ENV_JUSTICE_CODE = ENV_JUSTICE_CODE, PARENT_PGM_SYS_ID = PARENT_PGM_SYS_ID, 
         STAND_ALONE_FLAG = STAND_ALONE_FLAG, SOURCE_OF_DATA = SOURCE_OF_DATA)
-    ret <- envir_get(frs_program_facility, args)
+    ret <- envir_get("frs_program_facility", args)
     
     ret
 } 

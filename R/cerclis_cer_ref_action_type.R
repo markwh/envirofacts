@@ -26,7 +26,7 @@ cerclis_cer_ref_action_type <- function(RAT_CODE = NULL, RAT_NAME = NULL, RAT_SH
         RAT_C2_TYPE = RAT_C2_TYPE, RAT_HISTORICAL_ONLY_FLAG = RAT_HISTORICAL_ONLY_FLAG, 
         RAT_NSI_INDICATOR = RAT_NSI_INDICATOR, RAT_LEVEL = RAT_LEVEL, RAT_DEFAULT_PRED_ACT_TYPE_CODE = RAT_DEFAULT_PRED_ACT_TYPE_CODE, 
         RIE_CODE = RIE_CODE, RAT_DEF_OU = RAT_DEF_OU, RFBS_CODE = RFBS_CODE, RAT_DEF = RAT_DEF)
-    ret <- envir_get(cer_ref_action_type, args)
+    ret <- envir_get("cer_ref_action_type", args)
     
     ret
 } 

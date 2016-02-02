@@ -39,7 +39,7 @@ ghg_h_cems_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, CEMS_C
         CEMS_CO2_EMISSIONS = CEMS_CO2_EMISSIONS, CEMS_CH4_EMISSIONS = CEMS_CH4_EMISSIONS, 
         CEMS_N2O_EMISSIONS = CEMS_N2O_EMISSIONS, CML_TOTAL_OPERATING_HOURS = CML_TOTAL_OPERATING_HOURS, 
         TIER4_SUB_OPER_HRS_CO2_CONC = TIER4_SUB_OPER_HRS_CO2_CONC)
-    ret <- envir_get(h_cems_details, args)
+    ret <- envir_get("h_cems_details", args)
     
     ret
 } 

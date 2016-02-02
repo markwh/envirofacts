@@ -7,7 +7,7 @@
 cerclis_cer_ref_action_qualifier <- function(RAQ_ACTION_QUAL_CODE = NULL, RAQ_ACTION_QUAL_DESC = NULL) {
     
     args <- list(RAQ_ACTION_QUAL_CODE = RAQ_ACTION_QUAL_CODE, RAQ_ACTION_QUAL_DESC = RAQ_ACTION_QUAL_DESC)
-    ret <- envir_get(cer_ref_action_qualifier, args)
+    ret <- envir_get("cer_ref_action_qualifier", args)
     
     ret
 } 

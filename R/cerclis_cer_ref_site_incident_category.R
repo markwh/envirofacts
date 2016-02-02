@@ -7,7 +7,7 @@
 cerclis_cer_ref_site_incident_category <- function(RSITINC_CODE = NULL, RSITINC_DESC = NULL) {
     
     args <- list(RSITINC_CODE = RSITINC_CODE, RSITINC_DESC = RSITINC_DESC)
-    ret <- envir_get(cer_ref_site_incident_category, args)
+    ret <- envir_get("cer_ref_site_incident_category", args)
     
     ret
 } 

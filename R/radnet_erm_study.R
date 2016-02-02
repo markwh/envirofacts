@@ -8,7 +8,7 @@
 radnet_erm_study <- function(STUDY_NUM = NULL, STUDY_ID = NULL, STUDY_NAME = NULL) {
     
     args <- list(STUDY_NUM = STUDY_NUM, STUDY_ID = STUDY_ID, STUDY_NAME = STUDY_NAME)
-    ret <- envir_get(erm_study, args)
+    ret <- envir_get("erm_study", args)
     
     ret
 } 

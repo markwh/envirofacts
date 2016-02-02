@@ -15,7 +15,7 @@ fii_frs_system_ref <- function(PGM_SYS_ACRNM = NULL, PGM_SYS_NAME = NULL, PGM_SY
     args <- list(PGM_SYS_ACRNM = PGM_SYS_ACRNM, PGM_SYS_NAME = PGM_SYS_NAME, PGM_SYS_DESC = PGM_SYS_DESC, 
         PUBLIC_IND = PUBLIC_IND, FED_STATE_CODE = FED_STATE_CODE, CREATE_DATE = CREATE_DATE, 
         UPDATE_DATE = UPDATE_DATE)
-    ret <- envir_get(frs_system_ref, args)
+    ret <- envir_get("frs_system_ref", args)
     
     ret
 } 

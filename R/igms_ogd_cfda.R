@@ -8,7 +8,7 @@
 igms_ogd_cfda <- function(CFDA_SEQ = NULL, CFDA_CODE = NULL, CFDA_DESCRIPTION = NULL) {
     
     args <- list(CFDA_SEQ = CFDA_SEQ, CFDA_CODE = CFDA_CODE, CFDA_DESCRIPTION = CFDA_DESCRIPTION)
-    ret <- envir_get(ogd_cfda, args)
+    ret <- envir_get("ogd_cfda", args)
     
     ret
 } 

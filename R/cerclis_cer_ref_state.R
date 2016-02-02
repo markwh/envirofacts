@@ -8,7 +8,7 @@
 cerclis_cer_ref_state <- function(RSTATE_CODE = NULL, RSTATE_NAME = NULL, RREGION_CODE = NULL) {
     
     args <- list(RSTATE_CODE = RSTATE_CODE, RSTATE_NAME = RSTATE_NAME, RREGION_CODE = RREGION_CODE)
-    ret <- envir_get(cer_ref_state, args)
+    ret <- envir_get("cer_ref_state", args)
     
     ret
 } 

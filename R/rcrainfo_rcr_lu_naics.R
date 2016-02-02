@@ -12,7 +12,7 @@ rcrainfo_rcr_lu_naics <- function(OWNER = NULL, NAICS_CODE = NULL, ACTIVE_STATUS
     
     args <- list(OWNER = OWNER, NAICS_CODE = NAICS_CODE, ACTIVE_STATUS = ACTIVE_STATUS, 
         NAICS_DESC = NAICS_DESC, NAICS_CYCLE = NAICS_CYCLE)
-    ret <- envir_get(rcr_lu_naics, args)
+    ret <- envir_get("rcr_lu_naics", args)
     
     ret
 } 

@@ -92,7 +92,7 @@ ghg_q_flare_information <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, C
         Y2_HHV_CONDITIONS = Y2_HHV_CONDITIONS, Y3_NUMBER_SSM_EVENTS = Y3_NUMBER_SSM_EVENTS, 
         Y1A_MOL_WT_METHOD = Y1A_MOL_WT_METHOD, Y1A_C_CONTENT_METHOD = Y1A_C_CONTENT_METHOD, 
         Y1B_CONC_NON_CO2_C_COMP_METHD = Y1B_CONC_NON_CO2_C_COMP_METHD, Y1BANNAVGCONCMTHD = Y1BANNAVGCONCMTHD)
-    ret <- envir_get(q_flare_information, args)
+    ret <- envir_get("q_flare_information", args)
     
     ret
 } 

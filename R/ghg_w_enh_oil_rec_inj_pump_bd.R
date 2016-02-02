@@ -26,7 +26,7 @@ ghg_w_enh_oil_rec_inj_pump_bd <- function(FACILITY_ID = NULL, REPORTING_YEAR = N
         INDUSTRY_SEGMENT = INDUSTRY_SEGMENT, SUB_IND_ENH_OIL_REC_INJ_PUM_BD = SUB_IND_ENH_OIL_REC_INJ_PUM_BD, 
         FACILITY_NAME = FACILITY_NAME, BAM_IND_ENH_OIL_REC_INJ_PUM_BD = BAM_IND_ENH_OIL_REC_INJ_PUM_BD, 
         BAM_DES_ENH_OIL_REC_INJ_PUM_BD = BAM_DES_ENH_OIL_REC_INJ_PUM_BD)
-    ret <- envir_get(w_enh_oil_rec_inj_pump_bd, args)
+    ret <- envir_get("w_enh_oil_rec_inj_pump_bd", args)
     
     ret
 } 

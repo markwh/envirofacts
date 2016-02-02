@@ -12,7 +12,7 @@ tri_tri_tribe_desc <- function(BIA_CODE = NULL, TRIBE = NULL, REGION = NULL, EPA
     
     args <- list(BIA_CODE = BIA_CODE, TRIBE = TRIBE, REGION = REGION, EPA_TRIBE_ID = EPA_TRIBE_ID, 
         STATE_ABBR = STATE_ABBR)
-    ret <- envir_get(tri_tribe_desc, args)
+    ret <- envir_get("tri_tribe_desc", args)
     
     ret
 } 

@@ -17,7 +17,7 @@ rcrainfo_rcr_huniversal_waste <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION =
     args <- list(HANDLER_ID = HANDLER_ID, ACTIVITY_LOCATION = ACTIVITY_LOCATION, 
         SOURCE_TYPE = SOURCE_TYPE, SEQ_NUMBER = SEQ_NUMBER, UNIVERSAL_WASTE_OWNER = UNIVERSAL_WASTE_OWNER, 
         UNIVERSAL_WASTE_TYPE = UNIVERSAL_WASTE_TYPE, ACCUMULATED = ACCUMULATED, GENERATED = GENERATED)
-    ret <- envir_get(rcr_huniversal_waste, args)
+    ret <- envir_get("rcr_huniversal_waste", args)
     
     ret
 } 

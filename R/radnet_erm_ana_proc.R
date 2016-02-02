@@ -11,7 +11,7 @@ radnet_erm_ana_proc <- function(ANA_PROC_NUM = NULL, ANA_PROC_ID = NULL, PROC_TY
     
     args <- list(ANA_PROC_NUM = ANA_PROC_NUM, ANA_PROC_ID = ANA_PROC_ID, PROC_TYPE_ID = PROC_TYPE_ID, 
         ANA_PROC_NAME = ANA_PROC_NAME)
-    ret <- envir_get(erm_ana_proc, args)
+    ret <- envir_get("erm_ana_proc", args)
     
     ret
 } 

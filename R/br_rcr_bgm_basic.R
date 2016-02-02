@@ -46,7 +46,7 @@ br_rcr_bgm_basic <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL, SOURCE
         FORM_CODE_OWNER = FORM_CODE_OWNER, FORM_CODE = FORM_CODE, SOURCE_CODE_OWNER = SOURCE_CODE_OWNER, 
         SOURCE_CODE = SOURCE_CODE, DESCRIPTION = DESCRIPTION, NOTES = NOTES, USERID = USERID, 
         LAST_CHANGE = LAST_CHANGE)
-    ret <- envir_get(rcr_bgm_basic, args)
+    ret <- envir_get("rcr_bgm_basic", args)
     
     ret
 } 

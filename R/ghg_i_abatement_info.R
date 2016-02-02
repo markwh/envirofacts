@@ -11,7 +11,7 @@ ghg_i_abatement_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, ABAT
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, ABATEMENT_SYSTEMS_IN_USE = ABATEMENT_SYSTEMS_IN_USE, 
         FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(i_abatement_info, args)
+    ret <- envir_get("i_abatement_info", args)
     
     ret
 } 

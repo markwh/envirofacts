@@ -21,7 +21,7 @@ fii_frs_alternative_id <- function(PGM_SYS_ACRNM = NULL, PGM_SYS_ID = NULL, ALTE
         ALTERNATIVE_ID_TYPE = ALTERNATIVE_ID_TYPE, SOURCE_OF_DATA = SOURCE_OF_DATA, 
         LAST_REPORTED_DATE = LAST_REPORTED_DATE, FIPS_CODE = FIPS_CODE, CREATE_DATE = CREATE_DATE, 
         USER_ID = USER_ID, SENSITIVE_IND = SENSITIVE_IND, PUBLIC_IND = PUBLIC_IND)
-    ret <- envir_get(frs_alternative_id, args)
+    ret <- envir_get("frs_alternative_id", args)
     
     ret
 } 

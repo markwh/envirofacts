@@ -41,7 +41,7 @@ radinfo_rad_geo_location <- function(RAD_SYS_ID = NULL, LATITUDE_MEASURE = NULL,
         LOCATION_COMMENTS_TEXT = LOCATION_COMMENTS_TEXT, GEOMETRIC_TYPE_CODE = GEOMETRIC_TYPE_CODE, 
         EF_PGM_SOURCE = EF_PGM_SOURCE, RAD_OVERRIDE = RAD_OVERRIDE, RAD_CHANGE_DATE = RAD_CHANGE_DATE, 
         SUB_TYPE_CODE = SUB_TYPE_CODE)
-    ret <- envir_get(rad_geo_location, args)
+    ret <- envir_get("rad_geo_location", args)
     
     ret
 } 

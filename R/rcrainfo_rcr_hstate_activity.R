@@ -14,7 +14,7 @@ rcrainfo_rcr_hstate_activity <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = 
     args <- list(HANDLER_ID = HANDLER_ID, ACTIVITY_LOCATION = ACTIVITY_LOCATION, 
         SOURCE_TYPE = SOURCE_TYPE, SEQ_NUMBER = SEQ_NUMBER, STATE_ACTIVITY_OWNER = STATE_ACTIVITY_OWNER, 
         STATE_ACTIVITY_TYPE = STATE_ACTIVITY_TYPE)
-    ret <- envir_get(rcr_hstate_activity, args)
+    ret <- envir_get("rcr_hstate_activity", args)
     
     ret
 } 

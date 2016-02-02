@@ -17,7 +17,7 @@ ghg_gg_subpart_level_information <- function(FACILITY_ID = NULL, REPORTING_YEAR 
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, OTHER_GHG_NAME = OTHER_GHG_NAME, 
         GHG_QUANTITY_OVERRIDE_INDICATR = GHG_QUANTITY_OVERRIDE_INDICATR, GHG_QUANTITY_UNIT_OF_MEASURE = GHG_QUANTITY_UNIT_OF_MEASURE, 
         GHG_QUANTITY = GHG_QUANTITY, GHG_NAME = GHG_NAME, FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(gg_subpart_level_information, args)
+    ret <- envir_get("gg_subpart_level_information", args)
     
     ret
 } 

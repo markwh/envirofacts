@@ -166,7 +166,7 @@ tri_tri_source_reduct_qty <- function(DOC_CTRL_NUM = NULL, RECYC_ONSITE_CURR_YR_
         REL_81D_PREV_YR_NA = REL_81D_PREV_YR_NA, REL_81D_FOLL_YR_QTY = REL_81D_FOLL_YR_QTY, 
         REL_81D_FOLL_YR_NA = REL_81D_FOLL_YR_NA, REL_81D_SECD_YR_QTY = REL_81D_SECD_YR_QTY, 
         REL_81D_SECD_YR_NA = REL_81D_SECD_YR_NA)
-    ret <- envir_get(tri_source_reduct_qty, args)
+    ret <- envir_get("tri_source_reduct_qty", args)
     
     ret
 } 

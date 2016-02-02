@@ -26,7 +26,7 @@ pcs.icis_pcs_effl_lim_qty <- function(NPDES = NULL, DISCHARGE_NUM = NULL, REPORT
         MONITORING_LOC = MONITORING_LOC, SEASON_NUM = SEASON_NUM, MODIF_NUM = MODIF_NUM, 
         QTY_MAX_LIMIT = QTY_MAX_LIMIT, QTY_AVG_LIMIT = QTY_AVG_LIMIT, QTY_UNIT_CODE = QTY_UNIT_CODE, 
         QTY_AVG_LIM_STAT_BASE = QTY_AVG_LIM_STAT_BASE, QTY_MAX_LIM_STAT_BASE = QTY_MAX_LIM_STAT_BASE)
-    ret <- envir_get(pcs_effl_lim_qty, args)
+    ret <- envir_get("pcs_effl_lim_qty", args)
     
     ret
 } 

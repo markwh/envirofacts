@@ -23,7 +23,7 @@ ghg_ff_destroffsite_weekly <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL
         WKLY_FLW_RT_USD_CALC_METH_DEST = WKLY_FLW_RT_USD_CALC_METH_DEST, WKLY_VOLUMETRIC_FLOW_RATE_UNIT = WKLY_VOLUMETRIC_FLOW_RATE_UNIT, 
         WEEKLY_METHANE_CONCENTRATION = WEEKLY_METHANE_CONCENTRATION, FACILITY_NAME = FACILITY_NAME, 
         QUARTER = QUARTER, WEEK = WEEK)
-    ret <- envir_get(ff_destroffsite_weekly, args)
+    ret <- envir_get("ff_destroffsite_weekly", args)
     
     ret
 } 

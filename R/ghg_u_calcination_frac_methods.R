@@ -19,7 +19,7 @@ ghg_u_calcination_frac_methods <- function(FACILITY_ID = NULL, REPORTING_YEAR = 
         OTHER_CALCINAT_FRAC_DETRM_MTHD = OTHER_CALCINAT_FRAC_DETRM_MTHD, SUB_MONTHLY_MASS_CONSUMED = SUB_MONTHLY_MASS_CONSUMED, 
         CARBONATE_MASS_MEASR_MTHD = CARBONATE_MASS_MEASR_MTHD, CALCINATION_FRAC_DETRM_MTHD = CALCINATION_FRAC_DETRM_MTHD, 
         FACILITY_NAME = FACILITY_NAME)
-    ret <- envir_get(u_calcination_frac_methods, args)
+    ret <- envir_get("u_calcination_frac_methods", args)
     
     ret
 } 

@@ -11,7 +11,7 @@ tri_tri_onsite_waste_treatment_met <- function(DOC_CTRL_NUM = NULL, WASTESTREAM_
     
     args <- list(DOC_CTRL_NUM = DOC_CTRL_NUM, WASTESTREAM_SEQ_NUM = WASTESTREAM_SEQ_NUM, 
         TREATMENT_SEQUENCE = TREATMENT_SEQUENCE, TREATMENT_METHOD_CODE = TREATMENT_METHOD_CODE)
-    ret <- envir_get(tri_onsite_waste_treatment_met, args)
+    ret <- envir_get("tri_onsite_waste_treatment_met", args)
     
     ret
 } 

@@ -16,7 +16,7 @@ pcs.icis_pcs_pci_audit <- function(NPDES = NULL, INSP_DATE = NULL, INSP_TYPE = N
     args <- list(NPDES = NPDES, INSP_DATE = INSP_DATE, INSP_TYPE = INSP_TYPE, PERMIT_MOD_FOR_PRETR_DATE = PERMIT_MOD_FOR_PRETR_DATE, 
         ADOPT_LOCAL_LIMITS = ADOPT_LOCAL_LIMITS, TECH_EVAL_LOCAL_LIMIT = TECH_EVAL_LOCAL_LIMIT, 
         SLUDGE_DISPOSAL_METHOD = SLUDGE_DISPOSAL_METHOD)
-    ret <- envir_get(pcs_pci_audit, args)
+    ret <- envir_get("pcs_pci_audit", args)
     
     ret
 } 

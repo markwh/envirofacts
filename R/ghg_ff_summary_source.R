@@ -30,7 +30,7 @@ ghg_ff_summary_source <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FAC
         QTR_METH_LIBER_VENT_USER = QTR_METH_LIBER_VENT_USER, NUMBER_OF_WELLS = NUMBER_OF_WELLS, 
         NUM_OF_SHAFTS = NUM_OF_SHAFTS, IS_GAS_COLL_SYSTEM = IS_GAS_COLL_SYSTEM, QUARTER_1_CO2_EMISSIONS = QUARTER_1_CO2_EMISSIONS, 
         TOT_QRTLY_CH4 = TOT_QRTLY_CH4)
-    ret <- envir_get(ff_summary_source, args)
+    ret <- envir_get("ff_summary_source", args)
     
     ret
 } 

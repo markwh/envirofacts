@@ -16,7 +16,7 @@ sdwis_service_area <- function(PWSID = NULL, PRIMACY_AGENCY_CODE = NULL, EPA_REG
     args <- list(PWSID = PWSID, PRIMACY_AGENCY_CODE = PRIMACY_AGENCY_CODE, EPA_REGION = EPA_REGION, 
         PWS_ACTIVITY_CODE = PWS_ACTIVITY_CODE, PWS_TYPE_CODE = PWS_TYPE_CODE, SERVICE_AREA_TYPE_CODE = SERVICE_AREA_TYPE_CODE, 
         IS_PRIMARY_SERVICE_AREA_CODE = IS_PRIMARY_SERVICE_AREA_CODE)
-    ret <- envir_get(service_area, args)
+    ret <- envir_get("service_area", args)
     
     ret
 } 

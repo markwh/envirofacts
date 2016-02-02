@@ -33,7 +33,7 @@ fii_frs_mailing_address <- function(MAIL_UIN = NULL, MAILING_ADDRESS = NULL, SUP
         STD_SUPPLEMENTAL_ADDRESS = STD_SUPPLEMENTAL_ADDRESS, STD_CITY_NAME = STD_CITY_NAME, 
         CREATE_DATE = CREATE_DATE, UPDATE_DATE = UPDATE_DATE, USER_ID = USER_ID, 
         SENSITIVE_IND = SENSITIVE_IND, PUBLIC_IND = PUBLIC_IND)
-    ret <- envir_get(frs_mailing_address, args)
+    ret <- envir_get("frs_mailing_address", args)
     
     ret
 } 

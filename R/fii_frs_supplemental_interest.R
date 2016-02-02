@@ -34,7 +34,7 @@ fii_frs_supplemental_interest <- function(SUP_INTEREST_ID = NULL, PGM_SYS_ACRNM 
         LAST_REPORTED_DATE = LAST_REPORTED_DATE, REPORTED_SUP_INTEREST_TYPE = REPORTED_SUP_INTEREST_TYPE, 
         CREATE_DATE = CREATE_DATE, UPDATE_DATE = UPDATE_DATE, USER_ID = USER_ID, 
         SENSITIVE_IND = SENSITIVE_IND, PUBLIC_IND = PUBLIC_IND)
-    ret <- envir_get(frs_supplemental_interest, args)
+    ret <- envir_get("frs_supplemental_interest", args)
     
     ret
 } 

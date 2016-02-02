@@ -15,7 +15,7 @@ tri_tri_zip_code <- function(ZIP_CODE = NULL, CITY_NAME = NULL, STATE_ABBR = NUL
     args <- list(ZIP_CODE = ZIP_CODE, CITY_NAME = CITY_NAME, STATE_ABBR = STATE_ABBR, 
         REGION = REGION, COUNTRY_NAME = COUNTRY_NAME, TRI_CENTROID_LAT = TRI_CENTROID_LAT, 
         TRI_CENTROID_LONG = TRI_CENTROID_LONG)
-    ret <- envir_get(tri_zip_code, args)
+    ret <- envir_get("tri_zip_code", args)
     
     ret
 } 

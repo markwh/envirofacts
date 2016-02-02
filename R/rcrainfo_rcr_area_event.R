@@ -17,7 +17,7 @@ rcrainfo_rcr_area_event <- function(AREA_HANDLER_ID = NULL, AREA_SEQ = NULL, EVE
     args <- list(AREA_HANDLER_ID = AREA_HANDLER_ID, AREA_SEQ = AREA_SEQ, EVENT_HANDLER_ID = EVENT_HANDLER_ID, 
         EVENT_OWN = EVENT_OWN, CA_EVENT_CODE = CA_EVENT_CODE, EVENT_SEQ = EVENT_SEQ, 
         RESPONSIBLE_AGENCY = RESPONSIBLE_AGENCY, ACTIVITY_LOCATION = ACTIVITY_LOCATION)
-    ret <- envir_get(rcr_area_event, args)
+    ret <- envir_get("rcr_area_event", args)
     
     ret
 } 

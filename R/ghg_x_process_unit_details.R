@@ -16,7 +16,7 @@ ghg_x_process_unit_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, UNIT_NAME_PROCESS = UNIT_NAME_PROCESS, 
         PROCESS_UNIT_CO2_FRACTION = PROCESS_UNIT_CO2_FRACTION, PROCESS_UNIT_CH4_FRACTION = PROCESS_UNIT_CH4_FRACTION, 
         PROCESS_UNIT_N2O_FRACTION = PROCESS_UNIT_N2O_FRACTION, CARBON_DIOXIDE_FRACTION = CARBON_DIOXIDE_FRACTION)
-    ret <- envir_get(x_process_unit_details, args)
+    ret <- envir_get("x_process_unit_details", args)
     
     ret
 } 

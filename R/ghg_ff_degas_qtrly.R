@@ -45,7 +45,7 @@ ghg_ff_degas_qtrly <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, TIME_S
         MOISTURE_CONTENT_WKLY_CH4 = MOISTURE_CONTENT_WKLY_CH4, PRESSURE_WKLY_CH4 = PRESSURE_WKLY_CH4, 
         TEMPERATURE_USED_WKLY_CH4 = TEMPERATURE_USED_WKLY_CH4, FACILITY_NAME = FACILITY_NAME, 
         TIME_SUBSTITUTED_DATA_FOR_MCF = TIME_SUBSTITUTED_DATA_FOR_MCF)
-    ret <- envir_get(ff_degas_qtrly, args)
+    ret <- envir_get("ff_degas_qtrly", args)
     
     ret
 } 

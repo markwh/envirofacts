@@ -25,7 +25,7 @@ tri_tri_transfer_qty <- function(DOC_CTRL_NUM = NULL, TRANSFER_LOC_NUM = NULL, O
         TRANSFER_EST_NA = TRANSFER_EST_NA, TRANSFER_BASIS_EST_CODE = TRANSFER_BASIS_EST_CODE, 
         POTW_PERCENTAGE_TO_81C = POTW_PERCENTAGE_TO_81C, POTW_PERCENTAGE_TO_81D = POTW_PERCENTAGE_TO_81D, 
         POTW_PERCENTAGE_TO_87 = POTW_PERCENTAGE_TO_87, POTW_PERCENTAGE_PROVIDED = POTW_PERCENTAGE_PROVIDED)
-    ret <- envir_get(tri_transfer_qty, args)
+    ret <- envir_get("tri_transfer_qty", args)
     
     ret
 } 

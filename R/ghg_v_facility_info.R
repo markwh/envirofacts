@@ -11,7 +11,7 @@ ghg_v_facility_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FACIL
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         NUM_NITRIC_ACID_TRAINS = NUM_NITRIC_ACID_TRAINS)
-    ret <- envir_get(v_facility_info, args)
+    ret <- envir_get("v_facility_info", args)
     
     ret
 } 

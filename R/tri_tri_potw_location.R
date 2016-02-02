@@ -17,7 +17,7 @@ tri_tri_potw_location <- function(DOC_CTRL_NUM = NULL, POTW_LOC_NUM = NULL, POTW
     args <- list(DOC_CTRL_NUM = DOC_CTRL_NUM, POTW_LOC_NUM = POTW_LOC_NUM, POTW_NAME = POTW_NAME, 
         POTW_STREET_ADDRESS = POTW_STREET_ADDRESS, CITY_NAME = CITY_NAME, COUNTY_NAME = COUNTY_NAME, 
         STATE_ABBR = STATE_ABBR, ZIP_CODE = ZIP_CODE)
-    ret <- envir_get(tri_potw_location, args)
+    ret <- envir_get("tri_potw_location", args)
     
     ret
 } 

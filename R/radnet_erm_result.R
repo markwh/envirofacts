@@ -22,7 +22,7 @@ radnet_erm_result <- function(ANA_NUM = NULL, RESULT_ID = NULL, ANALYTE_ID = NUL
         RESULT_AMOUNT = RESULT_AMOUNT, CSU = CSU, MDC = MDC, RESULT_UNIT = RESULT_UNIT, 
         RESULT_DATE = RESULT_DATE, RESULT_IN_SI = RESULT_IN_SI, CSU_IN_SI = CSU_IN_SI, 
         MDC_IN_SI = MDC_IN_SI, SI_UNIT = SI_UNIT)
-    ret <- envir_get(erm_result, args)
+    ret <- envir_get("erm_result", args)
     
     ret
 } 

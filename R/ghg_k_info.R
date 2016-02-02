@@ -8,7 +8,7 @@
 ghg_k_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, TOTALNUMELECTARCFURNAC = NULL) {
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, TOTALNUMELECTARCFURNAC = TOTALNUMELECTARCFURNAC)
-    ret <- envir_get(k_info, args)
+    ret <- envir_get("k_info", args)
     
     ret
 } 

@@ -12,7 +12,7 @@ tri_tri_submission_sic <- function(TRI_FACILITY_ID = NULL, DOC_CTRL_NUM = NULL, 
     
     args <- list(TRI_FACILITY_ID = TRI_FACILITY_ID, DOC_CTRL_NUM = DOC_CTRL_NUM, 
         SIC_CODE = SIC_CODE, SIC_SEQUENCE_NUM = SIC_SEQUENCE_NUM, PRIMARY_IND = PRIMARY_IND)
-    ret <- envir_get(tri_submission_sic, args)
+    ret <- envir_get("tri_submission_sic", args)
     
     ret
 } 

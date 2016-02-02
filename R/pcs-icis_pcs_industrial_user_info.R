@@ -21,7 +21,7 @@ pcs.icis_pcs_industrial_user_info <- function(NPDES = NULL, INSP_DATE = NULL, IN
         CATEGORICAL_INDUSTRIAL_USERS = CATEGORICAL_INDUSTRIAL_USERS, SIUS_WITHOUT_CTL_MECHANISM = SIUS_WITHOUT_CTL_MECHANISM, 
         SIUS_IN_SNC_WITH_PRETR_STDS = SIUS_IN_SNC_WITH_PRETR_STDS, SIUS_NOT_INSP_SAMPLED = SIUS_NOT_INSP_SAMPLED, 
         SIUS_SNC_SELF_MONITOR = SIUS_SNC_SELF_MONITOR, SIUS_SNC_SELF_NOT_INSP = SIUS_SNC_SELF_NOT_INSP)
-    ret <- envir_get(pcs_industrial_user_info, args)
+    ret <- envir_get("pcs_industrial_user_info", args)
     
     ret
 } 

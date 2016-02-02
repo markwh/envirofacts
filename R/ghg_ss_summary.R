@@ -15,7 +15,7 @@ ghg_ss_summary <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FACILITY_N
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         GAS_NAME = GAS_NAME, IS_EQUATION_SS5_USED = IS_EQUATION_SS5_USED, IS_ESTIMATED_GHG = IS_ESTIMATED_GHG, 
         IS_GHG_MASS_DISBURSED = IS_GHG_MASS_DISBURSED)
-    ret <- envir_get(ss_summary, args)
+    ret <- envir_get("ss_summary", args)
     
     ret
 } 

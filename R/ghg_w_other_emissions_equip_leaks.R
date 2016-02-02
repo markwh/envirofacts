@@ -26,7 +26,7 @@ ghg_w_other_emissions_equip_leaks <- function(FACILITY_ID = NULL, REPORTING_YEAR
         SUB_INDICATOR_EQUIP_LEAKS = SUB_INDICATOR_EQUIP_LEAKS, INDUSTRY_SEGMENT = INDUSTRY_SEGMENT, 
         FACILITY_NAME = FACILITY_NAME, EQUIP_LEAKS_CO2_EMISSIONS = EQUIP_LEAKS_CO2_EMISSIONS, 
         DOES_FAC_HAVE_EQUIPMENT_LEAKS = DOES_FAC_HAVE_EQUIPMENT_LEAKS)
-    ret <- envir_get(w_other_emissions_equip_leaks, args)
+    ret <- envir_get("w_other_emissions_equip_leaks", args)
     
     ret
 } 

@@ -26,7 +26,7 @@ ghg_n_non_cems_source_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL
         OTHR_CALC_FRAC_METHD_DESCRIP = OTHR_CALC_FRAC_METHD_DESCRIP, MASS_FRACTION_TEST_DATE = MASS_FRACTION_TEST_DATE, 
         MASS_FRACTION_TEST_METHOD = MASS_FRACTION_TEST_METHOD, UNIT_NAME = UNIT_NAME, 
         OTHER_TEST_METHOD = OTHER_TEST_METHOD)
-    ret <- envir_get(n_non_cems_source_info, args)
+    ret <- envir_get("n_non_cems_source_info", args)
     
     ret
 } 

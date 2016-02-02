@@ -20,7 +20,7 @@ rcrainfo_rcr_hcertification <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = N
         SOURCE_TYPE = SOURCE_TYPE, SEQ_NUMBER = SEQ_NUMBER, CERT_SEQ = CERT_SEQ, 
         CERT_SIGNED_DATE = CERT_SIGNED_DATE, CERT_TITLE = CERT_TITLE, CERT_FIRST_NAME = CERT_FIRST_NAME, 
         CERT_MIDDLE_INITIAL = CERT_MIDDLE_INITIAL, CERT_LAST_NAME = CERT_LAST_NAME)
-    ret <- envir_get(rcr_hcertification, args)
+    ret <- envir_get("rcr_hcertification", args)
     
     ret
 } 

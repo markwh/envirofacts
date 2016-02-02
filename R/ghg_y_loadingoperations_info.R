@@ -20,7 +20,7 @@ ghg_y_loadingoperations_info <- function(FACILITY_ID = NULL, REPORTING_YEAR = NU
         CH4_EMISSIONS = CH4_EMISSIONS, VESSEL_ID = VESSEL_ID, VESSEL_TYPE_OTHER = VESSEL_TYPE_OTHER, 
         VESSEL_TYPE = VESSEL_TYPE, MATERIAL_ID = MATERIAL_ID, CONTROL_SYSTEM_TYPE = CONTROL_SYSTEM_TYPE, 
         CONTROL_SYSTEM_TYPE_OTHER = CONTROL_SYSTEM_TYPE_OTHER)
-    ret <- envir_get(y_loadingoperations_info, args)
+    ret <- envir_get("y_loadingoperations_info", args)
     
     ret
 } 

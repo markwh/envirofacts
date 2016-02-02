@@ -40,7 +40,7 @@ sdwis_water_system_facility <- function(PWSID = NULL, PRIMACY_AGENCY_CODE = NULL
         SELLER_PWS_NAME = SELLER_PWS_NAME, FILTRATION_STATUS_CODE = FILTRATION_STATUS_CODE, 
         PWS_ACTIVITY_CODE = PWS_ACTIVITY_CODE, PWS_DEACTIVATION_DATE = PWS_DEACTIVATION_DATE, 
         PWS_TYPE_CODE = PWS_TYPE_CODE, IS_SOURCE_TREATED_IND = IS_SOURCE_TREATED_IND)
-    ret <- envir_get(water_system_facility, args)
+    ret <- envir_get("water_system_facility", args)
     
     ret
 } 

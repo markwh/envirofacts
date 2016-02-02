@@ -10,7 +10,7 @@ fii_frs_tribal_land_ref <- function(TRIBAL_LAND_R_CODE = NULL, TRIBAL_LAND_NAME 
     
     args <- list(TRIBAL_LAND_R_CODE = TRIBAL_LAND_R_CODE, TRIBAL_LAND_NAME = TRIBAL_LAND_NAME, 
         USBC_TRIBAL_LAND_CODE = USBC_TRIBAL_LAND_CODE)
-    ret <- envir_get(frs_tribal_land_ref, args)
+    ret <- envir_get("frs_tribal_land_ref", args)
     
     ret
 } 

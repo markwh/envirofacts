@@ -28,7 +28,7 @@ ghg_ff_well_and_shaft <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, WEL
         WELL_SHAFT_ID = WELL_SHAFT_ID, IS_THIS_WELL_OR_SHAFT = IS_THIS_WELL_OR_SHAFT, 
         GAS_SYSTEM_UNIT_ID = GAS_SYSTEM_UNIT_ID, DESCRIPTION = DESCRIPTION, ADDITIONAL_DESCRIPTION = ADDITIONAL_DESCRIPTION, 
         WELL_SHAFT_MONITORED_STATUS = WELL_SHAFT_MONITORED_STATUS, MON_POINT_NAME = MON_POINT_NAME)
-    ret <- envir_get(ff_well_and_shaft, args)
+    ret <- envir_get("ff_well_and_shaft", args)
     
     ret
 } 

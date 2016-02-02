@@ -18,7 +18,7 @@ radnet_lcr_sample_result <- function(PWSID = NULL, SAMPLE_ID = NULL, PRIMACY_AGE
     args <- list(PWSID = PWSID, SAMPLE_ID = SAMPLE_ID, PRIMACY_AGENCY_CODE = PRIMACY_AGENCY_CODE, 
         EPA_REGION = EPA_REGION, SAR_ID = SAR_ID, CONTAMINANT_CODE = CONTAMINANT_CODE, 
         RESULT_SIGN_CODE = RESULT_SIGN_CODE, SAMPLE_MEASURE = SAMPLE_MEASURE, UNIT_OF_MEASURE = UNIT_OF_MEASURE)
-    ret <- envir_get(lcr_sample_result, args)
+    ret <- envir_get("lcr_sample_result", args)
     
     ret
 } 

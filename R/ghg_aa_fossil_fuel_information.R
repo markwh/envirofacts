@@ -82,7 +82,7 @@ ghg_aa_fossil_fuel_information <- function(FACILITY_ID = NULL, REPORTING_YEAR = 
         TIER_3_CH4_EMISSIONS_CO2E = TIER_3_CH4_EMISSIONS_CO2E, TIER_3_N2O_EMISSIONS_CO2E = TIER_3_N2O_EMISSIONS_CO2E, 
         PCT_HEAT_INPUT_COMBUSTED = PCT_HEAT_INPUT_COMBUSTED, PCT_HEAT_INPUT_COMBUSTED_IND = PCT_HEAT_INPUT_COMBUSTED_IND, 
         PCT_HEAT_INPUT_COMBUSTED_SUB = PCT_HEAT_INPUT_COMBUSTED_SUB)
-    ret <- envir_get(aa_fossil_fuel_information, args)
+    ret <- envir_get("aa_fossil_fuel_information", args)
     
     ret
 } 

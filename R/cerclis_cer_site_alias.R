@@ -16,7 +16,7 @@ cerclis_cer_site_alias <- function(SITE_ID = NULL, SITE_ALIAS_ID = NULL, SA_NAME
     args <- list(SITE_ID = SITE_ID, SITE_ALIAS_ID = SITE_ALIAS_ID, SA_NAME = SA_NAME, 
         SITE_ALIAS_CITY_NAME = SITE_ALIAS_CITY_NAME, SITE_ALIAS_STRT_ADRS = SITE_ALIAS_STRT_ADRS, 
         SITE_ALIAS_ZIP_CODE = SITE_ALIAS_ZIP_CODE, RSTATE_CODE = RSTATE_CODE)
-    ret <- envir_get(cer_site_alias, args)
+    ret <- envir_get("cer_site_alias", args)
     
     ret
 } 

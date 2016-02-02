@@ -12,7 +12,7 @@ ghg_pp_co2_flow_measure_equipment <- function(FACILITY_ID = NULL, REPORTING_YEAR
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, EQUIPMENT_CALIBRATION_STANDARD = EQUIPMENT_CALIBRATION_STANDARD, 
         FACILITY_NAME = FACILITY_NAME, MEASUREMENT_EQUIPMENT_TYPE = MEASUREMENT_EQUIPMENT_TYPE)
-    ret <- envir_get(pp_co2_flow_measure_equipment, args)
+    ret <- envir_get("pp_co2_flow_measure_equipment", args)
     
     ret
 } 

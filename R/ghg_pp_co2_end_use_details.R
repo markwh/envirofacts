@@ -12,7 +12,7 @@ ghg_pp_co2_end_use_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         END_USE_FOR_CO2 = END_USE_FOR_CO2, END_USE_APP_IMPORTEXPORTSTATUS = END_USE_APP_IMPORTEXPORTSTATUS)
-    ret <- envir_get(pp_co2_end_use_details, args)
+    ret <- envir_get("pp_co2_end_use_details", args)
     
     ret
 } 

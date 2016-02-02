@@ -25,7 +25,7 @@ sdwis_geographic_area <- function(PWSID = NULL, GEO_ID = NULL, PRIMACY_AGENCY_CO
         TRIBAL_CODE = TRIBAL_CODE, STATE_SERVED = STATE_SERVED, ANSI_ENTITY_CODE = ANSI_ENTITY_CODE, 
         ZIP_CODE_SERVED = ZIP_CODE_SERVED, CITY_SERVED = CITY_SERVED, AREA_TYPE_CODE = AREA_TYPE_CODE, 
         COUNTY_SERVED = COUNTY_SERVED)
-    ret <- envir_get(geographic_area, args)
+    ret <- envir_get("geographic_area", args)
     
     ret
 } 

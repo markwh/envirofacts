@@ -17,7 +17,7 @@ ghg_c_tier2_monthly_hhv <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, F
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         TIER2_NAME = TIER2_NAME, MONTH_NAME = MONTH_NAME, HIGH_HEAT_VALUE_INDICATOR = HIGH_HEAT_VALUE_INDICATOR, 
         FUEL_TYPE = FUEL_TYPE, UNIT_NAME = UNIT_NAME)
-    ret <- envir_get(c_tier2_monthly_hhv, args)
+    ret <- envir_get("c_tier2_monthly_hhv", args)
     
     ret
 } 

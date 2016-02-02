@@ -8,7 +8,7 @@
 rcrainfo_rcr_lu_county <- function(COUNTY_CODE = NULL, COUNTY_NAME = NULL, ACTIVE_STATUS = NULL) {
     
     args <- list(COUNTY_CODE = COUNTY_CODE, COUNTY_NAME = COUNTY_NAME, ACTIVE_STATUS = ACTIVE_STATUS)
-    ret <- envir_get(rcr_lu_county, args)
+    ret <- envir_get("rcr_lu_county", args)
     
     ret
 } 

@@ -24,7 +24,7 @@ radnet_bgm_onsite_treatment <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = N
         MANAGEMENT_METHOD_OWNER = MANAGEMENT_METHOD_OWNER, MANAGEMENT_METHOD = MANAGEMENT_METHOD, 
         SYS_TDR_QTY = SYS_TDR_QTY, MANAGED_TONS_CALC = MANAGED_TONS_CALC, USERID = USERID, 
         LAST_CHANGE = LAST_CHANGE)
-    ret <- envir_get(bgm_onsite_treatment, args)
+    ret <- envir_get("bgm_onsite_treatment", args)
     
     ret
 } 

@@ -14,7 +14,7 @@ ghg_ii_process_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL, FA
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         ANAEROBIC_PROCESS_ID = ANAEROBIC_PROCESS_ID, IS_BIOGAS_RECOVERED = IS_BIOGAS_RECOVERED, 
         DOES_FAC_MEASURE_COD_BOD_CONC = DOES_FAC_MEASURE_COD_BOD_CONC)
-    ret <- envir_get(ii_process_details, args)
+    ret <- envir_get("ii_process_details", args)
     
     ret
 } 

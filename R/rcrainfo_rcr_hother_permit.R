@@ -18,7 +18,7 @@ rcrainfo_rcr_hother_permit <- function(HANDLER_ID = NULL, ACTIVITY_LOCATION = NU
         SOURCE_TYPE = SOURCE_TYPE, SEQ_NUMBER = SEQ_NUMBER, OTHER_PERMIT_OWNER = OTHER_PERMIT_OWNER, 
         OTHER_PERMIT_TYPE = OTHER_PERMIT_TYPE, OTHER_PERMIT_NUMBER = OTHER_PERMIT_NUMBER, 
         OTHER_PERMIT_DESC = OTHER_PERMIT_DESC)
-    ret <- envir_get(rcr_hother_permit, args)
+    ret <- envir_get("rcr_hother_permit", args)
     
     ret
 } 

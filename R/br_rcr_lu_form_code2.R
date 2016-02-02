@@ -13,7 +13,7 @@ br_rcr_lu_form_code2 <- function(OWNER = NULL, FORM_CODE = NULL, FORM_CODE_NAME 
     
     args <- list(OWNER = OWNER, FORM_CODE = FORM_CODE, FORM_CODE_NAME = FORM_CODE_NAME, 
         FORM_CODE_DESC = FORM_CODE_DESC, USAGE = USAGE, ACTIVE_STATUS = ACTIVE_STATUS)
-    ret <- envir_get(rcr_lu_form_code2, args)
+    ret <- envir_get("rcr_lu_form_code2", args)
     
     ret
 } 

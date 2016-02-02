@@ -13,6 +13,9 @@ use_testthat()
 # document
 document()
 
+# install
+devtools::install()
+
 # data
 
 allapis <- jsonlite::fromJSON("http://theapistack.com/data/environmental-protection-agency/apis.json")

@@ -7,7 +7,7 @@
 cerclis_cer_ref_ownership_type <- function(ROT_CODE = NULL, ROT_DESC = NULL) {
     
     args <- list(ROT_CODE = ROT_CODE, ROT_DESC = ROT_DESC)
-    ret <- envir_get(cer_ref_ownership_type, args)
+    ret <- envir_get("cer_ref_ownership_type", args)
     
     ret
 } 

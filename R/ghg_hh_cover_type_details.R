@@ -12,7 +12,7 @@ ghg_hh_cover_type_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
     
     args <- list(FACILITY_ID = FACILITY_ID, REPORTING_YEAR = REPORTING_YEAR, FACILITY_NAME = FACILITY_NAME, 
         COVER_TYPE_NAME = COVER_TYPE_NAME, SURFACE_AREA = SURFACE_AREA)
-    ret <- envir_get(hh_cover_type_details, args)
+    ret <- envir_get("hh_cover_type_details", args)
     
     ret
 } 

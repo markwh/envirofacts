@@ -10,7 +10,7 @@ cerclis_cer_federal_register <- function(SITE_ID = NULL, FR_DATE = NULL, RFRA_CO
     FR_NPL_UPDATE_NMBR = NULL) {
     
     args <- list(SITE_ID = SITE_ID, FR_DATE = FR_DATE, RFRA_CODE = RFRA_CODE, FR_NPL_UPDATE_NMBR = FR_NPL_UPDATE_NMBR)
-    ret <- envir_get(cer_federal_register, args)
+    ret <- envir_get("cer_federal_register", args)
     
     ret
 } 

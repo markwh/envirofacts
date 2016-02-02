@@ -27,7 +27,7 @@ ghg_h_no_cems_qrtr_details <- function(FACILITY_ID = NULL, REPORTING_YEAR = NULL
         MISS_DATA_FRAC_NON_CALCND_MGO = MISS_DATA_FRAC_NON_CALCND_MGO, DET_METHD_NON_CALCINED_CAO = DET_METHD_NON_CALCINED_CAO, 
         OTHDETMTHDNONCALCAO = OTHDETMTHDNONCALCAO, DET_METHD_NON_CALCINED_MAGNESI = DET_METHD_NON_CALCINED_MAGNESI, 
         OTHDETMTHDNONCALMGO = OTHDETMTHDNONCALMGO)
-    ret <- envir_get(h_no_cems_qrtr_details, args)
+    ret <- envir_get("h_no_cems_qrtr_details", args)
     
     ret
 } 

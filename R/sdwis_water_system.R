@@ -83,7 +83,7 @@ sdwis_water_system <- function(PWSID = NULL, PWS_NAME = NULL, NPM_CANDIDATE = NU
         SOURCE_PROTECTION_BEGIN_DATE = SOURCE_PROTECTION_BEGIN_DATE, OUTSTANDING_PERFORMER = OUTSTANDING_PERFORMER, 
         OUTSTANDING_PERFORM_BEGIN_DATE = OUTSTANDING_PERFORM_BEGIN_DATE, CITIES_SERVED = CITIES_SERVED, 
         COUNTIES_SERVED = COUNTIES_SERVED)
-    ret <- envir_get(water_system, args)
+    ret <- envir_get("water_system", args)
     
     ret
 } 
