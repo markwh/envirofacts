@@ -20,7 +20,7 @@ envir_get <- function(table, arglist = list()) {
   append <- envir_makeArgs(dots)
 
   url1 <- paste0(url0, append, "/JSON")
-  res <- GET(url1)
+  res <- GET(url1, timeout(seconds = getOption("timeout")))
 
   tt <- envir_check(res)
   out <- envir_makeDf(tt)
