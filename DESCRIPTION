@@ -1,10 +1,11 @@
 Package: envirofacts
 Type: Package
 Title: Access EPA Data via the Envirofacts Web Services
-Version: 0.1
+Version: 0.0.0.9001
 Date: 2016-01-31
-Author: Mark Hagemann
-Maintainer: Mark Hagemann <mark.hagemann@gmail.com>
+Authors@R: c(
+    person("Mark", "Hagemann", email = "mark.hagemann@gmail.com",
+           role = c("aut", "cre")))
 Description: Contains functions for data access from 13 different services provided through EnviroFacts.
   Based partly on Swagger definition by Kin Lane.
 License: MIT
@@ -14,5 +15,8 @@ Imports:
     httr,
     assertthat
 Suggests:
-    testthat
+    testthat,
+    knitr,
+    rmarkdown
 RoxygenNote: 5.0.1
+VignetteBuilder: knitr

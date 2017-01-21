@@ -16,6 +16,9 @@ document()
 # install
 devtools::install()
 
+# vignettes
+devtools::use_vignette("envirofacts")
+
 # data
 
 allapis <- jsonlite::fromJSON("http://theapistack.com/data/environmental-protection-agency/apis.json")

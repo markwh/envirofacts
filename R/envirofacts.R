@@ -8,7 +8,8 @@
 
 # Convention Helper functions ---------------------------------------------
 
-#' @importFrom httr GET
+#' @importFrom httr GET timeout
+# #' @importFrom httr timeout
 envir_get <- function(table, arglist = list()) {
   table <- toupper(table)
 
