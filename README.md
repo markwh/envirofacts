@@ -1,3 +1,5 @@
+# Envirofacts
+
 ## R bindings for EPA Envirofacts API.
 
 The **envirofacts** package provides a set of functions for accessing data in the Environmental Protection Agency's **envirofacts** set of web services. 
