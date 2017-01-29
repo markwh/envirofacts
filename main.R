@@ -29,3 +29,7 @@ descs <- allapis$apis$description[-1]
 
 services <- setNames(descs, serviceNames)
 use_data(services)
+
+sdwisCodes <- read.csv("inst/codes/SDWISCodes_analyteLookup.csv",
+                       stringsAsFactors = FALSE)
+use_data(sdwisCodes, internal = TRUE, overwrite = TRUE)
