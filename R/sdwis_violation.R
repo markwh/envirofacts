@@ -68,9 +68,19 @@ sdwis_violation <- function(PWSID = NULL, VIOLATION_ID = NULL, FACILITY_ID = NUL
 
 #' @export
 #'
-sdwis_contaminant <- function(contamName, full = FALSE) {
-  nam <- toupper(contamName)
-  rows <- grep(nam, sdwisCodes$NAME)
+sdwis_contaminant <- function(name = NULL, code = NULL, full = FALSE) {
+  if (is.null(name) && is.null(code))
+    stop("name or code must be specified")
+
+  nam <- toupper(name)
+  code <- as.character(code)
+
+  if (is.null(name)) {
+    rows <- which(sdwisCodes$CODE == code)
+  } else {
+    rows <- grep(nam, sdwisCodes$NAME)
+  }
+
   out <- sdwisCodes[rows, ]
   if (!full)
     out <- setNames(out[["CODE"]], make.names(out[["NAME"]]))
