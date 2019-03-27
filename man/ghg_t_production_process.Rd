@@ -22,4 +22,3 @@ ghg_t_production_process(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve t production process data from ghg database
 }
-

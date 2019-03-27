@@ -17,4 +17,3 @@ tri_tri_facility_npdes(TRI_FACILITY_ID = NULL, ASGN_NPDES_IND = NULL,
 \description{
 Retrieve tri facility npdes data from tri database
 }
-

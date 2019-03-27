@@ -4,7 +4,8 @@
 \alias{rcrainfo_rcr_punit}
 \title{Retrieve rcr punit data from rcrainfo database}
 \usage{
-rcrainfo_rcr_punit(HANDLER_ID = NULL, UNIT_SEQ = NULL, UNIT_NAME = NULL)
+rcrainfo_rcr_punit(HANDLER_ID = NULL, UNIT_SEQ = NULL,
+  UNIT_NAME = NULL)
 }
 \arguments{
 \item{HANDLER_ID}{e.g. 'AK1210022157'. See Details.}
@@ -16,4 +17,3 @@ rcrainfo_rcr_punit(HANDLER_ID = NULL, UNIT_SEQ = NULL, UNIT_NAME = NULL)
 \description{
 Retrieve rcr punit data from rcrainfo database
 }
-

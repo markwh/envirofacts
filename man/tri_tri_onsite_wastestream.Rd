@@ -4,11 +4,11 @@
 \alias{tri_tri_onsite_wastestream}
 \title{Retrieve tri onsite wastestream data from tri database}
 \usage{
-tri_tri_onsite_wastestream(DOC_CTRL_NUM = NULL, WASTESTREAM_SEQ_NUM = NULL,
-  WASTESTREAM_CODE = NULL, INFLUENT_CONC_RANGE = NULL,
-  SEQUENTIAL_TREAT_87_90 = NULL, TREATMENT_EFFICIENCY_EST = NULL,
-  TREATMENT_EFFICIENCY_EST_NA = NULL, OPERATING_DATA_IND = NULL,
-  EFFICIENCY_RANGE_CODE = NULL)
+tri_tri_onsite_wastestream(DOC_CTRL_NUM = NULL,
+  WASTESTREAM_SEQ_NUM = NULL, WASTESTREAM_CODE = NULL,
+  INFLUENT_CONC_RANGE = NULL, SEQUENTIAL_TREAT_87_90 = NULL,
+  TREATMENT_EFFICIENCY_EST = NULL, TREATMENT_EFFICIENCY_EST_NA = NULL,
+  OPERATING_DATA_IND = NULL, EFFICIENCY_RANGE_CODE = NULL)
 }
 \arguments{
 \item{DOC_CTRL_NUM}{e.g. '1300140000011'. See Details.}
@@ -32,4 +32,3 @@ tri_tri_onsite_wastestream(DOC_CTRL_NUM = NULL, WASTESTREAM_SEQ_NUM = NULL,
 \description{
 Retrieve tri onsite wastestream data from tri database
 }
-

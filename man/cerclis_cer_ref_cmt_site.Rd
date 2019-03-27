@@ -14,4 +14,3 @@ cerclis_cer_ref_cmt_site(RCST_CODE = NULL, RCS_DESC = NULL)
 \description{
 Retrieve cer ref cmt site data from cerclis database
 }
-

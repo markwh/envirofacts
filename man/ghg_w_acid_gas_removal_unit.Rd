@@ -41,4 +41,3 @@ ghg_w_acid_gas_removal_unit(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve w acid gas removal unit data from ghg database
 }
-

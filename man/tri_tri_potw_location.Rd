@@ -28,4 +28,3 @@ tri_tri_potw_location(DOC_CTRL_NUM = NULL, POTW_LOC_NUM = NULL,
 \description{
 Retrieve tri potw location data from tri database
 }
-

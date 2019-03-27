@@ -66,6 +66,13 @@ sdwis_violation <- function(PWSID = NULL, VIOLATION_ID = NULL, FACILITY_ID = NUL
     ret
 }
 
+#' Get codes or names for SDWIS contaminants.
+#'
+#' name -> code is 1 -> many (using fuzzy matching), while code -> name is 1 -> 1.
+#'
+#' @param name Name of contaminant to match
+#' @param code Code of conaminant
+#' @param full if TRUE, return a full data.frame with more information
 #' @export
 #'
 sdwis_contaminant <- function(name = NULL, code = NULL, full = FALSE) {
@@ -76,7 +83,7 @@ sdwis_contaminant <- function(name = NULL, code = NULL, full = FALSE) {
   code <- as.character(code)
 
   if (is.null(name)) {
-    rows <- which(sdwisCodes$CODE == code)
+    rows <- match(code, table = sdwisCodes$CODE)
   } else {
     rows <- grep(nam, sdwisCodes$NAME)
   }

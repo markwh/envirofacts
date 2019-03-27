@@ -21,4 +21,3 @@ rcrainfo_rcr_lu_naics(OWNER = NULL, NAICS_CODE = NULL,
 \description{
 Retrieve rcr lu naics data from rcrainfo database
 }
-

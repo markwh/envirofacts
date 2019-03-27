@@ -4,12 +4,13 @@
 \alias{pcs.icis_pcs_admin_penalty_order}
 \title{Retrieve pcs admin penalty order data from pcs-icis database}
 \usage{
-pcs.icis_pcs_admin_penalty_order(NPDES = NULL, ENFOR_ACTION_CODE = NULL,
-  ENFOR_ACTION_TYPE = NULL, ENFOR_ACTION_DATE = NULL,
-  PROPOSED_ORDER_ISSUED_DATE = NULL, ADMINISTRATIVE_PENALTY_CLASS = NULL,
-  HEARING_REQUEST = NULL, FINAL_ORDER_DATE = NULL,
-  PENALTY_AMOUNT_ASSESSED = NULL, CLASS_II_APPEAL_FILED = NULL,
-  JUDICIAL_APPEAL_FILED_DATE = NULL, PENALTY_COLLECTED_DATE = NULL)
+pcs.icis_pcs_admin_penalty_order(NPDES = NULL,
+  ENFOR_ACTION_CODE = NULL, ENFOR_ACTION_TYPE = NULL,
+  ENFOR_ACTION_DATE = NULL, PROPOSED_ORDER_ISSUED_DATE = NULL,
+  ADMINISTRATIVE_PENALTY_CLASS = NULL, HEARING_REQUEST = NULL,
+  FINAL_ORDER_DATE = NULL, PENALTY_AMOUNT_ASSESSED = NULL,
+  CLASS_II_APPEAL_FILED = NULL, JUDICIAL_APPEAL_FILED_DATE = NULL,
+  PENALTY_COLLECTED_DATE = NULL)
 }
 \arguments{
 \item{NPDES}{e.g. 'AK0000272'. See Details.}
@@ -39,4 +40,3 @@ pcs.icis_pcs_admin_penalty_order(NPDES = NULL, ENFOR_ACTION_CODE = NULL,
 \description{
 Retrieve pcs admin penalty order data from pcs-icis database
 }
-

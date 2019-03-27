@@ -22,4 +22,3 @@ ghg_gg_facility_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve gg facility info data from ghg database
 }
-

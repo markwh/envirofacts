@@ -16,4 +16,3 @@ radnet_erm_matrix(MAT_NUM = NULL, MAT_ID = NULL, MAT_DESC = NULL)
 \description{
 Retrieve erm matrix data from radnet database
 }
-

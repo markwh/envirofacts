@@ -4,12 +4,14 @@
 \alias{ghg_w_enh_oil_rec_inj_pump_bd}
 \title{Retrieve w enh oil rec inj pump bd data from ghg database}
 \usage{
-ghg_w_enh_oil_rec_inj_pump_bd(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  DOES_FAC_EOR_INJ_PUMP_BLOWDOWN = NULL,
-  EOR_INJ_PUMP_BD_GHG_EMM_CO2E = NULL, EOR_INJ_PUMP_BD_N2O_EMM_CO2E = NULL,
-  EOR_INJ_PUMP_BD_CH4_EMM_CO2E = NULL, EOR_INJ_PUMP_BD_TOTAL_CO2_EMM = NULL,
-  INDUSTRY_SEGMENT = NULL, SUB_IND_ENH_OIL_REC_INJ_PUM_BD = NULL,
-  FACILITY_NAME = NULL, BAM_IND_ENH_OIL_REC_INJ_PUM_BD = NULL,
+ghg_w_enh_oil_rec_inj_pump_bd(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, DOES_FAC_EOR_INJ_PUMP_BLOWDOWN = NULL,
+  EOR_INJ_PUMP_BD_GHG_EMM_CO2E = NULL,
+  EOR_INJ_PUMP_BD_N2O_EMM_CO2E = NULL,
+  EOR_INJ_PUMP_BD_CH4_EMM_CO2E = NULL,
+  EOR_INJ_PUMP_BD_TOTAL_CO2_EMM = NULL, INDUSTRY_SEGMENT = NULL,
+  SUB_IND_ENH_OIL_REC_INJ_PUM_BD = NULL, FACILITY_NAME = NULL,
+  BAM_IND_ENH_OIL_REC_INJ_PUM_BD = NULL,
   BAM_DES_ENH_OIL_REC_INJ_PUM_BD = NULL)
 }
 \arguments{
@@ -40,4 +42,3 @@ ghg_w_enh_oil_rec_inj_pump_bd(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve w enh oil rec inj pump bd data from ghg database
 }
-

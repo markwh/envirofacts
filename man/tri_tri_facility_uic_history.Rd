@@ -4,8 +4,8 @@
 \alias{tri_tri_facility_uic_history}
 \title{Retrieve tri facility uic history data from tri database}
 \usage{
-tri_tri_facility_uic_history(TRI_FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  ASGN_UIC_IND = NULL, UIC_NUM = NULL)
+tri_tri_facility_uic_history(TRI_FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, ASGN_UIC_IND = NULL, UIC_NUM = NULL)
 }
 \arguments{
 \item{TRI_FACILITY_ID}{e.g. '00602SMRTMRD115'. See Details.}
@@ -19,4 +19,3 @@ tri_tri_facility_uic_history(TRI_FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve tri facility uic history data from tri database
 }
-

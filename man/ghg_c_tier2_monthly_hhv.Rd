@@ -6,7 +6,8 @@
 \usage{
 ghg_c_tier2_monthly_hhv(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
   FACILITY_NAME = NULL, TIER2_NAME = NULL, MONTH_NAME = NULL,
-  HIGH_HEAT_VALUE_INDICATOR = NULL, FUEL_TYPE = NULL, UNIT_NAME = NULL)
+  HIGH_HEAT_VALUE_INDICATOR = NULL, FUEL_TYPE = NULL,
+  UNIT_NAME = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000001'. See Details.}
@@ -28,4 +29,3 @@ ghg_c_tier2_monthly_hhv(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve c tier2 monthly hhv data from ghg database
 }
-

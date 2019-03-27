@@ -4,10 +4,11 @@
 \alias{rcrainfo_rcr_hcertification}
 \title{Retrieve rcr hcertification data from rcrainfo database}
 \usage{
-rcrainfo_rcr_hcertification(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
-  SOURCE_TYPE = NULL, SEQ_NUMBER = NULL, CERT_SEQ = NULL,
-  CERT_SIGNED_DATE = NULL, CERT_TITLE = NULL, CERT_FIRST_NAME = NULL,
-  CERT_MIDDLE_INITIAL = NULL, CERT_LAST_NAME = NULL)
+rcrainfo_rcr_hcertification(HANDLER_ID = NULL,
+  ACTIVITY_LOCATION = NULL, SOURCE_TYPE = NULL, SEQ_NUMBER = NULL,
+  CERT_SEQ = NULL, CERT_SIGNED_DATE = NULL, CERT_TITLE = NULL,
+  CERT_FIRST_NAME = NULL, CERT_MIDDLE_INITIAL = NULL,
+  CERT_LAST_NAME = NULL)
 }
 \arguments{
 \item{HANDLER_ID}{e.g. 'AK0000006569'. See Details.}
@@ -22,7 +23,7 @@ rcrainfo_rcr_hcertification(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 
 \item{CERT_SIGNED_DATE}{e.g. '10-DEC-99'. See Details.}
 
-\item{CERT_TITLE}{e.g. 'SH%26E SPECIALIST'. See Details.}
+\item{CERT_TITLE}{e.g. 'SH&E SPECIALIST'. See Details.}
 
 \item{CERT_FIRST_NAME}{e.g. 'JAMES'. See Details.}
 
@@ -33,4 +34,3 @@ rcrainfo_rcr_hcertification(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve rcr hcertification data from rcrainfo database
 }
-

@@ -22,4 +22,3 @@ ghg_aa_makeup_chemical_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve aa makeup chemical info data from ghg database
 }
-

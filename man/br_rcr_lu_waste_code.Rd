@@ -4,8 +4,8 @@
 \alias{br_rcr_lu_waste_code}
 \title{Retrieve rcr lu waste code data from br database}
 \usage{
-br_rcr_lu_waste_code(OWNER = NULL, WASTE_CODE = NULL, CODE_TYPE = NULL,
-  WASTE_CODE_DESC = NULL, ACTIVE_STATUS = NULL,
+br_rcr_lu_waste_code(OWNER = NULL, WASTE_CODE = NULL,
+  CODE_TYPE = NULL, WASTE_CODE_DESC = NULL, ACTIVE_STATUS = NULL,
   BR_LOAD_ACTIVE_STATUS = NULL)
 }
 \arguments{
@@ -24,4 +24,3 @@ br_rcr_lu_waste_code(OWNER = NULL, WASTE_CODE = NULL, CODE_TYPE = NULL,
 \description{
 Retrieve rcr lu waste code data from br database
 }
-

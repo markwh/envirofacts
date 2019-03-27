@@ -19,4 +19,3 @@ radinfo_rad_facility_type(CIT_REF_CODE = NULL, SUBPART_ID = NULL,
 \description{
 Retrieve rad facility type data from radinfo database
 }
-

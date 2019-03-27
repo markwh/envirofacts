@@ -4,9 +4,9 @@
 \alias{tri_tri_zip_code}
 \title{Retrieve tri zip code data from tri database}
 \usage{
-tri_tri_zip_code(ZIP_CODE = NULL, CITY_NAME = NULL, STATE_ABBR = NULL,
-  REGION = NULL, COUNTRY_NAME = NULL, TRI_CENTROID_LAT = NULL,
-  TRI_CENTROID_LONG = NULL)
+tri_tri_zip_code(ZIP_CODE = NULL, CITY_NAME = NULL,
+  STATE_ABBR = NULL, REGION = NULL, COUNTRY_NAME = NULL,
+  TRI_CENTROID_LAT = NULL, TRI_CENTROID_LONG = NULL)
 }
 \arguments{
 \item{ZIP_CODE}{e.g. '00401'. See Details.}
@@ -26,4 +26,3 @@ tri_tri_zip_code(ZIP_CODE = NULL, CITY_NAME = NULL, STATE_ABBR = NULL,
 \description{
 Retrieve tri zip code data from tri database
 }
-

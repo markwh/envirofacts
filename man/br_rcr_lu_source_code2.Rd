@@ -24,4 +24,3 @@ br_rcr_lu_source_code2(OWNER = NULL, SOURCE_CODE = NULL,
 \description{
 Retrieve rcr lu source code2 data from br database
 }
-

@@ -65,4 +65,3 @@ radinfo_rad_facility(RAD_SYS_ID = NULL, FACILITY_REGISTRY_ID = NULL,
 \description{
 Retrieve rad facility data from radinfo database
 }
-

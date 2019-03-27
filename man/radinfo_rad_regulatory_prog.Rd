@@ -34,4 +34,3 @@ radinfo_rad_regulatory_prog(RAD_SYS_ID = NULL, CIT_REF_CODE = NULL,
 \description{
 Retrieve rad regulatory prog data from radinfo database
 }
-

@@ -22,4 +22,3 @@ ghg_y_equipmentleak_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve y equipmentleak info data from ghg database
 }
-

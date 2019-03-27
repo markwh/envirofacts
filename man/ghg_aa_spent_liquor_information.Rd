@@ -4,10 +4,12 @@
 \alias{ghg_aa_spent_liquor_information}
 \title{Retrieve aa spent liquor information data from ghg database}
 \usage{
-ghg_aa_spent_liquor_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, SPENT_LIQUOR_CO2_EMISSIONS = NULL,
-  SPENT_LIQUOR_CH4_EMISSIONS = NULL, UNIT_NAME = NULL, UNIT_TYPE = NULL,
-  SPENT_LIQUOR_N2O_EMISSIONS = NULL, BIOMASS_CH4_EMISSIONS_FACTOR = NULL,
+ghg_aa_spent_liquor_information(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, FACILITY_NAME = NULL,
+  SPENT_LIQUOR_CO2_EMISSIONS = NULL, SPENT_LIQUOR_CH4_EMISSIONS = NULL,
+  UNIT_NAME = NULL, UNIT_TYPE = NULL,
+  SPENT_LIQUOR_N2O_EMISSIONS = NULL,
+  BIOMASS_CH4_EMISSIONS_FACTOR = NULL,
   BIOMASS_N2O_EMISSIONS_FACTOR = NULL)
 }
 \arguments{
@@ -34,4 +36,3 @@ ghg_aa_spent_liquor_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve aa spent liquor information data from ghg database
 }
-

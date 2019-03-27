@@ -39,4 +39,3 @@ ghg_ff_destroffsite_weekly(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ff destroffsite weekly data from ghg database
 }
-

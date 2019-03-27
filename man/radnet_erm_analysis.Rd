@@ -4,9 +4,9 @@
 \alias{radnet_erm_analysis}
 \title{Retrieve erm analysis data from radnet database}
 \usage{
-radnet_erm_analysis(ANA_NUM = NULL, SAMP_NUM = NULL, ANA_PROC_NUM = NULL,
-  ANA_SIZE = NULL, ANA_UNIT = NULL, ANA_SIZE_2 = NULL,
-  ANA_UNIT_2 = NULL, ANA_COMMENT = NULL)
+radnet_erm_analysis(ANA_NUM = NULL, SAMP_NUM = NULL,
+  ANA_PROC_NUM = NULL, ANA_SIZE = NULL, ANA_UNIT = NULL,
+  ANA_SIZE_2 = NULL, ANA_UNIT_2 = NULL, ANA_COMMENT = NULL)
 }
 \arguments{
 \item{ANA_NUM}{e.g. '642'. See Details.}
@@ -28,4 +28,3 @@ radnet_erm_analysis(ANA_NUM = NULL, SAMP_NUM = NULL, ANA_PROC_NUM = NULL,
 \description{
 Retrieve erm analysis data from radnet database
 }
-

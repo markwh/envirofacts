@@ -16,4 +16,3 @@ br_breport_cycle(YEAR = NULL, USERID = NULL, LAST_CHANGE = NULL)
 \description{
 Retrieve breport cycle data from br database
 }
-

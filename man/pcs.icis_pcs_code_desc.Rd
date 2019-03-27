@@ -16,4 +16,3 @@ pcs.icis_pcs_code_desc(TABLE_ID = NULL, CODE = NULL, DESCRIPT = NULL)
 \description{
 Retrieve pcs code desc data from pcs-icis database
 }
-

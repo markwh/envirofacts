@@ -22,4 +22,3 @@ ghg_ii_equ_ii1_or_ii2(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ii equ ii1 or ii2 data from ghg database
 }
-

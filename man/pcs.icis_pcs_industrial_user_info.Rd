@@ -6,7 +6,8 @@
 \usage{
 pcs.icis_pcs_industrial_user_info(NPDES = NULL, INSP_DATE = NULL,
   INSP_TYPE = NULL, SIGNIFICANT_INDUSTRIAL_USERS = NULL,
-  CATEGORICAL_INDUSTRIAL_USERS = NULL, SIUS_WITHOUT_CTL_MECHANISM = NULL,
+  CATEGORICAL_INDUSTRIAL_USERS = NULL,
+  SIUS_WITHOUT_CTL_MECHANISM = NULL,
   SIUS_IN_SNC_WITH_PRETR_STDS = NULL, SIUS_NOT_INSP_SAMPLED = NULL,
   SIUS_SNC_SELF_MONITOR = NULL, SIUS_SNC_SELF_NOT_INSP = NULL)
 }
@@ -34,4 +35,3 @@ pcs.icis_pcs_industrial_user_info(NPDES = NULL, INSP_DATE = NULL,
 \description{
 Retrieve pcs industrial user info data from pcs-icis database
 }
-

@@ -172,7 +172,14 @@ envir_extractROWS <- function(url) {
 #   args <- paste0(names(ret), " = NULL", collapse = ", \n")
 # }
 
-#' @importFrom magrittr "%>%"
+#' Automatically write a function to get envirofacts data from a given table and service
+#'
+#' @param table Envirofacts table name
+#' @param service Envirofacts service name
+#' @param description Roxygen description to add to the function header
+#' @param dir Directory to put the function script into
+#' @param tidy If TRUE (default) use formatR to tidy the source code.
+#' @importFrom dplyr "%>%"
 #' @export
 envir_makeFunction <- function(table, service, description = NULL, dir = "./R", tidy = TRUE) {
   funname <- paste(service, table, sep = "_")
@@ -221,4 +228,8 @@ envir_serviceInfo <- function(service = NULL) {
   services[service]
 }
 
+#' Available Envirofacts services
+#'
+#' @keywords data
+"services"
 

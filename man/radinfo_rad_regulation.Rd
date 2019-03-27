@@ -7,8 +7,8 @@
 radinfo_rad_regulation(CIT_REF_CODE = NULL, STATUTE = NULL,
   STAT_ACRONYM = NULL, TITLE_ID = NULL, REG_TITLE = NULL,
   PART_ID = NULL, CFR_PART = NULL, SECTION_ID = NULL,
-  CRF_SECTION = NULL, SUBPART_ID = NULL, CFR_SUBPART = NULL, URL = NULL,
-  RAD_CHANGE_DATE = NULL)
+  CRF_SECTION = NULL, SUBPART_ID = NULL, CFR_SUBPART = NULL,
+  URL = NULL, RAD_CHANGE_DATE = NULL)
 }
 \arguments{
 \item{CIT_REF_CODE}{e.g. '40CFR191'. See Details.}
@@ -40,4 +40,3 @@ radinfo_rad_regulation(CIT_REF_CODE = NULL, STATUTE = NULL,
 \description{
 Retrieve rad regulation data from radinfo database
 }
-

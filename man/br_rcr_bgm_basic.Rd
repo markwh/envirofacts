@@ -60,7 +60,7 @@ br_rcr_bgm_basic(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 
 \item{SOURCE_CODE}{e.g. 'G14'. See Details.}
 
-\item{DESCRIPTION}{e.g. 'WASTEWATER SLUDGE CONTAINING SODIUM METAL SILICATE %26 LEAD'. See Details.}
+\item{DESCRIPTION}{e.g. 'WASTEWATER SLUDGE CONTAINING SODIUM METAL SILICATE & LEAD'. See Details.}
 
 \item{NOTES}{e.g. 'NA'. See Details.}
 
@@ -71,4 +71,3 @@ br_rcr_bgm_basic(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve rcr bgm basic data from br database
 }
-

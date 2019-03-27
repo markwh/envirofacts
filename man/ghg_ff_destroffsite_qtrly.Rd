@@ -26,4 +26,3 @@ ghg_ff_destroffsite_qtrly(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ff destroffsite qtrly data from ghg database
 }
-

@@ -5,8 +5,9 @@
 \title{Retrieve tt lf gas coll details data from ghg database}
 \usage{
 ghg_tt_lf_gas_coll_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, MONTH_NAME = NULL, AVERAGE_TEMPERATURE = NULL,
-  AVERAGE_PRESSURE = NULL, AVERAGE_MOISTURE_CONTENT = NULL)
+  FACILITY_NAME = NULL, MONTH_NAME = NULL,
+  AVERAGE_TEMPERATURE = NULL, AVERAGE_PRESSURE = NULL,
+  AVERAGE_MOISTURE_CONTENT = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1007453'. See Details.}
@@ -26,4 +27,3 @@ ghg_tt_lf_gas_coll_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve tt lf gas coll details data from ghg database
 }
-

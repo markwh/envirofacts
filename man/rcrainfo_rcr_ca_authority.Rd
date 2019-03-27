@@ -43,4 +43,3 @@ rcrainfo_rcr_ca_authority(HANDLER_ID = NULL, EFFECTIVE_DATE = NULL,
 \description{
 Retrieve rcr ca authority data from rcrainfo database
 }
-

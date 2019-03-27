@@ -28,4 +28,3 @@ cerclis_cer_financial_transaction(RAT_CODE = NULL, ACT_CODE_ID = NULL,
 \description{
 Retrieve cer financial transaction data from cerclis database
 }
-

@@ -66,4 +66,3 @@ cerclis_cer_location(SITE_EPA_ID = NULL, LATITUDE = NULL,
 \description{
 Retrieve cer location data from cerclis database
 }
-

@@ -33,4 +33,3 @@ rcrainfo_rcr_event_unit(HANDLER_ID = NULL, SERIES_SEQ = NULL,
 \description{
 Retrieve rcr event unit data from rcrainfo database
 }
-

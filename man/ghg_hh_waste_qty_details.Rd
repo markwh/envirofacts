@@ -44,4 +44,3 @@ ghg_hh_waste_qty_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve hh waste qty details data from ghg database
 }
-

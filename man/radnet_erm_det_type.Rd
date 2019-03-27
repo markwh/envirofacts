@@ -4,7 +4,8 @@
 \alias{radnet_erm_det_type}
 \title{Retrieve erm det type data from radnet database}
 \usage{
-radnet_erm_det_type(DET_NUM = NULL, DET_ID = NULL, DET_TYPE_ID = NULL)
+radnet_erm_det_type(DET_NUM = NULL, DET_ID = NULL,
+  DET_TYPE_ID = NULL)
 }
 \arguments{
 \item{DET_NUM}{e.g. '1'. See Details.}
@@ -16,4 +17,3 @@ radnet_erm_det_type(DET_NUM = NULL, DET_ID = NULL, DET_TYPE_ID = NULL)
 \description{
 Retrieve erm det type data from radnet database
 }
-

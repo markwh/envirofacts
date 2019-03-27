@@ -26,4 +26,3 @@ rcrainfo_rcr_hnaics(NAICS_SEQ = NULL, SEQ_NUMBER = NULL,
 \description{
 Retrieve rcr hnaics data from rcrainfo database
 }
-

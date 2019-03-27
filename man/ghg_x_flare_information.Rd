@@ -9,12 +9,13 @@ ghg_x_flare_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
   Y1A_C_CONTENT_METHOD_OTHER = NULL, Y1B_MEASUREMENT_PERIOD = NULL,
   Y1B_VOL_FLARE_GAS = NULL, Y1B_VOL_FLARE_GAS_METHOD = NULL,
   Y1B_CO2_CONCENTRATION = NULL, Y1B_CO2_CONCENTRATION_METHOD = NULL,
-  Y1B_CO2_CONC_METHOD_OTHER = NULL, Y1B_NUMBER_NONCO2_C_COMPOUNDS = NULL,
-  Y2_MEASUREMENT_PERIOD = NULL, Y2_VOL_FLARE_GAS = NULL,
-  Y2_VOL_FLARE_GAS_METHOD = NULL, Y2_HHV = NULL, Y2_HHV_METHOD = NULL,
-  Y2_HHV_METHOD_OTHER = NULL, Y2_VOL_FLARE_GAS_CONDITIONS = NULL,
-  Y2_HHV_CONDITIONS = NULL, Y3_NUMBER_SSM_EVENTS = NULL,
-  FLARE_TYPE = NULL, FLARE_TYPE_OTHER = NULL, FLARE_SERVICE = NULL,
+  Y1B_CO2_CONC_METHOD_OTHER = NULL,
+  Y1B_NUMBER_NONCO2_C_COMPOUNDS = NULL, Y2_MEASUREMENT_PERIOD = NULL,
+  Y2_VOL_FLARE_GAS = NULL, Y2_VOL_FLARE_GAS_METHOD = NULL,
+  Y2_HHV = NULL, Y2_HHV_METHOD = NULL, Y2_HHV_METHOD_OTHER = NULL,
+  Y2_VOL_FLARE_GAS_CONDITIONS = NULL, Y2_HHV_CONDITIONS = NULL,
+  Y3_NUMBER_SSM_EVENTS = NULL, FLARE_TYPE = NULL,
+  FLARE_TYPE_OTHER = NULL, FLARE_SERVICE = NULL,
   FLARE_SERVICE_OTHER = NULL, C_FROM_CH4_FRACTION_BASIS = NULL,
   C_FROM_CH4_FRACTION_BASIS_OTHR = NULL, UNIT_NAME = NULL,
   UNIT_TYPE = NULL, CO2_CALCULATION_METHOD = NULL,
@@ -75,7 +76,7 @@ ghg_x_flare_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 
 \item{FLARE_SERVICE_OTHER}{e.g. 'NA'. See Details.}
 
-\item{C_FROM_CH4_FRACTION_BASIS}{e.g. 'Chromatographic analysis: manufacturer%27s instructions'. See Details.}
+\item{C_FROM_CH4_FRACTION_BASIS}{e.g. 'Chromatographic analysis: manufacturer's instructions'. See Details.}
 
 \item{C_FROM_CH4_FRACTION_BASIS_OTHR}{e.g. 'NA'. See Details.}
 
@@ -99,13 +100,12 @@ ghg_x_flare_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 
 \item{Y1A_MOL_WT}{e.g. '20.68'. See Details.}
 
-\item{Y1A_C_CONTENT_METHOD}{e.g. 'Chromatographic analysis: manufacturer%27s instructions'. See Details.}
+\item{Y1A_C_CONTENT_METHOD}{e.g. 'Chromatographic analysis: manufacturer's instructions'. See Details.}
 
-\item{Y1A_MOL_WT_METHOD}{e.g. 'ASTM D1945-03,Chromatographic analysis: manufacturer%27s instructions'. See Details.}
+\item{Y1A_MOL_WT_METHOD}{e.g. 'ASTM D1945-03,Chromatographic analysis: manufacturer's instructions'. See Details.}
 
 \item{Y1B_CONC_NON_CO2_C_COMP_METHD}{e.g. ' '. See Details.}
 }
 \description{
 Retrieve x flare information data from ghg database
 }
-

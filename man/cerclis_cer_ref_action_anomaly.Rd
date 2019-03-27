@@ -14,4 +14,3 @@ cerclis_cer_ref_action_anomaly(RAA_CODE = NULL, RAA_DESC = NULL)
 \description{
 Retrieve cer ref action anomaly data from cerclis database
 }
-

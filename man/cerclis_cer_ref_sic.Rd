@@ -14,4 +14,3 @@ cerclis_cer_ref_sic(RSIC_CODE = NULL, RSIC_CODE_DESC = NULL)
 \description{
 Retrieve cer ref sic data from cerclis database
 }
-

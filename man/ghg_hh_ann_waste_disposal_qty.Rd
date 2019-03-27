@@ -4,10 +4,10 @@
 \alias{ghg_hh_ann_waste_disposal_qty}
 \title{Retrieve hh ann waste disposal qty data from ghg database}
 \usage{
-ghg_hh_ann_waste_disposal_qty(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  WASTE_DISPOSAL_QTY_RY_BY_MTHD = NULL, FACILITY_NAME = NULL,
-  WASTE_DISP_REPORTING_YEAR = NULL, TOTAL_WASTE_DISPOSAL_QTY_RY = NULL,
-  METHOD_USED_TO_FIND_QTY = NULL)
+ghg_hh_ann_waste_disposal_qty(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, WASTE_DISPOSAL_QTY_RY_BY_MTHD = NULL,
+  FACILITY_NAME = NULL, WASTE_DISP_REPORTING_YEAR = NULL,
+  TOTAL_WASTE_DISPOSAL_QTY_RY = NULL, METHOD_USED_TO_FIND_QTY = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000010'. See Details.}
@@ -27,4 +27,3 @@ ghg_hh_ann_waste_disposal_qty(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve hh ann waste disposal qty data from ghg database
 }
-

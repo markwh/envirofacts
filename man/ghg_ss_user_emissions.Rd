@@ -29,4 +29,3 @@ ghg_ss_user_emissions(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ss user emissions data from ghg database
 }
-

@@ -4,8 +4,8 @@
 \alias{cerclis_cer_operable_unit}
 \title{Retrieve cer operable unit data from cerclis database}
 \usage{
-cerclis_cer_operable_unit(SITE_ID = NULL, OU_ID = NULL, OU_NAME = NULL,
-  OU_DESC_TEXT = NULL)
+cerclis_cer_operable_unit(SITE_ID = NULL, OU_ID = NULL,
+  OU_NAME = NULL, OU_DESC_TEXT = NULL)
 }
 \arguments{
 \item{SITE_ID}{e.g. ' or OU4'. See Details.}
@@ -19,4 +19,3 @@ cerclis_cer_operable_unit(SITE_ID = NULL, OU_ID = NULL, OU_NAME = NULL,
 \description{
 Retrieve cer operable unit data from cerclis database
 }
-

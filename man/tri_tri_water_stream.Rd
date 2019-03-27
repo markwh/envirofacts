@@ -5,8 +5,8 @@
 \title{Retrieve tri water stream data from tri database}
 \usage{
 tri_tri_water_stream(DOC_CTRL_NUM = NULL, WATER_SEQUENCE_NUM = NULL,
-  STREAM_NAME = NULL, STORM_WATER_NA = NULL, STORM_WATER_PERCENT = NULL,
-  REACH_CODE = NULL)
+  STREAM_NAME = NULL, STORM_WATER_NA = NULL,
+  STORM_WATER_PERCENT = NULL, REACH_CODE = NULL)
 }
 \arguments{
 \item{DOC_CTRL_NUM}{e.g. '1300140000011'. See Details.}
@@ -24,4 +24,3 @@ tri_tri_water_stream(DOC_CTRL_NUM = NULL, WATER_SEQUENCE_NUM = NULL,
 \description{
 Retrieve tri water stream data from tri database
 }
-

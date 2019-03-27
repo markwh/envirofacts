@@ -4,8 +4,9 @@
 \alias{ghg_hh_active_aeration_sys_detls}
 \title{Retrieve hh active aeration sys detls data from ghg database}
 \usage{
-ghg_hh_active_aeration_sys_detls(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, AERATION_SYS_BLOWER_CAPACITY = NULL,
+ghg_hh_active_aeration_sys_detls(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, FACILITY_NAME = NULL,
+  AERATION_SYS_BLOWER_CAPACITY = NULL,
   LNDFIL_FRAC_AFFECTED_AERATION = NULL,
   AERATION_SYS_BLOW_HRS_OF_OPRAT = NULL, OTHER_MCF_FACTORS = NULL,
   AERATION_SYS_ADD_DESCRIPTION = NULL)
@@ -30,4 +31,3 @@ ghg_hh_active_aeration_sys_detls(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve hh active aeration sys detls data from ghg database
 }
-

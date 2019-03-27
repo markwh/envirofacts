@@ -39,4 +39,3 @@ tri_tri_transfer_qty(DOC_CTRL_NUM = NULL, TRANSFER_LOC_NUM = NULL,
 \description{
 Retrieve tri transfer qty data from tri database
 }
-

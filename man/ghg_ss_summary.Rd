@@ -26,4 +26,3 @@ ghg_ss_summary(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ss summary data from ghg database
 }
-

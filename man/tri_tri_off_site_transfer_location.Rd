@@ -6,9 +6,10 @@
 \usage{
 tri_tri_off_site_transfer_location(DOC_CTRL_NUM = NULL,
   TRANSFER_LOC_NUM = NULL, OFF_SITE_NAME = NULL,
-  OFF_SITE_STREET_ADDRESS = NULL, CITY_NAME = NULL, COUNTY_NAME = NULL,
-  STATE_ABBR = NULL, PROVINCE = NULL, ZIP_CODE = NULL,
-  COUNTRY_CODE = NULL, RCRA_NUM = NULL, CONTROLLED_LOC = NULL)
+  OFF_SITE_STREET_ADDRESS = NULL, CITY_NAME = NULL,
+  COUNTY_NAME = NULL, STATE_ABBR = NULL, PROVINCE = NULL,
+  ZIP_CODE = NULL, COUNTRY_CODE = NULL, RCRA_NUM = NULL,
+  CONTROLLED_LOC = NULL)
 }
 \arguments{
 \item{DOC_CTRL_NUM}{e.g. '1300140000011'. See Details.}
@@ -38,4 +39,3 @@ tri_tri_off_site_transfer_location(DOC_CTRL_NUM = NULL,
 \description{
 Retrieve tri off site transfer location data from tri database
 }
-

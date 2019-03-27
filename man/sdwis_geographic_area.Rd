@@ -5,10 +5,11 @@
 \title{Retrieve geographic area data from sdwis database}
 \usage{
 sdwis_geographic_area(PWSID = NULL, GEO_ID = NULL,
-  PRIMACY_AGENCY_CODE = NULL, EPA_REGION = NULL, PWS_ACTIVITY_CODE = NULL,
-  PWS_TYPE_CODE = NULL, TRIBAL_CODE = NULL, STATE_SERVED = NULL,
-  ANSI_ENTITY_CODE = NULL, ZIP_CODE_SERVED = NULL, CITY_SERVED = NULL,
-  AREA_TYPE_CODE = NULL, COUNTY_SERVED = NULL)
+  PRIMACY_AGENCY_CODE = NULL, EPA_REGION = NULL,
+  PWS_ACTIVITY_CODE = NULL, PWS_TYPE_CODE = NULL, TRIBAL_CODE = NULL,
+  STATE_SERVED = NULL, ANSI_ENTITY_CODE = NULL,
+  ZIP_CODE_SERVED = NULL, CITY_SERVED = NULL, AREA_TYPE_CODE = NULL,
+  COUNTY_SERVED = NULL)
 }
 \arguments{
 \item{PWSID}{e.g. '010106001'. See Details.}
@@ -40,4 +41,3 @@ sdwis_geographic_area(PWSID = NULL, GEO_ID = NULL,
 \description{
 Retrieve geographic area data from sdwis database
 }
-

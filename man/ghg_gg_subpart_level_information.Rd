@@ -4,8 +4,9 @@
 \alias{ghg_gg_subpart_level_information}
 \title{Retrieve gg subpart level information data from ghg database}
 \usage{
-ghg_gg_subpart_level_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  OTHER_GHG_NAME = NULL, GHG_QUANTITY_OVERRIDE_INDICATR = NULL,
+ghg_gg_subpart_level_information(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, OTHER_GHG_NAME = NULL,
+  GHG_QUANTITY_OVERRIDE_INDICATR = NULL,
   GHG_QUANTITY_UNIT_OF_MEASURE = NULL, GHG_QUANTITY = NULL,
   GHG_NAME = NULL, FACILITY_NAME = NULL)
 }
@@ -29,4 +30,3 @@ ghg_gg_subpart_level_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve gg subpart level information data from ghg database
 }
-

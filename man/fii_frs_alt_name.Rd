@@ -41,4 +41,3 @@ fii_frs_alt_name(PGM_SYS_ACRNM = NULL, PGM_SYS_ID = NULL,
 \description{
 Retrieve frs alt name data from fii database
 }
-

@@ -4,11 +4,11 @@
 \alias{fii_frs_naics}
 \title{Retrieve frs naics data from fii database}
 \usage{
-fii_frs_naics(NAICS_UIN = NULL, PGM_SYS_ACRNM = NULL, PGM_SYS_ID = NULL,
-  NAICS_CODE = NULL, PRIMARY_INDICATOR = NULL, SOURCE_OF_DATA = NULL,
-  LAST_REPORTED_DATE = NULL, CREATE_DATE = NULL, UPDATE_DATE = NULL,
-  USER_ID = NULL, SENSITIVE_IND = NULL, PUBLIC_IND = NULL,
-  SUP_INTEREST_ID = NULL)
+fii_frs_naics(NAICS_UIN = NULL, PGM_SYS_ACRNM = NULL,
+  PGM_SYS_ID = NULL, NAICS_CODE = NULL, PRIMARY_INDICATOR = NULL,
+  SOURCE_OF_DATA = NULL, LAST_REPORTED_DATE = NULL,
+  CREATE_DATE = NULL, UPDATE_DATE = NULL, USER_ID = NULL,
+  SENSITIVE_IND = NULL, PUBLIC_IND = NULL, SUP_INTEREST_ID = NULL)
 }
 \arguments{
 \item{NAICS_UIN}{e.g. '17298'. See Details.}
@@ -40,4 +40,3 @@ fii_frs_naics(NAICS_UIN = NULL, PGM_SYS_ACRNM = NULL, PGM_SYS_ID = NULL,
 \description{
 Retrieve frs naics data from fii database
 }
-

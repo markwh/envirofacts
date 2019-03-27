@@ -47,4 +47,3 @@ fii_frs_contact(CONTACT_UIN = NULL, FULL_NAME = NULL, TITLE = NULL,
 \description{
 Retrieve frs contact data from fii database
 }
-

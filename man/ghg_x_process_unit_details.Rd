@@ -27,4 +27,3 @@ ghg_x_process_unit_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve x process unit details data from ghg database
 }
-

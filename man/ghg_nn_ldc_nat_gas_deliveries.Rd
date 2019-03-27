@@ -4,8 +4,9 @@
 \alias{ghg_nn_ldc_nat_gas_deliveries}
 \title{Retrieve nn ldc nat gas deliveries data from ghg database}
 \usage{
-ghg_nn_ldc_nat_gas_deliveries(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, END_USER_CATEGORY = NULL, VOLUME_DELIVERED = NULL)
+ghg_nn_ldc_nat_gas_deliveries(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, FACILITY_NAME = NULL,
+  END_USER_CATEGORY = NULL, VOLUME_DELIVERED = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000008'. See Details.}
@@ -21,4 +22,3 @@ ghg_nn_ldc_nat_gas_deliveries(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve nn ldc nat gas deliveries data from ghg database
 }
-

@@ -17,4 +17,3 @@ ghg_n_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve n info data from ghg database
 }
-

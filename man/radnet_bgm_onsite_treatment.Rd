@@ -4,11 +4,12 @@
 \alias{radnet_bgm_onsite_treatment}
 \title{Retrieve bgm onsite treatment data from radnet database}
 \usage{
-radnet_bgm_onsite_treatment(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
-  SOURCE_TYPE = NULL, SEQ_NUMBER = NULL, HZ_PG = NULL,
-  SYS_PG_NUM_SEQ = NULL, MANAGEMENT_METHOD_OWNER = NULL,
-  MANAGEMENT_METHOD = NULL, SYS_TDR_QTY = NULL, MANAGED_TONS_CALC = NULL,
-  USERID = NULL, LAST_CHANGE = NULL)
+radnet_bgm_onsite_treatment(HANDLER_ID = NULL,
+  ACTIVITY_LOCATION = NULL, SOURCE_TYPE = NULL, SEQ_NUMBER = NULL,
+  HZ_PG = NULL, SYS_PG_NUM_SEQ = NULL,
+  MANAGEMENT_METHOD_OWNER = NULL, MANAGEMENT_METHOD = NULL,
+  SYS_TDR_QTY = NULL, MANAGED_TONS_CALC = NULL, USERID = NULL,
+  LAST_CHANGE = NULL)
 }
 \arguments{
 \item{HANDLER_ID}{e.g. 'AK1570028646'. See Details.}
@@ -38,4 +39,3 @@ radnet_bgm_onsite_treatment(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve bgm onsite treatment data from radnet database
 }
-

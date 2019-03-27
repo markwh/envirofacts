@@ -19,4 +19,3 @@ rcrainfo_rcr_permit_event_codes(OWNER = NULL, PERMIT_EVENT_CODE = NULL,
 \description{
 Retrieve rcr permit event codes data from rcrainfo database
 }
-

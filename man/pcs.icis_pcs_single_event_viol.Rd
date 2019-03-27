@@ -4,10 +4,10 @@
 \alias{pcs.icis_pcs_single_event_viol}
 \title{Retrieve pcs single event viol data from pcs-icis database}
 \usage{
-pcs.icis_pcs_single_event_viol(NPDES = NULL, SINGLE_EVENT_VIOL_CODE = NULL,
-  SINGLE_EVENT_VIOL_DATE = NULL, QNCR_RNC_DET_CODE = NULL,
-  QNCR_RNC_DET_DATE = NULL, QNCR_RNC_RESOL_CODE = NULL,
-  QNCR_RNC_RESOL_DATE = NULL)
+pcs.icis_pcs_single_event_viol(NPDES = NULL,
+  SINGLE_EVENT_VIOL_CODE = NULL, SINGLE_EVENT_VIOL_DATE = NULL,
+  QNCR_RNC_DET_CODE = NULL, QNCR_RNC_DET_DATE = NULL,
+  QNCR_RNC_RESOL_CODE = NULL, QNCR_RNC_RESOL_DATE = NULL)
 }
 \arguments{
 \item{NPDES}{e.g. 'AL0024210'. See Details.}
@@ -27,4 +27,3 @@ pcs.icis_pcs_single_event_viol(NPDES = NULL, SINGLE_EVENT_VIOL_CODE = NULL,
 \description{
 Retrieve pcs single event viol data from pcs-icis database
 }
-

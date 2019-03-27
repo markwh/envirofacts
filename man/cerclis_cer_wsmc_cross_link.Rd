@@ -17,4 +17,3 @@ cerclis_cer_wsmc_cross_link(SITE_ID = NULL, WSMC_NMBR = NULL,
 \description{
 Retrieve cer wsmc cross link data from cerclis database
 }
-

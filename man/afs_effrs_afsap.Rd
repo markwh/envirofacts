@@ -60,4 +60,3 @@ afs_effrs_afsap(STATE_COUNTY_COMPLIANCE_SOURCE = NULL,
 \description{
 Retrieve effrs afsap data from afs database
 }
-

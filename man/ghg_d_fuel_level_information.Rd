@@ -38,4 +38,3 @@ ghg_d_fuel_level_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve d fuel level information data from ghg database
 }
-

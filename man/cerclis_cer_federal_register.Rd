@@ -19,4 +19,3 @@ cerclis_cer_federal_register(SITE_ID = NULL, FR_DATE = NULL,
 \description{
 Retrieve cer federal register data from cerclis database
 }
-

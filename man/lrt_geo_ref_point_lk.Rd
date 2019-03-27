@@ -14,4 +14,3 @@ lrt_geo_ref_point_lk(REF_POINT_CODE = NULL, REF_POINT_DESC = NULL)
 \description{
 Retrieve geo ref point lk data from lrt database
 }
-

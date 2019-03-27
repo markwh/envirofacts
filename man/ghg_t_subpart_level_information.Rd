@@ -4,9 +4,10 @@
 \alias{ghg_t_subpart_level_information}
 \title{Retrieve t subpart level information data from ghg database}
 \usage{
-ghg_t_subpart_level_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  GHG_QUANTITY = NULL, FACILITY_NAME = NULL, GHG_NAME = NULL,
-  OTHER_GREENHOUSE_GAS_NAME = NULL, OTHER_GAS_GHG_GROUP = NULL)
+ghg_t_subpart_level_information(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, GHG_QUANTITY = NULL, FACILITY_NAME = NULL,
+  GHG_NAME = NULL, OTHER_GREENHOUSE_GAS_NAME = NULL,
+  OTHER_GAS_GHG_GROUP = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000030'. See Details.}
@@ -26,4 +27,3 @@ ghg_t_subpart_level_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve t subpart level information data from ghg database
 }
-

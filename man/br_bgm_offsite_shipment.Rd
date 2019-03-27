@@ -40,4 +40,3 @@ br_bgm_offsite_shipment(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve bgm offsite shipment data from br database
 }
-

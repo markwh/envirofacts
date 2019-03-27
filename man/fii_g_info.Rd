@@ -24,4 +24,3 @@ fii_g_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve g info data from fii database
 }
-

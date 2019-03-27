@@ -49,4 +49,3 @@ ghg_tt_hist_waste_method(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve tt hist waste method data from ghg database
 }
-

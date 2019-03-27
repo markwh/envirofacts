@@ -19,4 +19,3 @@ ghg_i_abatement_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve i abatement info data from ghg database
 }
-

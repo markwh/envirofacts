@@ -4,10 +4,11 @@
 \alias{ghg_w_wellcompl_without_hydraulic}
 \title{Retrieve w wellcompl without hydraulic data from ghg database}
 \usage{
-ghg_w_wellcompl_without_hydraulic(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  COMPLT_WO_HYD_FLAR_N2O_EMMCO2E = NULL, FACILITY_NAME = NULL,
-  INDUSTRY_SEGMENT = NULL, COMPLT_WO_HYD_FLAR_CH4_EMMCO2E = NULL,
-  TOTAL_GAS_VENTING_DAYS = NULL, COMPLT_WO_HYD_VENTING_CO2_EMM = NULL,
+ghg_w_wellcompl_without_hydraulic(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, COMPLT_WO_HYD_FLAR_N2O_EMMCO2E = NULL,
+  FACILITY_NAME = NULL, INDUSTRY_SEGMENT = NULL,
+  COMPLT_WO_HYD_FLAR_CH4_EMMCO2E = NULL, TOTAL_GAS_VENTING_DAYS = NULL,
+  COMPLT_WO_HYD_VENTING_CO2_EMM = NULL,
   COMPL_WO_HYD_VENT_CH4_EMM_CO2E = NULL,
   COMPLT_WO_HYD_FLARING_CO2_EMM = NULL, SUB_BASIN_IDENTIFIER = NULL,
   NUMBER_OF_COMPLETIONS = NULL, NUMBER_OF_WRKOVRS_FLR_OR_VNT = NULL)
@@ -42,4 +43,3 @@ ghg_w_wellcompl_without_hydraulic(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve w wellcompl without hydraulic data from ghg database
 }
-

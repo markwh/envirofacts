@@ -14,4 +14,3 @@ cerclis_cer_ref_fdrl_rgstr_actn(RFRA_CODE = NULL, RFRA_DESC = NULL)
 \description{
 Retrieve cer ref fdrl rgstr actn data from cerclis database
 }
-

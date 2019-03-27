@@ -14,4 +14,3 @@ cerclis_cer_ref_site_incident_type(RSIT_CODE = NULL, RSIT_DESC = NULL)
 \description{
 Retrieve cer ref site incident type data from cerclis database
 }
-

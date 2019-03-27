@@ -15,4 +15,3 @@ tri_tri_recycling_process(DOC_CTRL_NUM = NULL,
 \description{
 Retrieve tri recycling process data from tri database
 }
-

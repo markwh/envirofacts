@@ -56,4 +56,3 @@ ghg_pp_meter_and_equipment_details(FACILITY_ID = NULL,
 \description{
 Retrieve pp meter and equipment details data from ghg database
 }
-

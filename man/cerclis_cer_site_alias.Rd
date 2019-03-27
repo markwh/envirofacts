@@ -27,4 +27,3 @@ cerclis_cer_site_alias(SITE_ID = NULL, SITE_ALIAS_ID = NULL,
 \description{
 Retrieve cer site alias data from cerclis database
 }
-

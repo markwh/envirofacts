@@ -21,4 +21,3 @@ tri_tri_submission_naics(TRI_FACILITY_ID = NULL, DOC_CTRL_NUM = NULL,
 \description{
 Retrieve tri submission naics data from tri database
 }
-

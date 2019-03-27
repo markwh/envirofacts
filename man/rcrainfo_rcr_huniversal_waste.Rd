@@ -4,9 +4,10 @@
 \alias{rcrainfo_rcr_huniversal_waste}
 \title{Retrieve rcr huniversal waste data from rcrainfo database}
 \usage{
-rcrainfo_rcr_huniversal_waste(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
-  SOURCE_TYPE = NULL, SEQ_NUMBER = NULL, UNIVERSAL_WASTE_OWNER = NULL,
-  UNIVERSAL_WASTE_TYPE = NULL, ACCUMULATED = NULL, GENERATED = NULL)
+rcrainfo_rcr_huniversal_waste(HANDLER_ID = NULL,
+  ACTIVITY_LOCATION = NULL, SOURCE_TYPE = NULL, SEQ_NUMBER = NULL,
+  UNIVERSAL_WASTE_OWNER = NULL, UNIVERSAL_WASTE_TYPE = NULL,
+  ACCUMULATED = NULL, GENERATED = NULL)
 }
 \arguments{
 \item{HANDLER_ID}{e.g. 'AK1210022157'. See Details.}
@@ -28,4 +29,3 @@ rcrainfo_rcr_huniversal_waste(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve rcr huniversal waste data from rcrainfo database
 }
-

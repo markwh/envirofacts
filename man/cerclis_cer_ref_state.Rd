@@ -17,4 +17,3 @@ cerclis_cer_ref_state(RSTATE_CODE = NULL, RSTATE_NAME = NULL,
 \description{
 Retrieve cer ref state data from cerclis database
 }
-

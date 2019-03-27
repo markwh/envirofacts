@@ -19,4 +19,3 @@ ghg_v_facility_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve v facility info data from ghg database
 }
-

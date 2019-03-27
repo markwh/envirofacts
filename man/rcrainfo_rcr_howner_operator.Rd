@@ -4,13 +4,13 @@
 \alias{rcrainfo_rcr_howner_operator}
 \title{Retrieve rcr howner operator data from rcrainfo database}
 \usage{
-rcrainfo_rcr_howner_operator(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
-  SOURCE_TYPE = NULL, SEQ_NUMBER = NULL, OWNER_OPERATOR_SEQ = NULL,
-  OWNER_OPERATOR_INDICATOR = NULL, OWNER_OPERATOR_NAME = NULL,
-  OWNER_OPERATOR_TYPE = NULL, DATE_BECAME_CURRENT = NULL,
-  DATE_ENDED_CURRENT = NULL, STREET_NO = NULL, STREET1 = NULL,
-  STREET2 = NULL, CITY = NULL, STATE = NULL, COUNTRY = NULL,
-  ZIP = NULL, PHONE = NULL)
+rcrainfo_rcr_howner_operator(HANDLER_ID = NULL,
+  ACTIVITY_LOCATION = NULL, SOURCE_TYPE = NULL, SEQ_NUMBER = NULL,
+  OWNER_OPERATOR_SEQ = NULL, OWNER_OPERATOR_INDICATOR = NULL,
+  OWNER_OPERATOR_NAME = NULL, OWNER_OPERATOR_TYPE = NULL,
+  DATE_BECAME_CURRENT = NULL, DATE_ENDED_CURRENT = NULL,
+  STREET_NO = NULL, STREET1 = NULL, STREET2 = NULL, CITY = NULL,
+  STATE = NULL, COUNTRY = NULL, ZIP = NULL, PHONE = NULL)
 }
 \arguments{
 \item{HANDLER_ID}{e.g. 'AK0000000323'. See Details.}
@@ -52,4 +52,3 @@ rcrainfo_rcr_howner_operator(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve rcr howner operator data from rcrainfo database
 }
-

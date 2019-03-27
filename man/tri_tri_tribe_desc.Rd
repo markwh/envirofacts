@@ -21,4 +21,3 @@ tri_tri_tribe_desc(BIA_CODE = NULL, TRIBE = NULL, REGION = NULL,
 \description{
 Retrieve tri tribe desc data from tri database
 }
-

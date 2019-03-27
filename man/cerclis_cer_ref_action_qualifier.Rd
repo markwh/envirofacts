@@ -15,4 +15,3 @@ cerclis_cer_ref_action_qualifier(RAQ_ACTION_QUAL_CODE = NULL,
 \description{
 Retrieve cer ref action qualifier data from cerclis database
 }
-

@@ -28,4 +28,3 @@ ghg_dd_sf6pfc_decreases(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve dd sf6pfc decreases data from ghg database
 }
-

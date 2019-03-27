@@ -24,4 +24,3 @@ ghg_tt_waste_depth_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve tt waste depth details data from ghg database
 }
-

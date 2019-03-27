@@ -4,14 +4,14 @@
 \alias{fii_frs_supplemental_interest}
 \title{Retrieve frs supplemental interest data from fii database}
 \usage{
-fii_frs_supplemental_interest(SUP_INTEREST_ID = NULL, PGM_SYS_ACRNM = NULL,
-  PGM_SYS_ID = NULL, SUP_PGM_SYS_ACRNM = NULL, SUP_PGM_SYS_ID = NULL,
-  SUP_INTEREST_TYPE = NULL, START_DATE = NULL,
-  START_DATE_QUALIFIER = NULL, END_DATE = NULL, END_DATE_QUALIFIER = NULL,
-  SOURCE_OF_DATA = NULL, LAST_REPORTED_DATE = NULL,
-  REPORTED_SUP_INTEREST_TYPE = NULL, CREATE_DATE = NULL,
-  UPDATE_DATE = NULL, USER_ID = NULL, SENSITIVE_IND = NULL,
-  PUBLIC_IND = NULL)
+fii_frs_supplemental_interest(SUP_INTEREST_ID = NULL,
+  PGM_SYS_ACRNM = NULL, PGM_SYS_ID = NULL, SUP_PGM_SYS_ACRNM = NULL,
+  SUP_PGM_SYS_ID = NULL, SUP_INTEREST_TYPE = NULL, START_DATE = NULL,
+  START_DATE_QUALIFIER = NULL, END_DATE = NULL,
+  END_DATE_QUALIFIER = NULL, SOURCE_OF_DATA = NULL,
+  LAST_REPORTED_DATE = NULL, REPORTED_SUP_INTEREST_TYPE = NULL,
+  CREATE_DATE = NULL, UPDATE_DATE = NULL, USER_ID = NULL,
+  SENSITIVE_IND = NULL, PUBLIC_IND = NULL)
 }
 \arguments{
 \item{SUP_INTEREST_ID}{e.g. '301676'. See Details.}
@@ -53,4 +53,3 @@ fii_frs_supplemental_interest(SUP_INTEREST_ID = NULL, PGM_SYS_ACRNM = NULL,
 \description{
 Retrieve frs supplemental interest data from fii database
 }
-

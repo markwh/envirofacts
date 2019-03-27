@@ -17,4 +17,3 @@ rcrainfo_rcr_lu_county(COUNTY_CODE = NULL, COUNTY_NAME = NULL,
 \description{
 Retrieve rcr lu county data from rcrainfo database
 }
-

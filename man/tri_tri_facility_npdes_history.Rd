@@ -19,4 +19,3 @@ tri_tri_facility_npdes_history(TRI_FACILITY_ID = NULL,
 \description{
 Retrieve tri facility npdes history data from tri database
 }
-

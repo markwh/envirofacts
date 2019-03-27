@@ -5,7 +5,8 @@
 \title{Retrieve w pneumatic pumps data from ghg database}
 \usage{
 ghg_w_pneumatic_pumps(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  SUB_INDICATOR_PNEUMATIC_PUMPS = NULL, BAMM_DESC_PNEUMATIC_PUMPS = NULL,
+  SUB_INDICATOR_PNEUMATIC_PUMPS = NULL,
+  BAMM_DESC_PNEUMATIC_PUMPS = NULL,
   BAMM_INDICATOR_PNEUMATIC_PUMPS = NULL,
   DOES_FAC_HAVE_PNEUMATIC_PUMPS = NULL,
   PNEUM_PUMP_TOTAL_GHG_EMM_CO2E = NULL,
@@ -42,4 +43,3 @@ ghg_w_pneumatic_pumps(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve w pneumatic pumps data from ghg database
 }
-

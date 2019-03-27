@@ -6,7 +6,8 @@
 \usage{
 ghg_hh_hist_yr_waste_qty(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
   FACILITY_NAME = NULL, HIST_WASTE_DISPOSAL_YEAR = NULL,
-  HISTYR_ANN_WSTE_DISPOSAL_QTY = NULL, HISTYR_ANN_WSTE_QTY_BY_MTHD = NULL,
+  HISTYR_ANN_WSTE_DISPOSAL_QTY = NULL,
+  HISTYR_ANN_WSTE_QTY_BY_MTHD = NULL,
   HISTYR_ANN_WSTE_QTY_MTHD_USED = NULL)
 }
 \arguments{
@@ -27,4 +28,3 @@ ghg_hh_hist_yr_waste_qty(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve hh hist yr waste qty data from ghg database
 }
-

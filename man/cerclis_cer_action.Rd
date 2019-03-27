@@ -4,10 +4,11 @@
 \alias{cerclis_cer_action}
 \title{Retrieve cer action data from cerclis database}
 \usage{
-cerclis_cer_action(RAT_CODE = NULL, SITE_ID = NULL, ACT_CODE_ID = NULL,
-  ACT_ACTL_STRT_DATE = NULL, ACT_ACTL_CMPLTN_DATE = NULL,
-  RAQ_ACTION_QUAL_CODE = NULL, OU_ID = NULL, RALT_CODE = NULL,
-  RPS_CODE = NULL, RACT_CRITICAL_FLAG_CODE = NULL, RAA_CODE = NULL)
+cerclis_cer_action(RAT_CODE = NULL, SITE_ID = NULL,
+  ACT_CODE_ID = NULL, ACT_ACTL_STRT_DATE = NULL,
+  ACT_ACTL_CMPLTN_DATE = NULL, RAQ_ACTION_QUAL_CODE = NULL,
+  OU_ID = NULL, RALT_CODE = NULL, RPS_CODE = NULL,
+  RACT_CRITICAL_FLAG_CODE = NULL, RAA_CODE = NULL)
 }
 \arguments{
 \item{RAT_CODE}{e.g. '5L'. See Details.}
@@ -35,4 +36,3 @@ cerclis_cer_action(RAT_CODE = NULL, SITE_ID = NULL, ACT_CODE_ID = NULL,
 \description{
 Retrieve cer action data from cerclis database
 }
-

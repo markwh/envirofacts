@@ -22,4 +22,3 @@ ghg_y_delayedcoking_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve y delayedcoking info data from ghg database
 }
-

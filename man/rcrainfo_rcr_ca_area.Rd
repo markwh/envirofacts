@@ -41,4 +41,3 @@ rcrainfo_rcr_ca_area(HANDLER_ID = NULL, AREA_SEQ = NULL,
 \description{
 Retrieve rcr ca area data from rcrainfo database
 }
-

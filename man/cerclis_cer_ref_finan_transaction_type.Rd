@@ -5,8 +5,8 @@
 \title{Retrieve cer ref finan transaction type data from cerclis database}
 \usage{
 cerclis_cer_ref_finan_transaction_type(RFTT_CODE = NULL,
-  RFTT_LONG_NAME = NULL, RFTT_SHORT_NAME = NULL, RFTT_PLAN_ACT = NULL,
-  RFTT_ORDER = NULL)
+  RFTT_LONG_NAME = NULL, RFTT_SHORT_NAME = NULL,
+  RFTT_PLAN_ACT = NULL, RFTT_ORDER = NULL)
 }
 \arguments{
 \item{RFTT_CODE}{e.g. 'A'. See Details.}
@@ -22,4 +22,3 @@ cerclis_cer_ref_finan_transaction_type(RFTT_CODE = NULL,
 \description{
 Retrieve cer ref finan transaction type data from cerclis database
 }
-

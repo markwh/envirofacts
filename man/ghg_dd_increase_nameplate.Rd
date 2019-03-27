@@ -6,7 +6,8 @@
 \usage{
 ghg_dd_increase_nameplate(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
   FACILITY_NAME = NULL, GAS_NAME_SF6_OR_PFC = NULL,
-  NEW_EQUIPMENT_NAMEPLATE_CAP = NULL, RETIRING_EQUIP_NAMEPLATE_CAP = NULL,
+  NEW_EQUIPMENT_NAMEPLATE_CAP = NULL,
+  RETIRING_EQUIP_NAMEPLATE_CAP = NULL,
   NET_INCREASE_NAMEPLATE_CAP_RPT = NULL)
 }
 \arguments{
@@ -27,4 +28,3 @@ ghg_dd_increase_nameplate(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve dd increase nameplate data from ghg database
 }
-

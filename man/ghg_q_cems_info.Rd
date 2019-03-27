@@ -19,4 +19,3 @@ ghg_q_cems_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve q cems info data from ghg database
 }
-

@@ -4,8 +4,8 @@
 \alias{ghg_pp_subpart_level_information}
 \title{Retrieve pp subpart level information data from ghg database}
 \usage{
-ghg_pp_subpart_level_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, GHG_NAME = NULL)
+ghg_pp_subpart_level_information(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, FACILITY_NAME = NULL, GHG_NAME = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000035'. See Details.}
@@ -19,4 +19,3 @@ ghg_pp_subpart_level_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve pp subpart level information data from ghg database
 }
-

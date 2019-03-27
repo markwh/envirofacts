@@ -24,4 +24,3 @@ ghg_h_no_cems_raw_material_details(FACILITY_ID = NULL,
 \description{
 Retrieve h no cems raw material details data from ghg database
 }
-

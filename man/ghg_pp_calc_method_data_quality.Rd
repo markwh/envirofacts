@@ -4,9 +4,11 @@
 \alias{ghg_pp_calc_method_data_quality}
 \title{Retrieve pp calc method data quality data from ghg database}
 \usage{
-ghg_pp_calc_method_data_quality(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, CALCULATION_METHODOLOGY = NULL,
-  SUBSTITUTE_MASSVOLUME_DATA_USE = NULL, SUB_CONCENTRATION_DATA_USE = NULL,
+ghg_pp_calc_method_data_quality(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, FACILITY_NAME = NULL,
+  CALCULATION_METHODOLOGY = NULL,
+  SUBSTITUTE_MASSVOLUME_DATA_USE = NULL,
+  SUB_CONCENTRATION_DATA_USE = NULL,
   SUBSTITUTE_DENSITY_DATA_USE = NULL, IMPORTER_EXPORTER_TYPE = NULL)
 }
 \arguments{
@@ -29,4 +31,3 @@ ghg_pp_calc_method_data_quality(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve pp calc method data quality data from ghg database
 }
-

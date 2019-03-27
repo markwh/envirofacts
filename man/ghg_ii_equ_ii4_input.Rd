@@ -22,4 +22,3 @@ ghg_ii_equ_ii4_input(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ii equ ii4 input data from ghg database
 }
-

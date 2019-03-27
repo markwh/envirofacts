@@ -4,13 +4,15 @@
 \alias{ghg_w_other_emissions_equip_leaks}
 \title{Retrieve w other emissions equip leaks data from ghg database}
 \usage{
-ghg_w_other_emissions_equip_leaks(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  BAMM_DESCRIPTION_EQUIP_LEAKS = NULL, BAMM_INDICATOR_EQUIP_LEAKS = NULL,
+ghg_w_other_emissions_equip_leaks(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, BAMM_DESCRIPTION_EQUIP_LEAKS = NULL,
+  BAMM_INDICATOR_EQUIP_LEAKS = NULL,
   EQUIP_LEAKS_TOTAL_GHG_EMM_CO2E = NULL,
   EQUIP_LEAKS_N2O_EMISSIONS_CO2E = NULL,
-  EQUIP_LEAKS_CH4_EMISSIONS_CO2E = NULL, SUB_INDICATOR_EQUIP_LEAKS = NULL,
-  INDUSTRY_SEGMENT = NULL, FACILITY_NAME = NULL,
-  EQUIP_LEAKS_CO2_EMISSIONS = NULL, DOES_FAC_HAVE_EQUIPMENT_LEAKS = NULL)
+  EQUIP_LEAKS_CH4_EMISSIONS_CO2E = NULL,
+  SUB_INDICATOR_EQUIP_LEAKS = NULL, INDUSTRY_SEGMENT = NULL,
+  FACILITY_NAME = NULL, EQUIP_LEAKS_CO2_EMISSIONS = NULL,
+  DOES_FAC_HAVE_EQUIPMENT_LEAKS = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000011'. See Details.}
@@ -40,4 +42,3 @@ ghg_w_other_emissions_equip_leaks(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve w other emissions equip leaks data from ghg database
 }
-

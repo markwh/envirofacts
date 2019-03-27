@@ -34,4 +34,3 @@ ghg_i_fhtf_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve i fhtf info data from ghg database
 }
-

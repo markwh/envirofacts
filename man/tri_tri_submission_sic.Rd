@@ -21,4 +21,3 @@ tri_tri_submission_sic(TRI_FACILITY_ID = NULL, DOC_CTRL_NUM = NULL,
 \description{
 Retrieve tri submission sic data from tri database
 }
-

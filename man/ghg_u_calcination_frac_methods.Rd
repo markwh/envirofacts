@@ -4,11 +4,11 @@
 \alias{ghg_u_calcination_frac_methods}
 \title{Retrieve u calcination frac methods data from ghg database}
 \usage{
-ghg_u_calcination_frac_methods(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  OTHER_CARBONATE_MASS_MEAS_MTHD = NULL,
-  OTHER_CALCINAT_FRAC_DETRM_MTHD = NULL, SUB_MONTHLY_MASS_CONSUMED = NULL,
-  CARBONATE_MASS_MEASR_MTHD = NULL, CALCINATION_FRAC_DETRM_MTHD = NULL,
-  FACILITY_NAME = NULL)
+ghg_u_calcination_frac_methods(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, OTHER_CARBONATE_MASS_MEAS_MTHD = NULL,
+  OTHER_CALCINAT_FRAC_DETRM_MTHD = NULL,
+  SUB_MONTHLY_MASS_CONSUMED = NULL, CARBONATE_MASS_MEASR_MTHD = NULL,
+  CALCINATION_FRAC_DETRM_MTHD = NULL, FACILITY_NAME = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1001072'. See Details.}
@@ -30,4 +30,3 @@ ghg_u_calcination_frac_methods(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve u calcination frac methods data from ghg database
 }
-

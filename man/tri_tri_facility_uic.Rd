@@ -17,4 +17,3 @@ tri_tri_facility_uic(TRI_FACILITY_ID = NULL, ASGN_UIC_IND = NULL,
 \description{
 Retrieve tri facility uic data from tri database
 }
-

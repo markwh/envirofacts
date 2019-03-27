@@ -30,4 +30,3 @@ ghg_dd_sf6pfc_acquisitions(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve dd sf6pfc acquisitions data from ghg database
 }
-

@@ -21,4 +21,3 @@ ghg_hh_cover_type_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve hh cover type details data from ghg database
 }
-

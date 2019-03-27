@@ -17,4 +17,3 @@ sdwis_violation_enf_assoc(PWSID = NULL, ENFORCEMENT_ID = NULL,
 \description{
 Retrieve violation enf assoc data from sdwis database
 }
-

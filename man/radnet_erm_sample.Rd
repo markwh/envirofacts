@@ -6,8 +6,8 @@
 \usage{
 radnet_erm_sample(SAMP_NUM = NULL, PROJ_NUM = NULL, SAMP_ID = NULL,
   CLIENT_ID = NULL, LOC_NUM = NULL, COLLECT_START = NULL,
-  COLLECT_END = NULL, SAMP_SIZE = NULL, SAMP_UNIT = NULL, MAT_ID = NULL,
-  SAMP_DESC = NULL, SAMP_COMMENT = NULL)
+  COLLECT_END = NULL, SAMP_SIZE = NULL, SAMP_UNIT = NULL,
+  MAT_ID = NULL, SAMP_DESC = NULL, SAMP_COMMENT = NULL)
 }
 \arguments{
 \item{SAMP_NUM}{e.g. '230'. See Details.}
@@ -37,4 +37,3 @@ radnet_erm_sample(SAMP_NUM = NULL, PROJ_NUM = NULL, SAMP_ID = NULL,
 \description{
 Retrieve erm sample data from radnet database
 }
-

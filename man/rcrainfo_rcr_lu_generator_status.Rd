@@ -20,4 +20,3 @@ rcrainfo_rcr_lu_generator_status(OWNER = NULL,
 \description{
 Retrieve rcr lu generator status data from rcrainfo database
 }
-

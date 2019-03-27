@@ -6,7 +6,8 @@
 \usage{
 radnet_lcr_sample(PWSID = NULL, SAMPLE_ID = NULL,
   SAMPLING_END_DATE = NULL, SAMPLING_START_DATE = NULL,
-  RECONCILIATION_ID = NULL, PRIMACY_AGENCY_CODE = NULL, EPA_REGION = NULL)
+  RECONCILIATION_ID = NULL, PRIMACY_AGENCY_CODE = NULL,
+  EPA_REGION = NULL)
 }
 \arguments{
 \item{PWSID}{e.g. '010106001'. See Details.}
@@ -26,4 +27,3 @@ radnet_lcr_sample(PWSID = NULL, SAMPLE_ID = NULL,
 \description{
 Retrieve lcr sample data from radnet database
 }
-

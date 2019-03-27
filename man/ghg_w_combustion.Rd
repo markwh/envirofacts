@@ -40,4 +40,3 @@ ghg_w_combustion(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve w combustion data from ghg database
 }
-

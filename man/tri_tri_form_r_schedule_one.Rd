@@ -72,4 +72,3 @@ tri_tri_form_r_schedule_one(DOC_CTRL_NUM = NULL,
 \description{
 Retrieve tri form r schedule one data from tri database
 }
-

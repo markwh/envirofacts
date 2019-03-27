@@ -5,9 +5,9 @@
 \title{Retrieve ss ghg acquisition data from ghg database}
 \usage{
 ghg_ss_ghg_acquisition(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, GAS_NAME = NULL, ACQUISITION_CALCULATED = NULL,
-  ACQUISITION_OVERRIDE = NULL, LBS_PURCHASED_BULK = NULL,
-  LBS_RETURNED_EQUIPMENT_USERS = NULL,
+  FACILITY_NAME = NULL, GAS_NAME = NULL,
+  ACQUISITION_CALCULATED = NULL, ACQUISITION_OVERRIDE = NULL,
+  LBS_PURCHASED_BULK = NULL, LBS_RETURNED_EQUIPMENT_USERS = NULL,
   LBS_RETURNED_OFFSITE_RECYCLING = NULL)
 }
 \arguments{
@@ -32,4 +32,3 @@ ghg_ss_ghg_acquisition(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ss ghg acquisition data from ghg database
 }
-

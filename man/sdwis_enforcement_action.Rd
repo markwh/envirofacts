@@ -24,4 +24,3 @@ sdwis_enforcement_action(PWSID = NULL, ENFORCEMENT_ID = NULL,
 \description{
 Retrieve enforcement action data from sdwis database
 }
-

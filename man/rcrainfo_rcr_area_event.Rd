@@ -6,7 +6,8 @@
 \usage{
 rcrainfo_rcr_area_event(AREA_HANDLER_ID = NULL, AREA_SEQ = NULL,
   EVENT_HANDLER_ID = NULL, EVENT_OWN = NULL, CA_EVENT_CODE = NULL,
-  EVENT_SEQ = NULL, RESPONSIBLE_AGENCY = NULL, ACTIVITY_LOCATION = NULL)
+  EVENT_SEQ = NULL, RESPONSIBLE_AGENCY = NULL,
+  ACTIVITY_LOCATION = NULL)
 }
 \arguments{
 \item{AREA_HANDLER_ID}{e.g. 'AK0000374959'. See Details.}
@@ -28,4 +29,3 @@ rcrainfo_rcr_area_event(AREA_HANDLER_ID = NULL, AREA_SEQ = NULL,
 \description{
 Retrieve rcr area event data from rcrainfo database
 }
-

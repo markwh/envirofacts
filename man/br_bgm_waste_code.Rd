@@ -31,4 +31,3 @@ br_bgm_waste_code(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve bgm waste code data from br database
 }
-

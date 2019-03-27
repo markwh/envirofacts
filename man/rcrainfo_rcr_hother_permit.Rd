@@ -29,4 +29,3 @@ rcrainfo_rcr_hother_permit(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve rcr hother permit data from rcrainfo database
 }
-

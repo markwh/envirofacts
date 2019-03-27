@@ -28,4 +28,3 @@ ghg_dd_transmission_line(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve dd transmission line data from ghg database
 }
-

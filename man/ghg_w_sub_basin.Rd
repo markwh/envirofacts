@@ -37,4 +37,3 @@ ghg_w_sub_basin(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve w sub basin data from ghg database
 }
-

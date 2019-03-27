@@ -19,4 +19,3 @@ rcrainfo_rcr_lu_state_activity(OWNER = NULL, ACTIVITY_TYPE = NULL,
 \description{
 Retrieve rcr lu state activity data from rcrainfo database
 }
-

@@ -4,7 +4,8 @@
 \alias{tri_tri_energy_recovery}
 \title{Retrieve tri energy recovery data from tri database}
 \usage{
-tri_tri_energy_recovery(DOC_CTRL_NUM = NULL, ONSITE_ENERGY_PROC_CODE = NULL)
+tri_tri_energy_recovery(DOC_CTRL_NUM = NULL,
+  ONSITE_ENERGY_PROC_CODE = NULL)
 }
 \arguments{
 \item{DOC_CTRL_NUM}{e.g. '1300140000011'. See Details.}
@@ -14,4 +15,3 @@ tri_tri_energy_recovery(DOC_CTRL_NUM = NULL, ONSITE_ENERGY_PROC_CODE = NULL)
 \description{
 Retrieve tri energy recovery data from tri database
 }
-

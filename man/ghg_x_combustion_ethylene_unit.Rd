@@ -4,8 +4,9 @@
 \alias{ghg_x_combustion_ethylene_unit}
 \title{Retrieve x combustion ethylene unit data from ghg database}
 \usage{
-ghg_x_combustion_ethylene_unit(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  OFF_GAS_FRACTION = NULL, UNIT_NAME_COMBUSTION_ETHYLENE = NULL,
+ghg_x_combustion_ethylene_unit(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, OFF_GAS_FRACTION = NULL,
+  UNIT_NAME_COMBUSTION_ETHYLENE = NULL,
   UNIT_TYPE_COMBUSTION_ETHYLENE = NULL)
 }
 \arguments{
@@ -22,4 +23,3 @@ ghg_x_combustion_ethylene_unit(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve x combustion ethylene unit data from ghg database
 }
-

@@ -21,4 +21,3 @@ rcrainfo_rcr_hbasic(HANDLER_ID = NULL, FACILITY_IDENTIFIER = NULL,
 \description{
 Retrieve rcr hbasic data from rcrainfo database
 }
-

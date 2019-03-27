@@ -26,7 +26,7 @@ afs_effrs_afsapp(STATE_COUNTY_COMPLIANCE_SOURCE = NULL,
 
 \item{POLLUTANT_CODE}{e.g. 'PM10'. See Details.}
 
-\item{POLLUTANT_CODE_DESC}{e.g. 'PARTICULATE MATTER %3C 10 UM'. See Details.}
+\item{POLLUTANT_CODE_DESC}{e.g. 'PARTICULATE MATTER < 10 UM'. See Details.}
 
 \item{CHEMICAL_ABSTRACT_SERVICE_NUM}{e.g. 'NA'. See Details.}
 
@@ -75,4 +75,3 @@ afs_effrs_afsapp(STATE_COUNTY_COMPLIANCE_SOURCE = NULL,
 \description{
 Retrieve effrs afsapp data from afs database
 }
-

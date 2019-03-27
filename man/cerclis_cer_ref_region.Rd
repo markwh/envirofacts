@@ -6,7 +6,8 @@
 \usage{
 cerclis_cer_ref_region(RREGION_CODE = NULL, RREGION_DESC = NULL,
   RREGION_STRT_ADRS1 = NULL, RREGION_STRT_ADRS2 = NULL,
-  RREGION_CITY_NAME = NULL, RREGION_ZIP_CODE = NULL, RSTATE_CODE = NULL)
+  RREGION_CITY_NAME = NULL, RREGION_ZIP_CODE = NULL,
+  RSTATE_CODE = NULL)
 }
 \arguments{
 \item{RREGION_CODE}{e.g. '00'. See Details.}
@@ -26,4 +27,3 @@ cerclis_cer_ref_region(RREGION_CODE = NULL, RREGION_DESC = NULL,
 \description{
 Retrieve cer ref region data from cerclis database
 }
-

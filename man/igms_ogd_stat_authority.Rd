@@ -17,4 +17,3 @@ igms_ogd_stat_authority(STAT_AUTH_SEQ = NULL, STAT_AUTH_CODE = NULL,
 \description{
 Retrieve ogd stat authority data from igms database
 }
-

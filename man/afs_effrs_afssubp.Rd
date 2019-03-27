@@ -41,4 +41,3 @@ afs_effrs_afssubp(EPA_PLANT_ID = NULL, PLANT_ID = NULL,
 \description{
 Retrieve effrs afssubp data from afs database
 }
-

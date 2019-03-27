@@ -93,4 +93,3 @@ afs_effrs_afsplt1(EPA_PLANT_ID = NULL, PLANT_ID = NULL,
 \description{
 Retrieve effrs afsplt1 data from afs database
 }
-

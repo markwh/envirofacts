@@ -5,8 +5,9 @@
 \title{Retrieve ss ghg information data from ghg database}
 \usage{
 ghg_ss_ghg_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, GAS_NAME = NULL, GHG_EMISSIONS_UNROUNDED = NULL,
-  TOTAL_EMISSIONS_UNROUNDED = NULL, MFG_EMISSIONS_UNROUNDED = NULL)
+  FACILITY_NAME = NULL, GAS_NAME = NULL,
+  GHG_EMISSIONS_UNROUNDED = NULL, TOTAL_EMISSIONS_UNROUNDED = NULL,
+  MFG_EMISSIONS_UNROUNDED = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000039'. See Details.}
@@ -26,4 +27,3 @@ ghg_ss_ghg_information(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ss ghg information data from ghg database
 }
-

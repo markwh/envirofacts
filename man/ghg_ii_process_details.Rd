@@ -24,4 +24,3 @@ ghg_ii_process_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ii process details data from ghg database
 }
-

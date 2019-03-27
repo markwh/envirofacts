@@ -5,7 +5,8 @@
 \title{Retrieve cer contact data from cerclis database}
 \usage{
 cerclis_cer_contact(SITE_ID = NULL, PERSON_LAST_NAME = NULL,
-  PERSON_FIRST_NAME = NULL, PERSON_PHONE_NMBR1 = NULL, RROLE_DESC = NULL)
+  PERSON_FIRST_NAME = NULL, PERSON_PHONE_NMBR1 = NULL,
+  RROLE_DESC = NULL)
 }
 \arguments{
 \item{SITE_ID}{e.g. '0100015'. See Details.}
@@ -21,4 +22,3 @@ cerclis_cer_contact(SITE_ID = NULL, PERSON_LAST_NAME = NULL,
 \description{
 Retrieve cer contact data from cerclis database
 }
-

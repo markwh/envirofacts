@@ -4,8 +4,9 @@
 \alias{radnet_erm_analyte}
 \title{Retrieve erm analyte data from radnet database}
 \usage{
-radnet_erm_analyte(ANALYTE_ID = NULL, ANA_TYPE = NULL, HALF_LIFE = NULL,
-  HALF_LIFE_TIME_UNIT = NULL, ANALYTE_NAME = NULL, CRS_ID = NULL)
+radnet_erm_analyte(ANALYTE_ID = NULL, ANA_TYPE = NULL,
+  HALF_LIFE = NULL, HALF_LIFE_TIME_UNIT = NULL, ANALYTE_NAME = NULL,
+  CRS_ID = NULL)
 }
 \arguments{
 \item{ANALYTE_ID}{e.g. 'AC228'. See Details.}
@@ -23,4 +24,3 @@ radnet_erm_analyte(ANALYTE_ID = NULL, ANA_TYPE = NULL, HALF_LIFE = NULL,
 \description{
 Retrieve erm analyte data from radnet database
 }
-

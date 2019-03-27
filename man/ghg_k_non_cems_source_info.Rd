@@ -21,4 +21,3 @@ ghg_k_non_cems_source_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve k non cems source info data from ghg database
 }
-

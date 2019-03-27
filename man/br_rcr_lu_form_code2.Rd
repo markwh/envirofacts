@@ -15,7 +15,7 @@ br_rcr_lu_form_code2(OWNER = NULL, FORM_CODE = NULL,
 
 \item{FORM_CODE_NAME}{e.g. 'DILUTE AQUEOUS WST'. See Details.}
 
-\item{FORM_CODE_DESC}{e.g. 'VERY DILUTE AQUEOUS WASTE CONTAINING MORE THAN 99% WATER'. See Details.}
+\item{FORM_CODE_DESC}{e.g. 'VERY DILUTE AQUEOUS WASTE CONTAINING MORE THAN 99pct WATER'. See Details.}
 
 \item{USAGE}{e.g. '3'. See Details.}
 
@@ -24,4 +24,3 @@ br_rcr_lu_form_code2(OWNER = NULL, FORM_CODE = NULL,
 \description{
 Retrieve rcr lu form code2 data from br database
 }
-

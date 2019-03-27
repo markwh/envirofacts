@@ -32,4 +32,3 @@ ghg_r_feedstock_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve r feedstock info data from ghg database
 }
-

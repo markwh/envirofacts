@@ -4,8 +4,8 @@
 \alias{pcs.icis_pcs_inspection}
 \title{Retrieve pcs inspection data from pcs-icis database}
 \usage{
-pcs.icis_pcs_inspection(NPDES = NULL, INSP_DATE = NULL, INSP_TYPE = NULL,
-  INSP_CODE = NULL)
+pcs.icis_pcs_inspection(NPDES = NULL, INSP_DATE = NULL,
+  INSP_TYPE = NULL, INSP_CODE = NULL)
 }
 \arguments{
 \item{NPDES}{e.g. 'AK0000272'. See Details.}
@@ -19,4 +19,3 @@ pcs.icis_pcs_inspection(NPDES = NULL, INSP_DATE = NULL, INSP_TYPE = NULL,
 \description{
 Retrieve pcs inspection data from pcs-icis database
 }
-

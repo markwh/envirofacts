@@ -26,4 +26,3 @@ sdwis_service_area(PWSID = NULL, PRIMACY_AGENCY_CODE = NULL,
 \description{
 Retrieve service area data from sdwis database
 }
-

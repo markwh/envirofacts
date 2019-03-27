@@ -20,4 +20,3 @@ fii_frs_tribal_entity_ref(TRIBAL_LAND_R_CODE = NULL,
 \description{
 Retrieve frs tribal entity ref data from fii database
 }
-

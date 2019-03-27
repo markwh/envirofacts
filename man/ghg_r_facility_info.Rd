@@ -6,7 +6,8 @@
 \usage{
 ghg_r_facility_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
   FACILITY_NAME = NULL, IS_CEMS_USED = NULL,
-  NUM_SMELTING_FURNACES_CEMS = NULL, NUM_SMELTING_FURNACES_NOCEMS = NULL)
+  NUM_SMELTING_FURNACES_CEMS = NULL,
+  NUM_SMELTING_FURNACES_NOCEMS = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000601'. See Details.}
@@ -24,4 +25,3 @@ ghg_r_facility_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve r facility info data from ghg database
 }
-

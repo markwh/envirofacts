@@ -4,9 +4,10 @@
 \alias{ghg_pp_mass_flow_measure_details}
 \title{Retrieve pp mass flow measure details data from ghg database}
 \usage{
-ghg_pp_mass_flow_measure_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, STREAM_OR_METER_NAME = NULL,
-  QUARTER_IDENTIFICATION = NULL, CONCENTRATION_MEASURE_STANDARD = NULL)
+ghg_pp_mass_flow_measure_details(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, FACILITY_NAME = NULL,
+  STREAM_OR_METER_NAME = NULL, QUARTER_IDENTIFICATION = NULL,
+  CONCENTRATION_MEASURE_STANDARD = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000035'. See Details.}
@@ -24,4 +25,3 @@ ghg_pp_mass_flow_measure_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve pp mass flow measure details data from ghg database
 }
-

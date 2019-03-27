@@ -25,4 +25,3 @@ ghg_ii_equation_ii3(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ii equation ii3 data from ghg database
 }
-

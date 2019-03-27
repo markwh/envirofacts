@@ -26,4 +26,3 @@ cerclis_cer_site_rot_ref(SITE_ID = NULL, ROT_CODE = NULL,
 \description{
 Retrieve cer site rot ref data from cerclis database
 }
-

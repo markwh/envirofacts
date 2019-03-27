@@ -4,9 +4,9 @@
 \alias{ghg_pp_co2_flow_measure_equipment}
 \title{Retrieve pp co2 flow measure equipment data from ghg database}
 \usage{
-ghg_pp_co2_flow_measure_equipment(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  EQUIPMENT_CALIBRATION_STANDARD = NULL, FACILITY_NAME = NULL,
-  MEASUREMENT_EQUIPMENT_TYPE = NULL)
+ghg_pp_co2_flow_measure_equipment(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, EQUIPMENT_CALIBRATION_STANDARD = NULL,
+  FACILITY_NAME = NULL, MEASUREMENT_EQUIPMENT_TYPE = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000035'. See Details.}
@@ -22,4 +22,3 @@ ghg_pp_co2_flow_measure_equipment(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve pp co2 flow measure equipment data from ghg database
 }
-

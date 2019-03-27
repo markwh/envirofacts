@@ -17,4 +17,3 @@ pcs.icis_pcs_evidentiary_hearing_event(NPDES = NULL, EVENT_CODE = NULL,
 \description{
 Retrieve pcs evidentiary hearing event data from pcs-icis database
 }
-

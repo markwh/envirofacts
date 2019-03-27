@@ -4,7 +4,8 @@
 \alias{igms_ogd_cfda}
 \title{Retrieve ogd cfda data from igms database}
 \usage{
-igms_ogd_cfda(CFDA_SEQ = NULL, CFDA_CODE = NULL, CFDA_DESCRIPTION = NULL)
+igms_ogd_cfda(CFDA_SEQ = NULL, CFDA_CODE = NULL,
+  CFDA_DESCRIPTION = NULL)
 }
 \arguments{
 \item{CFDA_SEQ}{e.g. '208520'. See Details.}
@@ -16,4 +17,3 @@ igms_ogd_cfda(CFDA_SEQ = NULL, CFDA_CODE = NULL, CFDA_DESCRIPTION = NULL)
 \description{
 Retrieve ogd cfda data from igms database
 }
-

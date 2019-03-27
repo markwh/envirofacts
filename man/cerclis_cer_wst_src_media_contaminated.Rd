@@ -4,7 +4,8 @@
 \alias{cerclis_cer_wst_src_media_contaminated}
 \title{Retrieve cer wst src media contaminated data from cerclis database}
 \usage{
-cerclis_cer_wst_src_media_contaminated(SITE_ID = NULL, WSMC_NMBR = NULL)
+cerclis_cer_wst_src_media_contaminated(SITE_ID = NULL,
+  WSMC_NMBR = NULL)
 }
 \arguments{
 \item{SITE_ID}{e.g. '0100015'. See Details.}
@@ -14,4 +15,3 @@ cerclis_cer_wst_src_media_contaminated(SITE_ID = NULL, WSMC_NMBR = NULL)
 \description{
 Retrieve cer wst src media contaminated data from cerclis database
 }
-

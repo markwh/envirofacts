@@ -22,4 +22,3 @@ ghg_pp_co2_end_use_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve pp co2 end use details data from ghg database
 }
-

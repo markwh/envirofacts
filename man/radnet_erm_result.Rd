@@ -4,10 +4,10 @@
 \alias{radnet_erm_result}
 \title{Retrieve erm result data from radnet database}
 \usage{
-radnet_erm_result(ANA_NUM = NULL, RESULT_ID = NULL, ANALYTE_ID = NULL,
-  RESULT_AMOUNT = NULL, CSU = NULL, MDC = NULL, RESULT_UNIT = NULL,
-  RESULT_DATE = NULL, RESULT_IN_SI = NULL, CSU_IN_SI = NULL,
-  MDC_IN_SI = NULL, SI_UNIT = NULL)
+radnet_erm_result(ANA_NUM = NULL, RESULT_ID = NULL,
+  ANALYTE_ID = NULL, RESULT_AMOUNT = NULL, CSU = NULL, MDC = NULL,
+  RESULT_UNIT = NULL, RESULT_DATE = NULL, RESULT_IN_SI = NULL,
+  CSU_IN_SI = NULL, MDC_IN_SI = NULL, SI_UNIT = NULL)
 }
 \arguments{
 \item{ANA_NUM}{e.g. '642'. See Details.}
@@ -37,4 +37,3 @@ radnet_erm_result(ANA_NUM = NULL, RESULT_ID = NULL, ANALYTE_ID = NULL,
 \description{
 Retrieve erm result data from radnet database
 }
-

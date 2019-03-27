@@ -19,4 +19,3 @@ ghg_ee_facility_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ee facility info data from ghg database
 }
-

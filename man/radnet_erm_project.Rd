@@ -19,4 +19,3 @@ radnet_erm_project(PROJ_NUM = NULL, STUDY_NUM = NULL, PROJ_ID = NULL,
 \description{
 Retrieve erm project data from radnet database
 }
-

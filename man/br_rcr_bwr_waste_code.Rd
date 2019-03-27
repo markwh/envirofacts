@@ -28,4 +28,3 @@ br_rcr_bwr_waste_code(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve rcr bwr waste code data from br database
 }
-

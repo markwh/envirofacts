@@ -8,12 +8,16 @@ ghg_s_lime_product_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
   MASS_SOLD_ANALYSIS_METHOD_OTHR = NULL,
   MASS_PRODUCED_ANALYSIS_METHOD = NULL,
   MASS_PRODUCED_ANLS_METHD_OTHR = NULL, MASS_SOLD_ANALYSIS = NULL,
-  IS_CO2_USED_ONSITE_INDICATOR = NULL, AMOUNT_CO2_USED_ONSITE_METHOD = NULL,
+  IS_CO2_USED_ONSITE_INDICATOR = NULL,
+  AMOUNT_CO2_USED_ONSITE_METHOD = NULL,
   AMT_CO2_USED_ONSITE_METHD_OTHR = NULL, MONTH_NAME = NULL,
-  CAO_CHEMICAL_COMPO_ANALY = NULL, CAO_CHEMICAL_COMPO_ANALY_METHD = NULL,
-  CAO_CHEMICAL_COMPO_METHD_OTHR = NULL, MGO_CHEMICAL_COMPO_ANALY = NULL,
+  CAO_CHEMICAL_COMPO_ANALY = NULL,
+  CAO_CHEMICAL_COMPO_ANALY_METHD = NULL,
+  CAO_CHEMICAL_COMPO_METHD_OTHR = NULL,
+  MGO_CHEMICAL_COMPO_ANALY = NULL,
   MGO_CHEMICAL_COMPO_ANALY_METHD = NULL,
-  MGO_CHEMICAL_COMPO_METHD_OTHR = NULL, MASS_SOLD_ANALYSIS_METHOD = NULL)
+  MGO_CHEMICAL_COMPO_METHD_OTHR = NULL,
+  MASS_SOLD_ANALYSIS_METHOD = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000019'. See Details.}
@@ -32,7 +36,7 @@ ghg_s_lime_product_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 
 \item{AMOUNT_CO2_USED_ONSITE_METHOD}{e.g. 'Other method'. See Details.}
 
-\item{AMT_CO2_USED_ONSITE_METHD_OTHR}{e.g. 'Industry process review of conversion back to calcium carbonate suggest 100% recovery (Beet Sugar Te'. See Details.}
+\item{AMT_CO2_USED_ONSITE_METHD_OTHR}{e.g. 'Industry process review of conversion back to calcium carbonate suggest 100pct recovery (Beet Sugar Te'. See Details.}
 
 \item{MONTH_NAME}{e.g. 'January'. See Details.}
 
@@ -53,4 +57,3 @@ ghg_s_lime_product_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve s lime product details data from ghg database
 }
-

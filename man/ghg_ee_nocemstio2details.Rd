@@ -6,8 +6,8 @@
 \usage{
 ghg_ee_nocemstio2details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
   MTHS_MISDATA_PROCS_USED_CCWAST = NULL,
-  ANN_CO2_EMM_PER_PROCESS_LINE = NULL, UNIT_TYPE = NULL, UNIT_NAME = NULL,
-  FACILITY_NAME = NULL)
+  ANN_CO2_EMM_PER_PROCESS_LINE = NULL, UNIT_TYPE = NULL,
+  UNIT_NAME = NULL, FACILITY_NAME = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000086'. See Details.}
@@ -27,4 +27,3 @@ ghg_ee_nocemstio2details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ee nocemstio2details data from ghg database
 }
-

@@ -16,4 +16,3 @@ tri_tri_code_desc(TABLE_ID = NULL, CODE = NULL, DESCRIPT = NULL)
 \description{
 Retrieve tri code desc data from tri database
 }
-

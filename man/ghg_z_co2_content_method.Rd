@@ -5,9 +5,9 @@
 \title{Retrieve z co2 content method data from ghg database}
 \usage{
 ghg_z_co2_content_method(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  MONTH_NAME = NULL, MASS_CONSUMED_SUB = NULL, GRABSAMPLEMETHOD = NULL,
-  GRABSAMPLECO2_SUB = NULL, UNIT_TYPE = NULL, UNIT_NAME = NULL,
-  FACILITY_NAME = NULL)
+  MONTH_NAME = NULL, MASS_CONSUMED_SUB = NULL,
+  GRABSAMPLEMETHOD = NULL, GRABSAMPLECO2_SUB = NULL,
+  UNIT_TYPE = NULL, UNIT_NAME = NULL, FACILITY_NAME = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1003087'. See Details.}
@@ -31,4 +31,3 @@ ghg_z_co2_content_method(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve z co2 content method data from ghg database
 }
-

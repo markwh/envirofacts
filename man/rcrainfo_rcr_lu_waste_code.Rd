@@ -24,4 +24,3 @@ rcrainfo_rcr_lu_waste_code(OWNER = NULL, WASTE_CODE = NULL,
 \description{
 Retrieve rcr lu waste code data from rcrainfo database
 }
-

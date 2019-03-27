@@ -26,4 +26,3 @@ rcrainfo_rcr_process_codes(OWNER = NULL, PROCESS_CODE = NULL,
 \description{
 Retrieve rcr process codes data from rcrainfo database
 }
-

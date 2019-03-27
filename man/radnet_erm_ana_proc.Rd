@@ -19,4 +19,3 @@ radnet_erm_ana_proc(ANA_PROC_NUM = NULL, ANA_PROC_ID = NULL,
 \description{
 Retrieve erm ana proc data from radnet database
 }
-

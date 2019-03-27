@@ -14,4 +14,3 @@ cerclis_cer_ref_action_lead_type(RALT_CODE = NULL, RALT_DESC = NULL)
 \description{
 Retrieve cer ref action lead type data from cerclis database
 }
-

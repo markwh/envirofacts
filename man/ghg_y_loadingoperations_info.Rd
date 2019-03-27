@@ -33,4 +33,3 @@ ghg_y_loadingoperations_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve y loadingoperations info data from ghg database
 }
-

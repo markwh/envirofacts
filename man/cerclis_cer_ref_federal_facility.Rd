@@ -15,4 +15,3 @@ cerclis_cer_ref_federal_facility(RFED_FCLTY_CODE = NULL,
 \description{
 Retrieve cer ref federal facility data from cerclis database
 }
-

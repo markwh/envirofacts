@@ -33,4 +33,3 @@ ghg_dd_user_emissions_calc(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve dd user emissions calc data from ghg database
 }
-

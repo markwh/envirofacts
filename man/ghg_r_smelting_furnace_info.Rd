@@ -22,4 +22,3 @@ ghg_r_smelting_furnace_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve r smelting furnace info data from ghg database
 }
-

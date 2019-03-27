@@ -4,7 +4,8 @@
 \alias{radnet_erm_study}
 \title{Retrieve erm study data from radnet database}
 \usage{
-radnet_erm_study(STUDY_NUM = NULL, STUDY_ID = NULL, STUDY_NAME = NULL)
+radnet_erm_study(STUDY_NUM = NULL, STUDY_ID = NULL,
+  STUDY_NAME = NULL)
 }
 \arguments{
 \item{STUDY_NUM}{e.g. '1'. See Details.}
@@ -16,4 +17,3 @@ radnet_erm_study(STUDY_NUM = NULL, STUDY_ID = NULL, STUDY_NAME = NULL)
 \description{
 Retrieve erm study data from radnet database
 }
-

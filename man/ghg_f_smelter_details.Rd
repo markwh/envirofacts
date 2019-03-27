@@ -22,4 +22,3 @@ ghg_f_smelter_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve f smelter details data from ghg database
 }
-

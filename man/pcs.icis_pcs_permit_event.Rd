@@ -17,4 +17,3 @@ pcs.icis_pcs_permit_event(NPDES = NULL, TRACKING_EVENT_CODE = NULL,
 \description{
 Retrieve pcs permit event data from pcs-icis database
 }
-

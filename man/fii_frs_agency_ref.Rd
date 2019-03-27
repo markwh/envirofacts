@@ -4,7 +4,8 @@
 \alias{fii_frs_agency_ref}
 \title{Retrieve frs agency ref data from fii database}
 \usage{
-fii_frs_agency_ref(FEDERAL_AGENCY_CODE = NULL, FEDERAL_AGENCY_NAME = NULL)
+fii_frs_agency_ref(FEDERAL_AGENCY_CODE = NULL,
+  FEDERAL_AGENCY_NAME = NULL)
 }
 \arguments{
 \item{FEDERAL_AGENCY_CODE}{e.g. 'C0007'. See Details.}
@@ -14,4 +15,3 @@ fii_frs_agency_ref(FEDERAL_AGENCY_CODE = NULL, FEDERAL_AGENCY_NAME = NULL)
 \description{
 Retrieve frs agency ref data from fii database
 }
-

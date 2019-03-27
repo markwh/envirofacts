@@ -17,4 +17,3 @@ fii_frs_code_description(CODE_TYPE = NULL, CODE_VALUE = NULL,
 \description{
 Retrieve frs code description data from fii database
 }
-

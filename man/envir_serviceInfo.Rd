@@ -12,4 +12,3 @@ envir_serviceInfo(service = NULL)
 \description{
 Information about envirofacts services
 }
-

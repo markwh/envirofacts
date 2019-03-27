@@ -21,4 +21,3 @@ radnet_erm_count(ANA_NUM = NULL, RUN_NUM = NULL, DET_NUM = NULL,
 \description{
 Retrieve erm count data from radnet database
 }
-

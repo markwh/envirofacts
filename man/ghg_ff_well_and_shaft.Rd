@@ -44,4 +44,3 @@ ghg_ff_well_and_shaft(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ff well and shaft data from ghg database
 }
-

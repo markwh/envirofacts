@@ -4,8 +4,8 @@
 \alias{radnet_erm_location}
 \title{Retrieve erm location data from radnet database}
 \usage{
-radnet_erm_location(LOC_NUM = NULL, STATE_ABBR = NULL, CITY_NAME = NULL,
-  SURFACE_WATER_SOURCE = NULL, STATION = NULL)
+radnet_erm_location(LOC_NUM = NULL, STATE_ABBR = NULL,
+  CITY_NAME = NULL, SURFACE_WATER_SOURCE = NULL, STATION = NULL)
 }
 \arguments{
 \item{LOC_NUM}{e.g. '1'. See Details.}
@@ -21,4 +21,3 @@ radnet_erm_location(LOC_NUM = NULL, STATE_ABBR = NULL, CITY_NAME = NULL,
 \description{
 Retrieve erm location data from radnet database
 }
-

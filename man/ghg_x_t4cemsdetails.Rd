@@ -17,4 +17,3 @@ ghg_x_t4cemsdetails(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve x t4cemsdetails data from ghg database
 }
-

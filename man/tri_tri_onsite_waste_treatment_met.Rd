@@ -20,4 +20,3 @@ tri_tri_onsite_waste_treatment_met(DOC_CTRL_NUM = NULL,
 \description{
 Retrieve tri onsite waste treatment met data from tri database
 }
-

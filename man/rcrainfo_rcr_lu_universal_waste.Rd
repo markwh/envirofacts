@@ -4,8 +4,9 @@
 \alias{rcrainfo_rcr_lu_universal_waste}
 \title{Retrieve rcr lu universal waste data from rcrainfo database}
 \usage{
-rcrainfo_rcr_lu_universal_waste(OWNER = NULL, UNIVERSAL_WASTE_TYPE = NULL,
-  ACTIVE_STATUS = NULL, UNIVERSAL_WASTE_DESC = NULL)
+rcrainfo_rcr_lu_universal_waste(OWNER = NULL,
+  UNIVERSAL_WASTE_TYPE = NULL, ACTIVE_STATUS = NULL,
+  UNIVERSAL_WASTE_DESC = NULL)
 }
 \arguments{
 \item{OWNER}{e.g. '02'. See Details.}
@@ -19,4 +20,3 @@ rcrainfo_rcr_lu_universal_waste(OWNER = NULL, UNIVERSAL_WASTE_TYPE = NULL,
 \description{
 Retrieve rcr lu universal waste data from rcrainfo database
 }
-

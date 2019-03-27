@@ -19,4 +19,3 @@ ghg_u_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve u info data from ghg database
 }
-

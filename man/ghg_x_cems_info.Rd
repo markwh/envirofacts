@@ -19,4 +19,3 @@ ghg_x_cems_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve x cems info data from ghg database
 }
-

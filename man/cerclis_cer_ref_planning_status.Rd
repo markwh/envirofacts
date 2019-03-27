@@ -14,4 +14,3 @@ cerclis_cer_ref_planning_status(RPS_CODE = NULL, RPS_DESC = NULL)
 \description{
 Retrieve cer ref planning status data from cerclis database
 }
-

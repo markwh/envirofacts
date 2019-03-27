@@ -43,4 +43,3 @@ pcs.icis_pcs_effl_lim_qty(NPDES = NULL, DISCHARGE_NUM = NULL,
 \description{
 Retrieve pcs effl lim qty data from pcs-icis database
 }
-

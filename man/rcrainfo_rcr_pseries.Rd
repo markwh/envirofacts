@@ -5,7 +5,8 @@
 \title{Retrieve rcr pseries data from rcrainfo database}
 \usage{
 rcrainfo_rcr_pseries(HANDLER_ID = NULL, SERIES_SEQ = NULL,
-  SERIES_NAME = NULL, RESPONSIBLE_OWNER = NULL, RESPONSIBLE_PERSON = NULL)
+  SERIES_NAME = NULL, RESPONSIBLE_OWNER = NULL,
+  RESPONSIBLE_PERSON = NULL)
 }
 \arguments{
 \item{HANDLER_ID}{e.g. 'AK1210022157'. See Details.}
@@ -21,4 +22,3 @@ rcrainfo_rcr_pseries(HANDLER_ID = NULL, SERIES_SEQ = NULL,
 \description{
 Retrieve rcr pseries data from rcrainfo database
 }
-

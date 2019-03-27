@@ -4,8 +4,8 @@
 \alias{fii_frs_tribal_land_ref}
 \title{Retrieve frs tribal land ref data from fii database}
 \usage{
-fii_frs_tribal_land_ref(TRIBAL_LAND_R_CODE = NULL, TRIBAL_LAND_NAME = NULL,
-  USBC_TRIBAL_LAND_CODE = NULL)
+fii_frs_tribal_land_ref(TRIBAL_LAND_R_CODE = NULL,
+  TRIBAL_LAND_NAME = NULL, USBC_TRIBAL_LAND_CODE = NULL)
 }
 \arguments{
 \item{TRIBAL_LAND_R_CODE}{e.g. '-999'. See Details.}
@@ -17,4 +17,3 @@ fii_frs_tribal_land_ref(TRIBAL_LAND_R_CODE = NULL, TRIBAL_LAND_NAME = NULL,
 \description{
 Retrieve frs tribal land ref data from fii database
 }
-

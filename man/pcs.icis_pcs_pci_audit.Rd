@@ -4,9 +4,10 @@
 \alias{pcs.icis_pcs_pci_audit}
 \title{Retrieve pcs pci audit data from pcs-icis database}
 \usage{
-pcs.icis_pcs_pci_audit(NPDES = NULL, INSP_DATE = NULL, INSP_TYPE = NULL,
-  PERMIT_MOD_FOR_PRETR_DATE = NULL, ADOPT_LOCAL_LIMITS = NULL,
-  TECH_EVAL_LOCAL_LIMIT = NULL, SLUDGE_DISPOSAL_METHOD = NULL)
+pcs.icis_pcs_pci_audit(NPDES = NULL, INSP_DATE = NULL,
+  INSP_TYPE = NULL, PERMIT_MOD_FOR_PRETR_DATE = NULL,
+  ADOPT_LOCAL_LIMITS = NULL, TECH_EVAL_LOCAL_LIMIT = NULL,
+  SLUDGE_DISPOSAL_METHOD = NULL)
 }
 \arguments{
 \item{NPDES}{e.g. 'AK0022551'. See Details.}
@@ -26,4 +27,3 @@ pcs.icis_pcs_pci_audit(NPDES = NULL, INSP_DATE = NULL, INSP_TYPE = NULL,
 \description{
 Retrieve pcs pci audit data from pcs-icis database
 }
-

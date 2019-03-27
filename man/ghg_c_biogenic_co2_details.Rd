@@ -5,9 +5,9 @@
 \title{Retrieve c biogenic co2 details data from ghg database}
 \usage{
 ghg_c_biogenic_co2_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, UNIT_NAME = NULL, MSW_SAMPLING_QUARTER = NULL,
-  MSW_SAMPLE_ANALYSIS_RESULT = NULL, FOSSIL_BIOMASS_QUARTER = NULL,
-  FOSSIL_BIOMASS_ANALYSIS_RESULT = NULL)
+  FACILITY_NAME = NULL, UNIT_NAME = NULL,
+  MSW_SAMPLING_QUARTER = NULL, MSW_SAMPLE_ANALYSIS_RESULT = NULL,
+  FOSSIL_BIOMASS_QUARTER = NULL, FOSSIL_BIOMASS_ANALYSIS_RESULT = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000036'. See Details.}
@@ -29,4 +29,3 @@ ghg_c_biogenic_co2_details(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve c biogenic co2 details data from ghg database
 }
-

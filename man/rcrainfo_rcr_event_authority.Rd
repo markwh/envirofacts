@@ -7,8 +7,8 @@
 rcrainfo_rcr_event_authority(EVENT_ID = NULL, EVENT_OWN = NULL,
   EVENT_CODE = NULL, EVENT_SEQ = NULL, EVENT_AGENCY = NULL,
   EVENT_LOCATION = NULL, AUTHORITY_ID = NULL, AUTHORITY_OWN = NULL,
-  AUTHORITY_TYPE = NULL, EFFECTIVE_DATE = NULL, AUTHORITY_AGENCY = NULL,
-  AUTHORITY_LOCATION = NULL)
+  AUTHORITY_TYPE = NULL, EFFECTIVE_DATE = NULL,
+  AUTHORITY_AGENCY = NULL, AUTHORITY_LOCATION = NULL)
 }
 \arguments{
 \item{EVENT_ID}{e.g. 'AK0000374959'. See Details.}
@@ -38,4 +38,3 @@ rcrainfo_rcr_event_authority(EVENT_ID = NULL, EVENT_OWN = NULL,
 \description{
 Retrieve rcr event authority data from rcrainfo database
 }
-

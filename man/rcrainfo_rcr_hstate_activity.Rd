@@ -4,9 +4,9 @@
 \alias{rcrainfo_rcr_hstate_activity}
 \title{Retrieve rcr hstate activity data from rcrainfo database}
 \usage{
-rcrainfo_rcr_hstate_activity(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
-  SOURCE_TYPE = NULL, SEQ_NUMBER = NULL, STATE_ACTIVITY_OWNER = NULL,
-  STATE_ACTIVITY_TYPE = NULL)
+rcrainfo_rcr_hstate_activity(HANDLER_ID = NULL,
+  ACTIVITY_LOCATION = NULL, SOURCE_TYPE = NULL, SEQ_NUMBER = NULL,
+  STATE_ACTIVITY_OWNER = NULL, STATE_ACTIVITY_TYPE = NULL)
 }
 \arguments{
 \item{HANDLER_ID}{e.g. 'AL0000005819'. See Details.}
@@ -24,4 +24,3 @@ rcrainfo_rcr_hstate_activity(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve rcr hstate activity data from rcrainfo database
 }
-

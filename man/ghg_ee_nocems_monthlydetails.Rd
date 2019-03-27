@@ -26,4 +26,3 @@ ghg_ee_nocems_monthlydetails(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ee nocems monthlydetails data from ghg database
 }
-

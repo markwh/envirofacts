@@ -14,4 +14,3 @@ lrt_geo_collect_mth_lk(COLLECT_MTH_CODE = NULL, COLLECT_DESC = NULL)
 \description{
 Retrieve geo collect mth lk data from lrt database
 }
-

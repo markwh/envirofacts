@@ -14,4 +14,3 @@ tri_tri_county(ZIP_CODE = NULL, COUNTY_NAME = NULL)
 \description{
 Retrieve tri county data from tri database
 }
-

@@ -61,4 +61,3 @@ sdwis_water_system_facility(PWSID = NULL, PRIMACY_AGENCY_CODE = NULL,
 \description{
 Retrieve water system facility data from sdwis database
 }
-

@@ -14,4 +14,3 @@ cerclis_cer_ref_ownership_type(ROT_CODE = NULL, ROT_DESC = NULL)
 \description{
 Retrieve cer ref ownership type data from cerclis database
 }
-

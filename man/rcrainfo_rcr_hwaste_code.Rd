@@ -24,4 +24,3 @@ rcrainfo_rcr_hwaste_code(HANDLER_ID = NULL, ACTIVITY_LOCATION = NULL,
 \description{
 Retrieve rcr hwaste code data from rcrainfo database
 }
-

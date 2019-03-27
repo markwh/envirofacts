@@ -4,9 +4,9 @@
 \alias{ghg_aa_fossil_fuel_tier_2_info}
 \title{Retrieve aa fossil fuel tier 2 info data from ghg database}
 \usage{
-ghg_aa_fossil_fuel_tier_2_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
-  FACILITY_NAME = NULL, UNIT_NAME = NULL, TIER_2_MONTH_NAME = NULL,
-  TIER_2_HHV_SUBSTITUTE_IND = NULL)
+ghg_aa_fossil_fuel_tier_2_info(FACILITY_ID = NULL,
+  REPORTING_YEAR = NULL, FACILITY_NAME = NULL, UNIT_NAME = NULL,
+  TIER_2_MONTH_NAME = NULL, TIER_2_HHV_SUBSTITUTE_IND = NULL)
 }
 \arguments{
 \item{FACILITY_ID}{e.g. '1000166'. See Details.}
@@ -24,4 +24,3 @@ ghg_aa_fossil_fuel_tier_2_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve aa fossil fuel tier 2 info data from ghg database
 }
-

@@ -28,4 +28,3 @@ ghg_pp_volume_flow_measure_details(FACILITY_ID = NULL,
 \description{
 Retrieve pp volume flow measure details data from ghg database
 }
-

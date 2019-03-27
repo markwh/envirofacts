@@ -19,4 +19,3 @@ rcrainfo_rcr_authcodes(OWNER = NULL, AUTHORITY_TYPE = NULL,
 \description{
 Retrieve rcr authcodes data from rcrainfo database
 }
-

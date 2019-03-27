@@ -17,4 +17,3 @@ tri_tri_facility_rcra(TRI_FACILITY_ID = NULL, ASGN_RCRA_IND = NULL,
 \description{
 Retrieve tri facility rcra data from tri database
 }
-

@@ -19,4 +19,3 @@ ghg_z_facility_info(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve z facility info data from ghg database
 }
-

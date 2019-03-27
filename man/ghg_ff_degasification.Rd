@@ -27,4 +27,3 @@ ghg_ff_degasification(FACILITY_ID = NULL, REPORTING_YEAR = NULL,
 \description{
 Retrieve ff degasification data from ghg database
 }
-

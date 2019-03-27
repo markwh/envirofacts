@@ -27,4 +27,3 @@ ghg_hh_gas_collection_mnthly_detls(FACILITY_ID = NULL,
 \description{
 Retrieve hh gas collection mnthly detls data from ghg database
 }
-

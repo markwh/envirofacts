@@ -15,4 +15,3 @@ cerclis_cer_ref_site_incident_category(RSITINC_CODE = NULL,
 \description{
 Retrieve cer ref site incident category data from cerclis database
 }
-

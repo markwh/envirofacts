@@ -14,4 +14,3 @@ igms_ogd_ef_grant_drpt_sa(FK_GRANT_SEQ = NULL, FK_STAT_AUTH_SEQ = NULL)
 \description{
 Retrieve ogd ef grant drpt sa data from igms database
 }
-

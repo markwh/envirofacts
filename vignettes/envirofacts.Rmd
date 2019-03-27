@@ -15,6 +15,7 @@ The **envirofacts** package provides a set of functions for accessing data in th
 Information about a service can be found using the `envir_serviceInfo()` function. Calling this function with no argument will retrieve the full list of services.
 
 ```{r}
+knitr::opts_chunk$set(eval = FALSE)
 library(envirofacts)
 envir_serviceInfo("radnet")
 ```

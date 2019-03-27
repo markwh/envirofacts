@@ -6,10 +6,11 @@
 \usage{
 cerclis_cer_ref_action_type(RAT_CODE = NULL, RAT_NAME = NULL,
   RAT_SHORT_NAME = NULL, RAT_WITHOUT_START_FLAG = NULL,
-  RAT_C2_CODE = NULL, RAT_C2_TYPE = NULL, RAT_HISTORICAL_ONLY_FLAG = NULL,
-  RAT_NSI_INDICATOR = NULL, RAT_LEVEL = NULL,
-  RAT_DEFAULT_PRED_ACT_TYPE_CODE = NULL, RIE_CODE = NULL,
-  RAT_DEF_OU = NULL, RFBS_CODE = NULL, RAT_DEF = NULL)
+  RAT_C2_CODE = NULL, RAT_C2_TYPE = NULL,
+  RAT_HISTORICAL_ONLY_FLAG = NULL, RAT_NSI_INDICATOR = NULL,
+  RAT_LEVEL = NULL, RAT_DEFAULT_PRED_ACT_TYPE_CODE = NULL,
+  RIE_CODE = NULL, RAT_DEF_OU = NULL, RFBS_CODE = NULL,
+  RAT_DEF = NULL)
 }
 \arguments{
 \item{RAT_CODE}{e.g. '3D'. See Details.}
@@ -38,9 +39,8 @@ cerclis_cer_ref_action_type(RAT_CODE = NULL, RAT_NAME = NULL,
 
 \item{RFBS_CODE}{e.g. 'NA'. See Details.}
 
-\item{RAT_DEF}{e.g. 'tHIS IS A TEST rEGIONALLY dEFINED ACTION THAT i%27VE SET UP FOR sa TRAINING'. See Details.}
+\item{RAT_DEF}{e.g. 'tHIS IS A TEST rEGIONALLY dEFINED ACTION THAT i'VE SET UP FOR sa TRAINING'. See Details.}
 }
 \description{
 Retrieve cer ref action type data from cerclis database
 }
-

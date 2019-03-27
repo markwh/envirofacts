@@ -14,4 +14,3 @@ igms_ogd_ef_grant_drpt_cfda(FK_CFDA_SEQ = NULL, FK_GRANT_SEQ = NULL)
 \description{
 Retrieve ogd ef grant drpt cfda data from igms database
 }
-
